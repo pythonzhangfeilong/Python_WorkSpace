@@ -1,16 +1,14 @@
-from urllib import request
-from fake_useragent import UserAgent
+import requests
 from lxml import etree
 import json
 for i_var in range(1,10+1):
     print('正在爬取得是第%d页'%i_var)
-    start_urls = 'http://www.kuaidaili.com/ops/proxylist/%s/'%i_var
-    headers={'User-Agent':UserAgent().random}
+    start_urls = 'https://www.kuaidaili.com/ops/proxylist/%s'%i_var
+    headers={'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36'}
 
-    req=request.Request(url=start_urls,headers=headers)
-    response=request.urlopen(req)
-    res=response.read().decode('utf-8')
-
+    response=requests.get(url=start_urls,headers=headers)
+    # response=request.urlopen(req)
+    res=response.text
     html=etree.HTML(res)
 
     proxy_list=html.xpath('//*[@id="freelist"]/table/tbody/tr')

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Python_workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_workspace.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scapry/1_.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scapry/2_.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/2_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫/1_快代理ip爬取.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫/1_快代理ip爬取.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +49,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,11 +75,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1_test">
+  <component name="RunManager" selected="Python.1_快代理ip爬取">
     <configuration name="video.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python_workspace/8_Demo_Datas/3_爬虫/13_多线程爬虫/video.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="1_爬取西瓜视频 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1_" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_快代理ip爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,7 +114,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫/1_爬取西瓜视频.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫/1_快代理ip爬取.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,35 +167,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="video" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫/video.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_快代理ip爬取" />
+        <item itemvalue="Python.1_" />
         <item itemvalue="Python.1_test" />
         <item itemvalue="Python.test" />
         <item itemvalue="JavaScript Debug.video.html" />
-        <item itemvalue="Python.video" />
-        <item itemvalue="Python.1_爬取西瓜视频 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +212,12 @@
       <workItem from="1571802925343" duration="928000" />
       <workItem from="1571813269063" duration="914000" />
       <workItem from="1571815211756" duration="302000" />
-      <workItem from="1571815642384" duration="1533000" />
+      <workItem from="1571815642384" duration="1814000" />
+      <workItem from="1571817873439" duration="7000" />
+      <workItem from="1571819123836" duration="203000" />
+      <workItem from="1571819340123" duration="2044000" />
+      <workItem from="1571832289957" duration="550000" />
+      <workItem from="1571832868874" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1570520907244</created>
@@ -303,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571816524564</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="提交">
+      <created>1571817442228</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571817442228</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,9 +361,11 @@
     <SUITE FILE_PATH="coverage/Python_workspace$2_pymongo.coverage" NAME="2_pymongo数据查询 Coverage Results" MODIFIED="1571207940222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/12_MongoDB的安装使用" />
     <SUITE FILE_PATH="coverage/Python_workspace$4_.coverage" NAME="4_有道翻译 Coverage Results" MODIFIED="1571025171738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_QQ.coverage" NAME="2_模拟登陆QQ空间 Coverage Results" MODIFIED="1570593256094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/7_selenium" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_.coverage" NAME="1_ Coverage Results" MODIFIED="1571820244054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy" />
     <SUITE FILE_PATH="coverage/Python_workspace$word.coverage" NAME="word Coverage Results" MODIFIED="1570601871848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/7_selenium" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_requests_.coverage" NAME="2_requests_百度搜索 Coverage Results" MODIFIED="1570776340967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_requests_post_.coverage" NAME="2_requests_post_百度翻译 Coverage Results" MODIFIED="1570777339715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_ip.coverage" NAME="1_快代理ip爬取 Coverage Results" MODIFIED="1571833709778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_requests.coverage" NAME="1_requests Coverage Results" MODIFIED="1570775247745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_.coverage" NAME="2_后花园网经典语录 Coverage Results" MODIFIED="1571711883612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
     <SUITE FILE_PATH="coverage/Python_workspace$test.coverage" NAME="test Coverage Results" MODIFIED="1570503436958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/6_bs4" />
