@@ -1,0 +1,17 @@
+{% extends 'fathre.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            我继承了父亲的页面
+        {% endblock %}
+    </title>
+</head>
+<body>
+    {% block content %}
+        Hello Word
+    {% endblock %}
+</body>
+</html>

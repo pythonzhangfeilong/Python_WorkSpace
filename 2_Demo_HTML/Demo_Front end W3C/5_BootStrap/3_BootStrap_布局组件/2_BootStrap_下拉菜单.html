@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BootStrap_下拉菜单</title>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+   <script src="//cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+   <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--Bootstrap 下拉菜单（Dropdowns）,下拉菜单是可切换的，是以列表格式显示链接的上下文菜单-->
+    <!--如需使用下拉菜单，只需要在 class .dropdown 内加上下拉菜单即可-->
+    <div class="dropdown">
+       <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">主题
+           <span class="caret"></span>
+       </button>
+       <!--通过向 .dropdown-menu 添加 class .pull-right 来向右对齐下拉菜单-->
+       <ul class="dropdown-menu " role="menu" aria-labelledby="dropdownMenu1">
+           <!--可以使用 class dropdown-header 向下拉菜单的标签区域添加标题-->
+           <li role="presentation" class="dropdown-header">下拉菜单标题</li>
+          <li role="presentation">
+             <a role="menuitem" tabindex="-1" href="https://www.baidu.com">Java</a>
+          </li>
+          <li role="presentation">
+             <a role="menuitem" tabindex="-1" href="https://www.baidu.com">数据挖掘</a>
+          </li>
+          <li role="presentation">
+             <a role="menuitem" tabindex="-1" href="https://www.baidu.com">数据通信/网络</a>
+          </li>
+           <li role="presentation" class="divider"></li>
+           <!--可以使用 class dropdown-header 向下拉菜单的标签区域添加标题-->
+          <li role="presentation" class="dropdown-header">下拉菜单标题</li>
+
+          <li role="presentation">
+             <a role="menuitem" tabindex="-1" href="https://www.baidu.com">分离的链接</a>
+          </li>
+       </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

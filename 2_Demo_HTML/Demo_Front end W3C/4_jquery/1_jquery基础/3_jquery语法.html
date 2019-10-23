@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery语法</title>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+    <!--jquery语法实例-->
+    <!--$(this).hide(),隐藏当前的HTML元素-->
+    <!--<script>-->
+        <!--$(document).ready(function () {-->
+            <!--$("button").click(function () {-->
+                <!--$(this).hide()    //其实this表明的就是上一行选择的HTML标签元素-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<button type="button">click me</button>-->
+    <!--<p>试一下不指定标签还会隐藏不</p>-->
+
+    <!--隐藏id为box的元素-->
+    <!--<script>-->
+        <!--$(document).ready(function () {          //提前加载，这种方式可以多次使用-->
+            <!--$("button").click(function () {     //获取到这个点击事件-->
+                <!--$("#box").hide()                //函数执行的效果-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<p>哈喽</p>-->
+    <!--<p id="box">你好</p>-->
+    <!--<button type="button">click me</button>-->
+
+    <!--隐藏所有的p标签-->
+    <!--<script>-->
+        <!--$(document).ready(function () {-->
+            <!--$("button").click(function () {-->
+                <!--$('p').hide()-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<h1>隐藏所有的p标签</h1>-->
+    <!--<p>哈喽</p>-->
+    <!--<p>你好</p>-->
+    <!--<button type="button">clicl me</button>-->
+
+    <!--隐藏所有class=“test”的元素-->
+    <!--<script>-->
+        <!--$(document).ready(function () {         //加载-->
+            <!--$("button").click(function () {     //获取事件-->
+                <!--$(".test").hide()               //执行隐藏函数-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<h1>隐藏所有的p标签</h1>-->
+    <!--<h1 class="test">隐藏所有的p标签</h1>-->
+    <!--<p class="test">哈喽</p>-->
+    <!--<p class="test">你好</p>-->
+    <!--<button type="button">clicl me</button>-->
+
+    <!--
+    jQuery 语法
+    jQuery 语法是为 HTML 元素的选取编制的，可以对元素执行某些操作。
+    基础语法是：$(selector).action()
+    •美元符号定义 jQuery
+    •选择符（selector）“查询”和“查找” HTML 元素
+    •jQuery 的 action() 执行对元素的操作
+
+    示例
+    $(this).hide() - 隐藏当前元素
+    $("p").hide() - 隐藏所有段落
+    $(".test").hide() - 隐藏所有 class="test" 的所有元素
+    $("#test").hide() - 隐藏所有 id="test" 的元素
+    提示：jQuery 使用的语法是 XPath 与 CSS 选择器语法的组合。
+    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

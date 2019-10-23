@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>滑动</title>
+    <script type="text/javascript" src="jquery.js"></script>
+
+    <style type="text/css">
+        .bigdiv{background-color: #00FF00;
+                text-align: center;
+                margin: 0;
+                padding-top: 60px;
+                border: black solid 1px;
+        }
+        .dianji{
+            background-color: #00FF00;
+                text-align: center;
+                margin: 0;
+                padding-top: 20px;
+                border: black solid 1px;
+        }
+        div.bigdiv{height: 120px;display: none}         /*这个标签是点击后才显示，所以先通过display：none把它隐藏*/
+        /*div.bigdiv{height: 120px}         这个标签是点击后隐藏，所以不要设置display：none，让它展示*/
+        p.dianji{height:40px}
+    </style>
+</head>
+<body>
+    <!--slideDown()下滑展示-->
+    <!--<script>-->
+        <!--$(document).ready(function () {         //预加载-->
+            <!--$('.dianji').click(function () {          //获取标签绑定事件-->
+                <!--$('.bigdiv').slideDown()-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<div class="bigdiv">-->
+        <!--<p>点击下滑展示</p>-->
+    <!--</div>-->
+    <!--<p class="dianji">点击</p>-->
+
+    <!--slideUp()上滑隐藏-->
+    <!--<script>-->
+        <!--$(document).ready(function () {         //预加载-->
+            <!--$('.dianji').click(function () {          //获取标签绑定事件-->
+                <!--$('.bigdiv').slideUp()-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<div class="bigdiv">-->
+        <!--<p>点击下滑展示</p>-->
+    <!--</div>-->
+    <!--<p class="dianji">点击</p>-->
+
+    <!--slideToggle嗲及切换上滑隐藏和下滑展示-->
+    <script>
+        $(document).ready(function () {         //预加载
+            $('.dianji').click(function () {          //获取标签绑定事件
+                $('.bigdiv').slideToggle()
+            })
+        })
+    </script>
+    <div class="bigdiv">
+        <p>点击下滑展示</p>
+    </div>
+    <p class="dianji">点击</p>
+
+
+
+</body>
+</html>

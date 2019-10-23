@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>删除</title>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+    <!--删除其元素或者内容-->
+    <!--
+    remove()删除被选元素及子元素
+    empty()删除被选元素的子元素
+    -->
+
+    <!--remove()删除被选元素及子元素-->
+    <!--<script>-->
+        <!--$(document).ready(function () {-->
+            <!--$('button').click(function () {-->
+                <!--$('#div').remove()-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<div id="div" style="width: 500px;border: 1px solid red;background-color: #FFFF85;text-align: center">-->
+        <!--<p>这是段落一</p>-->
+        <!--<p>这是段落二</p>-->
+        <!--<p>这是段落三</p>-->
+    <!--</div>-->
+    <!--<br/>-->
+    <!--<button>让div消失</button>-->
+
+    <!--empty()删除被选元素的子元素-->
+    <!--<script>-->
+        <!--$(document).ready(function () {-->
+            <!--$('button').click(function () {-->
+                <!--$('#div').empty()-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<div id="div" style="width: 500px;height: 130px;border: 1px solid red;background-color: #FFFF85;text-align: center">-->
+        <!--<p>这是段落一</p>-->
+        <!--<p>这是段落二</p>-->
+        <!--<p>这是段落三</p>-->
+    <!--</div>-->
+    <!--<br/>-->
+    <!--<button>让div里的段落消失</button>-->
+
+    <!--remove()在括号里删除制定的元素-->
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+                $('p').remove('.h1')
+            })
+        })
+    </script>
+    <div style="background-color: #FFFF85;border: #FF0000 1px solid;text-align: center;width: 500px;height: 130px">
+        <p class="bh1">不会被删除</p>
+        <p class="h1">会被删除</p>
+        <p class="h1">会被删除</p>
+    </div>
+    <button>点击删除</button>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javascript函数</title>
+</head>
+<body>
+    <!--javascript函数语法-->
+    <!--注意:javascript对大小写敏感,所以function必须小写-->
+    <!--
+    function funcname(){
+        函数代码
+    }
+    -->
+
+    <!--创建调用带参数的函数,多个参数用都好分割-->
+    <!--<script>-->
+        <!--function func(name,age) {-->
+            <!--document.write(name);-->
+            <!--document.write(age)-->
+        <!--}-->
+        <!--func("zhang",20)-->
+    <!--</script>-->
+
+    <!--把声明的对象作为参数传递,形参和实参的位置眼一一对应-->
+    <!--<span id="pbiaoqian">哈喽</span>-->
+    <!--<span id="hbiaoqian">兄弟</span>-->
+    <!--<script>-->
+        <!--var qian=document.getElementById("pbiaoqian");-->
+        <!--var hou=document.getElementById("hbiaoqian");-->
+        <!--function func(data1,data2) {-->
+            <!--alert(data1,data2);-->
+        <!--}-->
+        <!--func(qian,hou)-->
+    <!--</script>-->
+
+    <!--把函数执行交给按钮，点击就会执行-->
+    <!--<button type="button" onclick="func()">执行函数</button>-->
+    <!--<script>-->
+        <!--function func() {-->
+            <!--alert("函数执行")-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--带有返回值的函数，在使用return的时候，函数会停止，并且返回值-->
+    <!--<script>-->
+        <!--function func() {-->
+            <!--var x="哈喽，小兄弟";-->
+            <!--alert(x);-->
+            <!--return x;   //return了下面的代码不会执行-->
+            <!--document.write(x);-->
+        <!--}-->
+        <!--func()-->
+    <!--</script>-->
+
+    <!--函数的另类传参-->
+    <p id="demo"></p>
+    <script>
+            function myfunction(a,b) {
+                return a*b
+        }
+        document.getElementById("demo").innerHTML=myfunction(3,4)
+    </script>
+</body>
+</html>

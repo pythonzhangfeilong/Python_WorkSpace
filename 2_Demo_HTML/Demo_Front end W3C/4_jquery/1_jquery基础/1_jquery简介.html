@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery简介</title>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+    <!--
+    jQuery 是一个 JavaScript 函数库,jQuery 库包含以下特性：
+    •HTML 元素选取
+    •HTML 元素操作
+    •CSS 操作
+    •HTML 事件函数
+    •JavaScript 特效和动画
+    •HTML DOM 遍历和修改
+    •AJAX
+    •Utilities
+    -->
+
+    <!--使用下面的方法将jquery引入到HTML文件中,注意是写在头部的-->
+    <!--
+    <head>
+    <script type="text/javascript" src="jquery.js"></script>
+    </head>
+    -->
+
+    <!--hide()函数，隐藏指定的标签元素-->
+    <script>
+        $(document).ready(function () {
+        $("button").click(function () {
+        $("p").hide();
+        });
+        });
+    </script>
+
+    <h2>hide()函数是用来隐藏制定标签的</h2>
+    <p>这个是p标签</p>
+    <p>这个还是p标签</p>
+    <button type="button">click me</button>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

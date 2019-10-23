@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS盒子模型边框</title>
+    <style>
+        /*img{border-style: outset}*/
+        /*给边框设置多个样式*/
+        img{border-style: solid dotted dashed double}
+    </style>
+</head>
+<body>
+    <!--边框的样式border-style-->
+    <!--CSS 的 border-style 属性定义了 10 个不同的非 inherit 样式，包括 none-->
+    <img src="CSS盒子模型图解.png">
+
+    <hr/>
+
+    <!--定义单边样式
+    如果希望为元素框的某一个边设置边框样式，而不是设置所有 4 个边的边框样式，可以使用下面的单边边框样式属性：
+    •border-top-style
+    •border-right-style
+    •border-bottom-style
+    •border-left-style
+    -->
+    <img style="border-bottom-style:double " src="CSS盒子模型图解.png">
+
+    <hr/>
+
+    <!--定义边框的宽度border-width，border-style定义边框样式-->
+    <img style="border-style: solid;border-width: 10px;color: red" src="CSS盒子模型图解.png">
+    <!--边框宽度还可以分别设置：
+    •border-top-width
+    •border-right-width
+    •border-bottom-width
+    •border-left-width
+    -->
+
+    <hr/>
+
+    <!--
+    定义单边颜色
+    •border-top-color
+    •border-right-color
+    •border-bottom-color
+    •border-left-color
+    -->
+    <img style="border-style: solid;border-width: 50px;border-right-color: red" src="CSS盒子模型图解.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

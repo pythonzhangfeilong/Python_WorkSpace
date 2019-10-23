@@ -1,0 +1,14 @@
+1、安装
+    由于requests是一个第三方模块，所以使用的时候需要 pip install requests
+
+2、常用方法
+    get请求
+        requests.get()
+    定制参数
+        参数使用params传递
+    r.text获取网站源码
+    r.url获取请求的url
+    r.content响应的字节类型
+    r.status_code响应的状态码
+    r.headers响应的头信息
+

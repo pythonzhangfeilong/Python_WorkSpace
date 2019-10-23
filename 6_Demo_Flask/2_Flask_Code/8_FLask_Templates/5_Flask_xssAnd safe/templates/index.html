@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+    <form action="/index" method="post">
+        <textarea name="text" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="提交">
+    </form>
+    {{ text |safe}}
+</body>
+</html>

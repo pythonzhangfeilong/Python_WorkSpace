@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4_HTML表单</title>
+</head>
+<body>
+<!-- form定义一个表单区域,action属性定义表单数据提交的地址，method属性定义提交的方式-->
+<form action="https://www.baidu.com" method="post">
+
+<!-- label标签定义表单控件的文字标注，input类型为text定义了一个单行文本输入框-->
+<p>
+    <label>用户名</label><input type="text" name="username"/>
+</p>
+
+<!-- input类型为password定义了一个密码输入框-->
+<p>
+    <label>密码</label><input type="password" name="password"/>
+</p>
+
+<!-- input类型为radio定义了单选框  -->
+<p>
+<label>性别：</label>
+<input type="radio" name="gender" value="0" /> 男
+<input type="radio" name="gender" value="1" /> 女
+</p>
+
+<!-- input类型为checkbox定义了多选框  -->
+<p>
+<label>爱好：</label>
+<input type="checkbox" name="like" value="sing" /> 唱歌
+<input type="checkbox" name="like" value="run" /> 跑步
+<input type="checkbox" name="like" value="swiming" /> 游泳
+</p>
+
+<!-- input类型为file定义上传照片或文件等资源  -->
+<p>
+<label>照片：</label>
+<input type="file" name="person_pic">
+</p>
+
+<!-- textarea定义多行文本输入  -->
+<p>
+<label>个人描述：</label>
+<textarea name="about"></textarea>
+</p>
+
+<!-- select定义下拉列表选择  -->
+<p>
+<label>籍贯：</label>
+<select name="site">
+    <option value="0">北京</option>
+    <option value="1">上海</option>
+    <option value="2">广州</option>
+    <option value="3">深圳</option>
+</select>
+</p>
+
+<!-- input类型为submit定义提交按钮  还可以用图片控件代替submit按钮提交，一般会导致提交两次，不建议使用。如：<input type="image" src="xxx.gif">
+-->
+<p>
+<input type="submit" name="" value="提交">
+
+<!-- input类型为reset定义重置按钮  -->
+<input type="reset" name="" value="重置">
+</p>
+</form>
+
+ <!--html内嵌框架-->
+<!--<iframe>标签会创建包含另外一个html文件的内联框架（即行内框架），src属性来定义另一个html文件的引用地址，frameborder属性定义边框，scrolling属性定义是否有滚动条，代码如下：-->
+<iframe src="https://www.baidu.com" frameborder="0px" scrolling="yes" width="100%" height="500px"></iframe>
+<!--2.4.2  内嵌框架与a标签配合使用-->
+<!--a标签的target属性可以将链接到的页面直接显示在当前页面的iframe中，代码如下：-->
+<!--<a href="01.html" target="myframe">页面一</a>-->
+<!--<a href="02.html" target="myframe">页面二</a>-->
+<!--<a href="03.html" target="myframe">页面三</a>-->
+<!--<iframe src="01.html" frameborder="0" scrolling="no" name="myframe"></iframe>-->
+
+
+
+
+
+
+</body>
+</html>

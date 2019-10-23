@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        li strong {
+        font-style: italic;
+        font-weight: normal;
+  }
+    </style>
+</head>
+<body>
+    <!--派生选择器：派生选择器根据文档的上下文关系来确定某个标签的样式-->
+
+    <p>The strongly emphasized word in this paragraph is<strong>red</strong>.</p>
+    <h2>This subhead is also red.</h2>
+    <h2>The strongly emphasized word in this subhead is<strong>blue</strong>.</h2>
+
+    <p><strong>我是粗体字，不是斜体字，因为我不在列表当中，所以这个规则对我不起作用</strong></p>
+
+    <ol>
+    <li><strong>我是斜体字。这是因为 strong 元素位于 li 元素内。</strong></li>
+    <li>我是正常的字体。</li>
+    </ol>
+</body>
+</html>

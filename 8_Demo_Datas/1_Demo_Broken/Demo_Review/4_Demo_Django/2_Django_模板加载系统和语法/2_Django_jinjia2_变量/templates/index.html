@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+{#变量取值#}
+    <h1>变量取值展示</h1><br>
+    {{ name }}<br>
+    {{ age }}<br>
+    {{ project }}<br>
+    {{ company }}<br>
+    使用类的键去调用类中的func_teacher方法
+    {{ method.func_teacher }}<br>
+
+
+{#变量格式化和索引取值#}
+    <h1>变量格式化和索引取值</h1>
+    直接调用变量：{{ name }}<br>
+    采用索引取值：{{ name.1 }}<br>
+    格式化变量：{{ name.upper }}<br>
+
+    变量是列表：{{ project }}<br>
+    变量是列表，通过索引取值：{{ project.1 }}<br>
+
+    变量是字典：{{ company }}<br>
+    变量是字典，通过键获取值：{{ company.name }}<br>
+</body>
+</html>

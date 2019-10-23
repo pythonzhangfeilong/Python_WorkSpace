@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淡入淡出</title>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+    <!--fadeIn()淡入，也就是显示-->
+    <!--<script>-->
+        <!--$(document).ready(function () {                 //预加载-->
+            <!--$('button').click(function () {             //获取标签绑定事件-->
+                <!--$('#div1').fadeIn();-->
+                <!--$('#div2').fadeIn('show');-->
+                <!--$('#div3').fadeIn(2000);-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<h3>点击按钮会慢慢的展示出三个颜色</h3>-->
+    <!--<button type="button">淡入</button>-->
+    <!--<div id="div1" style="width: 80px;height: 80px;background-color: #FF0000;display: none"></div><br/>-->
+    <!--<div id="div2" style="width: 80px;height: 80px;background-color: #FFFF85;display: none"></div><br/>-->
+    <!--<div id="div3" style="width: 80px;height: 80px;background-color: #00FF00;display: none"></div><br/>-->
+
+    <!--fadeOut()淡出，也就是隐藏-->
+    <!--<script>-->
+        <!--$(document).ready(function () {                 //预加载-->
+            <!--$('button').click(function () {             //获取标签绑定事件-->
+                <!--$('#div1').fadeOut();-->
+                <!--$('#div2').fadeOut('show');-->
+                <!--$('#div3').fadeOut(3000);-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<h3>点击按钮会慢慢的展示出三个颜色</h3>-->
+    <!--<button type="button">淡出</button>-->
+    <!--<div id="div1" style="width: 80px;height: 80px;background-color: #FF0000"></div><br/>-->
+    <!--<div id="div2" style="width: 80px;height: 80px;background-color: #FFFF85"></div><br/>-->
+    <!--<div id="div3" style="width: 80px;height: 80px;background-color: #00FF00"></div><br/>-->
+
+    <!--fadeToggle()切换淡入淡出-->
+    <!--<script>-->
+        <!--$(document).ready(function () {                 //预加载-->
+            <!--$('button').click(function () {             //获取标签绑定事件-->
+                <!--$('#div1').fadeToggle();-->
+                <!--$('#div2').fadeToggle('show');-->
+                <!--$('#div3').fadeToggle(3000);-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<h3>点击按钮会慢慢的展示出三个颜色</h3><br/>-->
+    <!--<button type="button">切换淡出淡入</button><br/>-->
+    <!--<div id="div1" style="width: 80px;height: 80px;background-color: #FF0000"></div><br/>-->
+    <!--<div id="div2" style="width: 80px;height: 80px;background-color: #FFFF85"></div><br/>-->
+    <!--<div id="div3" style="width: 80px;height: 80px;background-color: #00FF00"></div><br/>-->
+
+    <!--fadeTo()显示和隐藏透明度-->
+    <script>
+        $(document).ready(function () {                 //预加载
+            $('button').click(function () {             //获取标签绑定事件
+                $('#div1').fadeTo('show',0.2);
+                $('#div2').fadeTo('show',0.4);
+                $('#div3').fadeTo('show',0.6);
+            })
+        })
+    </script>
+    <h3>点击按钮三个方块的颜色透明度</h3><br/>
+    <button type="button">三个颜色显示的透明度</button><br/>
+    <div id="div1" style="width: 80px;height: 80px;background-color: #FF0000"></div><br/>
+    <div id="div2" style="width: 80px;height: 80px;background-color: #FF0000"></div><br/>
+    <div id="div3" style="width: 80px;height: 80px;background-color: #FF0000"></div><br/>
+
+
+
+</body>
+</html>

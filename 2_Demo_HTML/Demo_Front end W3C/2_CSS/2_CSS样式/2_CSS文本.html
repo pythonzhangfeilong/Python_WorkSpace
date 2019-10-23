@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS文本</title>
+
+</head>
+<body>
+    <!--文本缩进text-indent-->
+    <!--CSS 提供了 text-indent 属性，该属性可以方便地实现文本缩进：所有元素的第一行都可以缩进一个给定的长度，甚至该长度可以是负值-->
+    <!--下面的这个示例是缩进5个字符-->
+    <p style="text-indent: 5em">这是一个段落标签</p>
+
+    <!--负值缩进text-indent-->
+    <!--在设置负值缩进的时候还要结合结合边距设置使用，否则会超出屏幕-->
+    <p style="text-indent: -5em ; padding-left: 100px">这是一个段落标签</p>
+
+    <!--使用百分比值缩进text-indent
+    text-indent 可以使用所有长度单位，包括百分比值。
+    百分数要相对于缩进元素父元素的宽度。换句话说，如果将缩进值设置为 20%，所影响元素的第一行会缩进其父元素宽度的 20%。
+    在下例中，缩进值是父元素的 20%，即 100 个像素-->
+    <div style="width: 500px">
+        <p style="text-indent: 20%">这是一个段落标签</p>
+    </div>
+
+    <!--文本的对齐text-align-->
+    <p style="text-align: center">这是一个p标签</p>
+
+    <!--俩端对齐text-align：在world文档中所有的编写内容在俩边都是相同的空白区域-->
+    <p style="text-align: justify">生活不可能像你想象得那么好，但也不会像你想象得那么糟。 </p>
+    <p style="text-align: justify">我觉得人的脆弱和坚强都超乎自己的想象。</p>
+    <p style="text-align: justify">有时，我可能脆弱得一句话就泪流满面；有时，也发现自己咬着牙走了很长的路。</p>
+
+    <!--英文单词间隔word-spacing-->
+    <p style="word-spacing: 30px">This is you father</p>
+    <p style="word-spacing: 50px">This is you father</p>
+
+    <!--英文单词字母间隔letter-spacing-->
+    <p style="letter-spacing: 40px">This is you father</p>
+
+    <!--字符转换text-transform-->
+    <!--
+        text-transform 属性处理文本的大小写。这个属性有 4 个值：
+        •none               默认值 none 对文本不做任何改动
+        •uppercase          将文本转换为全大写
+        •lowercase          将文本转换为全小写字符
+        •capitalize         只对每个单词的首字母大写
+    -->
+    <h1 style="text-transform: uppercase" >Im is you dad</h1>
+    <p style="text-transform: uppercase">Im is you dad</p>
+    <p style="text-transform: lowercase">Im is you dad</p>
+    <p style="text-transform: capitalize">Im is you dad</p>
+
+    <!--去除空格字符white-space: normal-->
+    <p style="white-space: normal">Im                        is                           you                                  dad</p>
+
+</body>
+</html>

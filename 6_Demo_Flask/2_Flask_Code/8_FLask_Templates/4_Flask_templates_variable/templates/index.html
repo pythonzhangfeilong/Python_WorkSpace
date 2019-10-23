@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+    {#传递变量#}
+    <p>name={{ name }}</p>
+    <p>age={{ age }}</p>
+    {#字典传变量取值的俩种方式#}
+    <p>my_dict:city={{ my_dict['city'] }}把key当成索引取value</p>
+    <p>my_dict:city={{ my_dict.city}}直接点上key取value</p>
+    {#列表传变量取值的三种方式#}
+    <p>my_list:list={{ my_list }}直接将列表全部传过来</p>
+    <p>my_list:list={{ my_list[2] }}给定索引值</p>
+    <p>my_list:list={{ my_list[my_int] }}把my_int作为了一个索引值</p>
+    {#列表索引取值直接运算#}
+    <p>my_list[2]+my_list[3]:list={{ my_list[2]+my_list[3] }}</p>
+    <p>my_list[2]-my_list[3]:list={{ my_list[2]-my_list[3] }}</p>
+    <p>my_list[2]*my_list[3]:list={{ my_list[2]*my_list[3] }}</p>
+    <p>my_list[2]/my_list[3]:list={{ my_list[2]/my_list[3] }}</p>
+    {#直接俩个字符串变量的相加#}
+    <p>{{ 'hello'+' python' }}</p>
+    {#如果是变量相加，前提是他们的类型得保持一致#}
+    <p>{{ age+my_int }}</p>
+
+    {#过滤器 | ,过滤器是可以多级存在的，可以一直加过滤器条件#}
+    *{{ '     python work      ' |upper|trim }}*
+</body>
+</html>

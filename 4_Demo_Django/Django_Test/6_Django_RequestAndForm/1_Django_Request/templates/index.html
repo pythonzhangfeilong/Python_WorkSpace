@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+{#查看request中包含的方法#}
+{#<p>--------------------------------</p>#}
+{#    {{ req }}#}
+{#<p>--------------------------------</p>#}
+
+
+<p>+++++++++++++++++++++++++++request COOKIES+++++++++++++++++++++++++++++++++++++++++</p>
+{{ request.COOKIES }}
+<p>+++++++++++++++++++++++++++request FILES+++++++++++++++++++++++++++++++++++++++++</p>
+{{ request.FILES }}
+<p>+++++++++++++++++++++++++++request GET+++++++++++++++++++++++++++++++++++++++++</p>
+{{ request.GET }}
+<p>+++++++++++++++++++++++++++request POST+++++++++++++++++++++++++++++++++++++++++</p>
+{{ request.POST }}
+<p>+++++++++++++++++++++++++++request REQUEST+++++++++++++++++++++++++++++++++++++++++</p>
+{{ request.REQUEST }}
+<p>+++++++++++++++++++++++++++request META+++++++++++++++++++++++++++++++++++++++++</p>
+{#
+request.cookies是用来存储请求的cookie的，通常我们在编写网站的时候进行cookie的校验，就是从这里校验
+request.FILES 是用来接收客户端提交的文件的数据的，比如用户上传的图片和文件.
+request.GET是用来接收客户端提交的get数据
+request.POST是用来接收客户端提交的post数据
+request.REQUEST是用来接收存储跳转的容器，（通常不用，后面CMDB项目上讲）
+META，这个是一个字典对象
+
+#}
+<table border="1" bordercolor="#000000" width="1px" cellpadding = "0" cellspacing = "0">
+    {% for keys,values in request.META.items %}
+        <tr>
+            <td>{{ keys }}:</td>
+            <td>{{ values }}a</td>
+        </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>

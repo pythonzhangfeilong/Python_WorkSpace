@@ -1,0 +1,17 @@
+connect 参数详解：
+•      host=None,          	# 要连接的主机地址
+•      user=None,          	# 用于登录的数据库用户
+•      password='',        	# 密码
+•      database=None,      	# 要连接的数据库
+•      port=0,             	# 端口，一般为 3306
+•      charset='',         		# 字符编码
+•      conv=None,          	# 转换字典
+•      use_unicode=None,   	# 是否使用 unicode 编码
+•      init_command=None,  	# 连接建立时运行的初始语句
+•      connect_timeout=10, 	# 连接超时时间，(default: 10, min: 1, max: 31536000)
+•      autocommit=False,   	# 是否自动提交事务
+•      db=None,            	# 同 database，为了兼容 MySQLdb
+•      passwd=None,        	# 同 password，为了兼容 MySQLdb
+•      local_infile=False,     	# 是否允许载入本地文件
+•      read_timeout=None,  	# 读取超时时间
+•      write_timeout=None, 	# 写入时间

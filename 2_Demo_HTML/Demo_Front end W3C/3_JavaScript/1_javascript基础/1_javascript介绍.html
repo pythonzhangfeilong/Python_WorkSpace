@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javascript介绍</title>
+</head>
+<body>
+    <!--
+    JavaScript 是脚本语言
+    JavaScript 是一种轻量级的编程语言。
+    JavaScript 是可插入 HTML 页面的编程代码。
+    JavaScript 插入 HTML 页面后，可由所有的现代浏览器执行。
+    -->
+
+    <!--javascript：写入HTML输出-->
+    <!--<script type="text/javascript">-->
+        <!--document.write("<h1>This is hending</h1>");-->
+        <!--document.write("<p>This is paragraph</p>");-->
+        <!--document.write("<p>提示：只能在 HTML 输出中使用 document.write。如果在文档加载后使用该方法，会覆盖整个文档。</p>")-->
+    <!--</script>-->
+
+    <hr/>
+
+    <!--JavaScript：对事件作出反应-->
+    <!--<h1>我的第一阶段javascript</h1>-->
+    <!--<p>javascript能够对事件做出反应，比如按钮的点击事件</p>-->
+    <!--<button type="button" onclick="alert('Welcome！')">提交</button>-->
+
+    <!--<hr/>-->
+
+    <!--JavaScript：改变 HTML 内容-->
+    <p id="demo">javascript能改变HTML元素的内容</p>
+    <script type="text/javascript">
+        function myFunction() {
+            x=document.getElementById("demo"); //找到元素
+            x.innerHTML="Hello JavaScript!";   //改变内容
+        }
+    </script>
+    <button type="button" onclick="myFunction()">点击这里</button>
+
+    <!--JavaScript：改变 HTML 样式-->
+    <!--<p id="demos">javascript可以改变html的样式</p>-->
+    <!--<script type="text/javascript">-->
+        <!--function func() {-->
+            <!--x=document.getElementById("demos");  //找到元素-->
+            <!--x.style.color = "#ff0000";            //改变样式-->
+        <!--}-->
+    <!--</script>-->
+    <!--<button type="button" onclick="func()">点击这里</button>-->
+
+    <!--javascript验证输入-->
+    <!--<p>请输入数字，如果不是数字，浏览器会提示</p>-->
+    <!--<input type="text" id="demo">-->
+    <!--<script type="text/javascript">-->
+        <!--function func() {-->
+            <!--var x=document.getElementById("demo").value;-->
+            <!--if (x==""||isNaN(x)){-->
+                <!--alert("Not Number");-->
+            <!--}else{-->
+                <!--alert("yes is Number")-->
+            <!--}-->
+        <!--}-->
+    <!--</script>-->
+    <!--<button type="button" onclick="func()">这里校验</button>-->
+</body>
+</html>

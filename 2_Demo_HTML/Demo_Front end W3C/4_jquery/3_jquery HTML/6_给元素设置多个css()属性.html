@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>给元素设置多个css()属性</title>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+                //设置单个属性
+                // $('span').css('background-color','red')
+
+                //设置多个属性
+                $('span').css({'background-color':'red','font-size':'50px','color':'yellow'})
+            })
+        })
+    </script>
+    <span>这是一个行标签</span>
+    <br/>
+    <button>点击改变样式</button>
+</body>
+</html>

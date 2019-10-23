@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>first_index</title>
+</head>
+<body>
+    {#你好,世界#}
+    {#<h1>Hello Word</h1>#}
+
+{#{{  }} 以双大括号包围的       变量#}
+    {#简单变量调用#}
+    {#<p>变量示例</p>#}
+    {#{{ name }}<br/>#}
+    {#{{ age }}<br/>#}
+    {#{{ project }}<br/>#}
+    {#{{ company }}<br/>#}
+    {#{{ method.teacher }}<br>#}
+
+    {#简单的字符截取和格式化#}
+    {#<p>变量示例</p>#}
+    {#<p>变量直接调用： {{ name }}</p>#}
+    {#<p>变量调用索引： {{ name.1 }}</p>#}
+    {#<p>变量调用0参数的函数：{{ name.upper }}</p>#}
+
+    {#如果变量是列表，通过 . 索引可以调用指定的元素#}
+    {#<p>变量示例</p>#}
+    {#<p>变量是列表，调用列表: {{ project }}</p>#}
+    {#<p>变量是列表，通过索引调用列表元素: {{ project.2 }}</p>#}
+
+    {#如果变量是字典，通过 . 键可以取到指定的值#}
+    {#<p>变量示例</p>#}
+    {#<p>变量是字典，调用字典: {{ company }}</p>#}
+    {#<p>变量是字典，通过键调用字典值: {{ company.name }}</p>#}
+
+{#{%  %} 以大括号和%号包围的    标签语句#}
+    {#<p>if 判断</p>#}
+    {#{% if name == "mhile" %}#}
+    {#    <p> name is {{ name }}</p>#}
+    {#{% elif name == "for" %}#}
+    {#    <p style = "color: red;"> name is {{ name }}</p>#}
+    {#{% endif %}#}
+
+    #下面的这个写法与上面的一样
+    {#<p>ifequal 判断</p>#}
+    {#{% ifequal name "mhile" %}#}
+    {#    <p> name is {{ name }}</p>#}
+    {#{% else %}#}
+    {#    <p style = "color: red;"> name is {{ name }}</p>#}
+    {#{% endifequal %}#}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

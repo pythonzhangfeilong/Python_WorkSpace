@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BootStrap_表格</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <script src="./jquery.js"></script>
+    <script src="./bootstrap.min.js"></script>
+</head>
+<body>
+    <!--bootstrap提供了多种表格样式-->
+    <!--
+      .table：基础表格
+      .table-striped：斑马线表格（让表格带有背景条纹效果）
+      .table-bordered：带边框的表格（所有单元格具有一条1px的边框。）
+      .table-hover：鼠标悬停高亮的表格（当鼠标悬停在表格的行上面有一个高亮的背景色）
+      .table-condensed：紧凑型表格（单元格没内距或者内距较其他表格的内距更小）
+      .table-responsive：响应式表格（当你的浏览器可视区域小于768px时，表格底部会出现水平滚动条。
+      当你的浏览器可视区域大于768px时，表格底部水平滚动条就会消失）
+    -->
+    <p>class="table"是基础表格，也就是只有水平分割线</p>
+    <table class="table">
+        <tr>
+            <td>基础表格</td>
+        </tr>
+        <tr>
+            <td>基础表格</td>
+        </tr>
+        <tr>
+            <td>基础表格</td>
+        </tr>
+        <tr>
+            <td>基础表格</td>
+        </tr>
+        <tr>
+            <td>基础表格</td>
+        </tr>
+    </table>
+
+    <p>class="table-striped"是斑马线表格，也就是表格带有背景颜色</p>
+    <table class="table table-striped">
+        <tr>
+            <td>斑马线表格</td>
+        </tr>
+        <tr>
+            <td>斑马线表格</td>
+        </tr>
+        <tr>
+            <td>斑马线表格</td>
+        </tr>
+        <tr>
+            <td>斑马线表格</td>
+        </tr>
+        <tr>
+            <td>斑马线表格</td>
+        </tr>
+    </table>
+
+    <p>class="table-bordered"是带边框的表格，也就是表格带有1px的边框</p>
+    <table class="table table-bordered">
+        <tr>
+            <td>带边框表格</td>
+        </tr>
+        <tr>
+            <td>带边框表格</td>
+        </tr>
+        <tr>
+            <td>带边框表格</td>
+        </tr>
+        <tr>
+            <td>带边框表格</td>
+        </tr>
+        <tr>
+            <td>带边框表格</td>
+        </tr>
+    </table>
+
+     <p>class="table-hover"是鼠标悬停的表格，也就是鼠标悬停在表格上，会出现不同的颜色</p>
+    <table class="table table-hover">
+        <tr>
+            <td>鼠标悬停表格</td>
+        </tr>
+        <tr>
+            <td>鼠标悬停表格</td>
+        </tr>
+        <tr>
+            <td>鼠标悬停表格</td>
+        </tr>
+        <tr>
+            <td>鼠标悬停表格</td>
+        </tr>
+        <tr>
+            <td>鼠标悬停表格</td>
+        </tr>
+    </table>
+
+
+
+    <!--Bootstrap还为表格的行元素<tr>提供了五种不同的类名，每种类名控制了行的不同背景颜色-->
+    <table class="table table-bordered">
+        <tr>
+            <td>类名</td>
+            <td>描述</td>
+        </tr>
+
+        <tr class="active">
+            <td>.active</td>
+            <td>表示的是当前的活动信息</td>
+        </tr>
+
+        <tr class="success">
+            <td>.cuccess</td>
+            <td>表示成功或者正确的行为</td>
+        </tr>
+
+        <tr class="info">
+            <td>.info</td>
+            <td>表示中立的行为或信息</td>
+        </tr>
+
+        <tr class="warning">
+            <td>.warning</td>
+            <td>表示警告，需要特别注意</td>
+        </tr>
+
+        <tr class="danger">
+            <td>.danger</td>
+            <td>表示危险的或者可能错误的信息</td>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

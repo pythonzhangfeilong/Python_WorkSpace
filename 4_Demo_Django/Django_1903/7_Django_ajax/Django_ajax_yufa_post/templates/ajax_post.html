@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax_post</title>
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+</head>
+<body>
+<form action="/ajax_post/" method="post">
+    姓名：<input type="text" id="username" name="username"><br>
+    密码：<input type="password" id="paassword" name="password"><br>
+    邮箱：<input type="email" id="email" name="email"><br>
+    电话：<input type="text" id="phone" name="phone"><br>
+    <button type="submit" id="tj">提交</button><br>
+</form>
+<script>
+    $(function(){
+        $('#tj').click(function(){
+            var username=$('#username').val();
+            var password=$('#password').val();
+            var email=$('#email').val();
+            var phone=$('#phone').val();
+        $.ajax({
+            {#url请求地址，其实就是html中from标签中actions后面的参数#}
+            url:'/ajax_post/',
+            {#type请求类型,默认的是GET#}
+            type:'POST',
+            {#async是异步请求通过true和false来控制是否开启#}
+            async:'true',
+            {#data发送到服务器的数据#}
+            data:{'username':username,'password':password,'email':email,'phone':phone},
+            {#dataType从服务器返回的数据#}
+            dataType:'json',
+            {#请求成功之后的回掉函数#}
+            success:function (data) {
+                console.log(data)
+            },
+            {#请求失败之后的回掉函数#}
+            error:function (data) {
+                console.log(data)
+            }
+        })
+        })
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery选择器</title>
+    <!--一定要记得引入jquery的文件-->
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+    <!--
+    jQuery 元素选择器
+    jQuery 使用 CSS 选择器来选取 HTML 元素。
+    $("p") 选取 <p> 元素。
+    $("p.intro") 选取所有 class="intro" 的 <p> 元素。
+    $("p#demo") 选取所有 id="demo" 的 <p> 元素。
+    -->
+
+    <!--
+    jQuery 属性选择器
+    jQuery 使用 XPath 表达式来选择带有给定属性的元素。
+    $("[href]") 选取所有带有 href 属性的元素。
+    $("[href='#']") 选取所有带有 href 值等于 "#" 的元素。
+    $("[href!='#']") 选取所有带有 href 值不等于 "#" 的元素。
+    $("[href$='.jpg']") 选取所有 href 值以 ".jpg" 结尾的元素。
+    -->
+
+    <!--jquery的css选择器-->
+    <!--下面这段代码展示的是把所有p标签变为红色-->
+    <script>
+        $(document).ready(function () {         //提前加载
+            $("button").click(function () {     //获取点击事件，执行函数
+                $('p').css('color','red')       //执行函数
+            })
+        })
+    </script>
+    <h1>把所有的p标签变成红色</h1>
+    <p>p标签，哈喽</p>
+    <p>p标签，兄弟</p>
+    <button type="button">click me</button>
+
+    <div>
+    <!--更多的选择器-->
+    <img src="jquery更多的选择器.png" alt="更多的选择器">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

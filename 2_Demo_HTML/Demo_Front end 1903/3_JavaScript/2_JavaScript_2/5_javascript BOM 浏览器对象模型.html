@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOM 浏览器对象模型</title>
+</head>
+<body>
+    <!--浏览器对象模型 (BOM)浏览器对象模型（Browser Object Model (BOM)）-->
+    <!--
+    由于现代浏览器已经（几乎）实现了 JavaScript 交互性方面的相同方法和属性，因此常被认为是 BOM 的方法和属性。
+    1.警告框
+    警告框经常用于确保用户可以得到某些信息。
+    当警告框出现后，用户需要点击确定按钮才能继续进行操作。
+    Alert(‘aaa’);
+    2.确认框
+    确认框通常用于验证是否接受用户操作。
+    当确认卡弹出时，用户可以点击 "确认" 或者 "取消" 来确定用户操作。
+    当你点击 "确认", 确认框返回 true， 如果点击 "取消", 确认框返回 false。
+    -->
+    <!--<script type="text/javascript">-->
+        <!--if(confirm("你喜欢我不")){-->
+            <!--alert("喜欢")-->
+        <!--}else{-->
+            <!--alert("不喜欢")-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--3.提示框-->
+    <!--提示框经常用于提示用户在进入页面前输入某个值。
+    当提示框出现后，用户需要输入某个值，然后点击确认或取消按钮才能继续操纵。
+    如果用户点击确认，那么返回值为输入的值。如果用户点击取消，那么返回值为 null。-->
+    <!--<script type="text/javascript">-->
+        <!--var name=prompt("请输入你的名字：");-->
+        <!--if (name){-->
+            <!--alert("姓名是："+name)-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--
+    通过使用 JavaScript，我们有能力作到在一个设定的时间间隔之后来执行代码，而不是在函数被调用后立即执行。我们称之为计时事件。
+    在 JavaScritp 中使用计时事件是很容易的，两个关键方法是:
+    setInterval() - 间隔指定的毫秒数不停地执行指定的代码。
+    setTimeout() - 暂停指定的毫秒数后执行指定的代码
+    clearTimeout() - 关闭只执行一次的定时器;
+    clearInterval() - 关闭反复执行的定时器;
+    Note: setInterval() 和 setTimeout() 是 HTML DOM Window对象的两个方法。
+    setInterval() 方法
+    setInterval() 间隔指定的毫秒数不停地执行指定的代码
+    语法
+    window.setInterval("javascript function",milliseconds);
+    window.setInterval() 方法可以不使用window前缀，直接使用函数setInterval()。
+    setInterval() 第一个参数是函数（function）。第二个参数间隔的毫秒数
+    注意: 1000 毫秒是一秒。
+    -->
+    <!--<script type="text/javascript">-->
+         <!--var  myVar=setInterval(myTime,1000);-->
+         <!--function myTime() {-->
+             <!--var d=Date();-->
+             <!--var t=d.toLocaleTimeString();       //获取当前时间-->
+             <!--document.getElementById("demo").innerText=t;  //定位标签插入数据-->
+         <!--}-->
+         <!--function myStopFunction() {-->
+             <!--clearInterval(myVar)-->
+         <!--}-->
+
+    <!--</script>-->
+
+    <!--时间展示：-->
+    <!--<div id="div1"></div>-->
+    <!--<script type="text/javascript">-->
+
+        <!--var oDiv = document.getElementById('div1');-->
+        <!--function timego(){-->
+            <!--var now = new Date();//获取当前时间-->
+            <!--var year = now.getFullYear();//获取当前年份-->
+            <!--var month = now.getMonth()+1;//获取当前月份-->
+            <!--var date = now.getDate();//获取当前的日期-->
+            <!--var week = now.getDay();//获取星期-->
+            <!--var hour = now.getHours();//获取时间-->
+            <!--var minute = now.getMinutes();//获取分钟-->
+            <!--var second = now.getSeconds();//获取秒-->
+            <!--var str = '当前时间是：'+ year + '年'+month+'月'+date+'日 '+toweek(week)+' '+todou(hour)+':'+todou(minute)+':'+todou(second);-->
+            <!--oDiv.innerHTML = str;//在当前的div标签中插入html文本-->
+        <!--}-->
+        <!--// timego();-->
+        <!--setInterval(timego,1000);-->
+
+        <!--function toweek(n){-->
+            <!--if(n==0)-->
+            <!--{-->
+                <!--return '星期日';-->
+            <!--}-->
+            <!--else if(n==1)-->
+            <!--{-->
+                <!--return '星期一';-->
+            <!--}-->
+            <!--else if(n==2)-->
+            <!--{-->
+                <!--return '星期二';-->
+            <!--}-->
+            <!--else if(n==3)-->
+            <!--{-->
+                <!--return '星期三';-->
+            <!--}-->
+            <!--else if(n==4)-->
+            <!--{-->
+                <!--return '星期四';-->
+            <!--}-->
+            <!--else if(n==5)-->
+            <!--{-->
+                <!--return '星期五';-->
+            <!--}-->
+            <!--else-->
+            <!--{-->
+                <!--return '星期六';-->
+            <!--}-->
+        <!--}-->
+
+        <!--function todou(n){-->
+            <!--if(n<10)-->
+            <!--{-->
+                <!--return '0'+n;-->
+            <!--}-->
+            <!--else-->
+            <!--{-->
+                <!--return n;-->
+            <!--}-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--制作计时器-->
+    <form>
+        <input type="button" value="开始计时！" onClick="timedCount()">
+        <input type="text" id="txt">
+        <input type="button" value="停止计时！" onClick="stopCount()">
+    </form>
+
+    <script type="text/javascript">
+        var c=0;
+        var t;
+        function timedCount()
+        {
+            document.getElementById('txt').value=c;
+            c=c+1;
+            t=setTimeout("timedCount()",1000)
+        }
+        function stopCount()
+        {
+            clearTimeout(t)
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

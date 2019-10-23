@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modification</title>
+</head>
+<body>
+{# | 过滤修饰#}
+{% for data in navigation %}
+    <p>{{ data.label | upper }}</p>
+{% endfor %}
+</body>
+</html>

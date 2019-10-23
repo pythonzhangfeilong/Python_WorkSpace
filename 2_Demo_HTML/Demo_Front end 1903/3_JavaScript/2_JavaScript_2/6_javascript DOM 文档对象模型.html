@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM文档对象模型</title>
+</head>
+<body>
+    DOM（Document Object Model）即文档对象模型，针对HTML和XML文档的API（应用程序接口）。DOM描绘了一个层次化的节点树，运行开发人员添加、移除和修改页面的某一部分。
+    DOM中的三个字母，D（文档）可以理解为整个Web加载的网页文档；O（对象）可以理解为类似window对象之类的东西，可以调用属性和方法，这里我们说的是document对象；M（模型）可以理解为网页文档的树型结构。
+    W3C提供了比较方便简单的定位节点的方法和属性，以便我们快速的对节点进行操作。分别为：getElementById()、getElementsByTagName()、getElementsByName()、getAttribute()、setAttribute()和removeAttribute()。
+    元素节点方法：
+    方法	说明
+    getElementById()	获取特定ID元素的节点
+    getElementsByTagName()	获取相同元素的节点列表
+    getElementsByName()	获取相同名称的节点列表
+    getAttribute()	获取特定元素节点属性的值
+    setAttribute()	设置特定元素节点属性的值
+    removeAttribute()	移除特定元素节点属性
+    1.getElementById()方法
+    getElementById()方法，接受一个参数：获取元素的ID。如果找到相应的元素则返回该元素的HTMLDivElement对象，如果不存在，则返回null。
+    document.getElementById('box');				//获取id为box的元素节点
+    PS：上面的例子，默认情况返回null，这无关是否存在id="box"的标签，而是执行顺序问题。解决方法，1.把script调用标签移到html末尾即可；2.使用onload事件来处理JS，等待html加载完毕再加载onload事件里的JS。
+    window.onload = function () {				//预加载html后执行
+        document.getElementById('box');
+    };
+
+    2.getElementsByTagName()方法
+    getElementsByTagName()方法将返回一个对象数组HTMLCollection(NodeList)，这个数组保存着所有相同元素名的节点列表。
+    document.getElementsByTagName('*');			//获取所有元素
+    document.getElementsByTagName('li');		//获取所有li元素，返回数组
+
+    3.getElementsByName()方法
+    getElementsByName()方法可以获取相同名称(name)的元素，返回一个对象数组HTMLCollection(NodeList)。
+    document.getElementsByName('add')			//获取input元素
+
+    4.getAttribute()方法
+    getAttribute()方法将获取元素中某个属性的值。它和直接使用.属性获取属性值的方法有一定区别。
+    document.getElementById('box').getAttribute('id');//获取元素的id值
+
+    5. setAttribute()方法
+    setAttribute()方法将设置元素中某个属性和值。它需要接受两个参数：属性名和值。如果属性本身已存在，那么就会被覆盖。
+    document.getElementById('box').setAttribute('align','center');//设置属性和值
+
+    6.removeAttribute()方法
+    removeAttribute()可以移除HTML属性。
+    document.getElementById('box').removeAttribute('style');//移除属性
+
+</body>
+</html>

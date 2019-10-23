@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位</title>
+         <style>
+        .header{
+            width: 100%;
+            height: 60px;
+            background: green;
+        }
+        .content{
+            position: relative;
+        }
+        .left{
+            width: 20%;
+            height: 512px;
+            background-color: skyblue;
+            /*float: left;*/
+        }
+        .center{
+            width: 60%;
+            height: 512px;
+            background-color: rosybrown;
+            position: absolute;
+            top: 0;
+            margin-left: 20%;
+        }
+        .right{
+            width: 20%;
+            height: 512px;
+            background-color: cornflowerblue;
+            position: absolute;
+            top: 0;
+            margin-left: 80%;
+        }
+        .footer{
+            width: 100%;
+            height: 60px;
+            background: yellow;
+            /*position: relative;*/
+        }
+        </style>
+</head>
+<body>
+    <!--
+        定位可以使用css的position属性来设置元素的定位类型，postion的设置项如下：
+            1.	relative 生成相对定位元素，元素所占据的文档流的位置不变，元素本身相对文档流的位置进行偏移relative [ˈrelətɪv]：相对的 ；postion [pəˈzɪʃn]：位置
+            2.	absolute 生成绝对定位元素，元素脱离文档流，不占据文档流的位置，可以理解为漂浮在文档流的上方，相对于上一个设置了相对或者绝对或者固定定位的父级元素来进行定位，如果找不到，则相对于body元素进行定位。absolute [ˈæbsəluːt]：绝对的
+            3.	fixed 生成固定定位元素，元素脱离文档流，不占据文档流的位置，可以理解为漂浮在文档流的上方，相对于浏览器窗口进行定位。fixed [fɪkst]：固定的
+            4.	static 默认值，没有定位，元素出现在正常的文档流中，相当于取消定位属性或者不设置定位属性
+            5.	inherit 从父元素继承 position 属性的值inherit [ɪnˈherɪt]：继承(金钱、财产等)
+
+        定位元素特性 ：
+            绝对定位和固定定位的块元素和行内元素会自动转化为行内块元素
+
+        定位元素层级 ：
+            定位元素是浮动的正常的文档流之上的，可以用z-index属性来设置元素的层级
+    -->
+        <div class="header"></div>
+
+        <div class="content">
+            <div class="left"></div>
+            <div class="center"></div>
+            <div class="right"></div>
+        </div>
+
+        <div class="footer"></div>
+</body>
+</html>

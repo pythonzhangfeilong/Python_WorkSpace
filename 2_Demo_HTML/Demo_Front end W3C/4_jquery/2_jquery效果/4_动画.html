@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画</title>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+    <!--animate()动画的方法-->
+
+    <!--animate()语法：
+    $(selector).animate({params},speed,callback);
+    必需的 params 参数定义形成动画的 CSS 属性。
+    可选的 speed 参数规定效果的时长。它可以取以下值："slow"、"fast" 或毫秒。
+    可选的 callback 参数是动画完成后所执行的函数名称。
+
+    $("button").click(function(){
+      $("div").animate({left:'250px'});
+    });
+    -->
+    <!--<script>-->
+        <!--$(document).ready(function () {-->
+            <!--$('button').click(function () {-->
+                <!--$('div').animate({left:'250px'},2000)-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<button>开始动画</button>-->
+    <!--<br/>-->
+    <!--<p>提示:position: absolute绝对定位</p>-->
+    <!--<div style="background-color: chartreuse ;width: 80px;height: 80px;position: absolute"></div>-->
+
+    <!--animate()控制多个元素-->
+    <!--<script>-->
+        <!--$(document).ready(function () {-->
+            <!--$('button').click(function () {-->
+                <!--$('div').animate({left:'250px',opacity:0.2,with:'150px',height:'150px'})/*opacity设置透明度*/-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<button>开始动画</button>-->
+    <!--<br/>-->
+    <!--<p>提示:position: absolute绝对定位</p>-->
+    <!--<div style="background-color: chartreuse ;width: 100px;height: 100px;position: absolute"></div>-->
+
+    <!--animate() - 使用相对值
+    也可以定义相对值（该值相对于元素的当前值）。需要在值的前面加上 += 或 -=：
+    -->
+    <!--<script>-->
+        <!--$(document).ready(function () {-->
+            <!--$('button').click(function () {-->
+                <!--$('div').animate({left:'250px',opacity:0.2,with:'+=150px',height:'+=150px'})/*opacity设置透明度*/-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<button>开始动画</button>-->
+    <!--<br/>-->
+    <!--<p>提示:position: absolute绝对定位</p>-->
+    <!--<div style="background-color: chartreuse ;width: 100px;height: 100px;position: absolute"></div>-->
+
+    <!--
+    animate() - 使用预定义的值
+    可以把属性的动画值设置为 "show"、"hide" 或 "toggle"：
+    -->
+    <!--<script>-->
+        <!--$(document).ready(function () {-->
+            <!--$('button').click(function () {-->
+                <!--$('div').animate({height:'toggle'})     //点击切换下滑展示上滑隐藏-->
+                <!--/*$('div').animate({height:'show'})       //点击向下展示，但是要先把标签隐藏了*/-->
+                <!--/*$('div').animate({height:'hide'})         //点击向上隐藏*/-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<button>开始动画</button>-->
+    <!--<br/>-->
+    <!--<p>提示:position: absolute绝对定位</p>-->
+    <!--<div style="background-color: chartreuse ;width: 100px;height: 100px;position: absolute"></div>-->
+
+    <!--动画的交替展示-->
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+                var div=$('div');
+                div.animate({height:'300px',opacity:'0.4'},'show');
+                div.animate({width:'300px',opacity:'0.8'},'show');
+                div.animate({height:'100px',opacity:'0.4'},'show');
+                div.animate({width:'100px',opacity:'0.8'},'show')
+
+            })
+        })
+    </script>
+    <button>开始动画</button>
+    <br/>
+    <p>提示:position: absolute绝对定位</p>
+    <div style="background-color: chartreuse ;width: 100px;height: 100px;position: absolute"></div>
+
+    <!--开始动画，把里面的字体内容放大-->
+    <!--<script>-->
+        <!--$(document).ready(function () {-->
+            <!--$('button').click(function () {-->
+                <!--var div=$('div');       //多次操作时要记得将获取标签提前声明赋值-->
+                <!--div.animate({left:'250px'},'show');-->
+                <!--div.animate({fontSize:'3em'},'show')     //em是文本字号-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<button>开始动画</button>-->
+    <!--<br/>-->
+    <!--<p>提示:position: absolute绝对定位</p>-->
+    <!--<div style="background-color: chartreuse ;width: 100px;height: 100px;position: absolute">哈喽</div>-->
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

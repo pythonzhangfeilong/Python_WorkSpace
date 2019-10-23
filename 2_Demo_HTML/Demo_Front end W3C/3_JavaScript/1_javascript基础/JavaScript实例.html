@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript实例</title>
+    <!--头部实例-->
+    <!--
+    <script type="text/javascript">
+        function message(){
+            alert("该提示框是由onload事件调用的")
+    }
+    </script>
+    -->
+</head>
+<body onload="message()">
+    <!--生成文本-->
+    <!--
+    <script type="text/javascript">
+        document.write("hello world")
+    </script>
+    -->
+
+    <!--生成标签-->
+    <!--
+    <script type="text/javascript">
+        document.write("<h1>Hello World</h1>")
+    </script>
+    -->
+
+    <!--body实例-->
+    <!--<script type="text/javascript">-->
+        <!--document.write("该消息在页面加载时输出")-->
+    <!--</script>-->
+
+    <!--外部script-->
+    <!--
+    <script src="./regutils.js"></script>
+    <p>脚本位于regutils.js中</p>
+    -->
+
+    <!--javascript语句-->
+    <script type="text/javascript">
+        document.write("<h1>这个是h1标题标签</h1>");
+        document.write("<p>这个是段落标签</p>")
+    </script>
+
+    <!--javascript代码块-->
+    <script type="text/javascript">
+        {
+            document.write("<h1>这个是h1标题标签</h1>");
+            document.write("<p>这个是段落标签</p>");
+            document.write("<p>这又是一个段落标签</p>")
+        }
+    </script>
+
+    <!--javascript单行注释和多行注释-->
+    <script type="text/javascript">
+        //是单行注释
+        document.write("//是单行注释");
+        /*是多行注释*/
+        document.write("/**/是多行注释")
+    </script>
+
+    <!--javascript变量：声明一个变量，为它赋值，然后显示出来-->
+    <script type="text/javascript">
+        //声明一个变量firstname
+        var firstname;
+        //给声明的变量赋值
+        firstname="baby";
+        //页面展示变量的值
+        document.write("第一次赋值的变量是：",firstname);
+        //使用br标签给页面上展示的内容换行
+        document.write("<br/>");
+        //给变量重新赋值
+        firstname="hello";
+        //在页面展示变量的值
+        document.write("第二次赋值的变量是：",firstname)
+    </script>
+
+    <!--javascript条件判断if语句-->
+    <script type="text/javascript">
+        var d=new Date();
+        var time=d.getHours();
+
+        if (time<10)
+            {document.write("<b>早安</b>")}
+        document.write("<p>上面这段代码展示的是，如果浏览器时间小于10，就会问候早安</p>")
+    </script>
+
+    <!--获取divID操作div-->
+    <script type="text/javascript">
+        var oDer=document.getElementById("div1");
+        alert(oDiv.innerText);
+        console.log(oDiv.innerText)
+    </script>
+
+    <div id="div1">这是一个div</div>
+
+
+
+
+</body>
+</html>

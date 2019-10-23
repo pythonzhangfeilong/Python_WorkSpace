@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forloop</title>
+</head>
+<body>
+{#forloop#}
+{#    {% for d in data %}#}
+{#        <p>{{ d.lable }}</p>#}
+{#        <p>{{ forloop }}</p>#}
+{#    {% endfor %}#}
+{#    <p>#}
+{#        注意页面输出的结果中：<br/>#}
+        {#&nbsp;是空格#}
+{#        &nbsp;&nbsp;&nbsp;&nbsp;Revcounter0:  倒序索引 （到0截止）<br/>#}
+{#        &nbsp;&nbsp;&nbsp;&nbsp;Revcounter:  倒序 （到1截止）<br/>#}
+{#        &nbsp;&nbsp;&nbsp;&nbsp;Parentloop： 父元素的forloop<br/>#}
+{#        &nbsp;&nbsp;&nbsp;&nbsp;Counter: 计数（从1开始）<br/>#}
+{#        &nbsp;&nbsp;&nbsp;&nbsp;Last: 是不是最后一个<br/>#}
+{#        &nbsp;&nbsp;&nbsp;&nbsp;Counter0: 索引计数（从0开始）<br/>#}
+{#        &nbsp;&nbsp;&nbsp;&nbsp;First: 是不是第一个 <br/>#}
+{#    </p>#}
+
+{#嵌套forloop#}
+{% for i in inner %}
+    {% for d in data %}
+        <p>{{ d.lable }}</p>
+        <p>{{ forloop }}</p>
+    {% endfor %}
+{% endfor %}
+    <p>
+        注意页面输出的结果中：<br/>
+        {#&nbsp;是空格#}
+        &nbsp;&nbsp;&nbsp;&nbsp;Revcounter0:  倒序索引 （到0截止）<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;Revcounter:  倒序 （到1截止）<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;Parentloop： 父元素的forloop<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;Counter: 计数（从1开始）<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;Last: 是不是最后一个<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;Counter0: 索引计数（从0开始）<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;First: 是不是第一个 <br/>
+    </p>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery操作css类</title>
+    <script type="text/javascript" src="jquery.js"></script>
+
+    <style type="text/css">
+        .import{color: #FF0000}
+        .img{font-size: 50px}
+    </style>
+    <!--addClass()向css中添加多个类-->
+    <!--<script>-->
+        <!--$(document).ready(function () {-->
+            <!--$('button').click(function () {-->
+                <!--$('p').addClass('import img');     //如果操作多个类的话可以卸载一个括号中用空格分开，也可以写多行-->
+                <!--$('#p2,p').addClass('img')         //如果选择多个元素，也可以采用逗号分隔-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+</head>
+<body>
+    <!--addClass() - 向被选元素添加一个或多个类
+    removeClass() - 从被选元素删除一个或多个类
+    toggleClass() - 对被选元素进行添加/删除类的切换操作
+    css() - 设置或返回样式属性
+    -->
+    <!--addClass()向css中添加多个类-->
+    <p id="p1">这是一个标题标签</p>
+    <p id="p2">这是一个段落标签</p>
+    <span>这是一个行标签</span>
+    <br/>
+    <button>addClass想css中添加一个或多个类</button>
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for</title>
+</head>
+<body>
+{#1、for循环#}
+    {#<ul>#}
+    {#    {% for new in news %}#}
+            {#style="list-style:none;去除标签前面的符号#}
+    {#        <li style="list-style:none;">#}
+    {#            <span>#}
+    {#                <a href="#">#}
+    {#                    {{ new.title }}#}
+    {#                </a>#}
+    {#            </span>#}
+                 {#&nbsp;是空格#}
+    {#            &nbsp;&nbsp;&nbsp;&nbsp;<span>{{ new.author }}</span>#}
+    {#            &nbsp;&nbsp;&nbsp;&nbsp;<span>{{ new.time }}</span>#}
+    {#        </li>#}
+    {#    {% endfor %}#}
+    {#</ul>#}
+
+{#2、嵌套for循环#}
+<ul>
+    {% for num in inner %}
+        <h1 style="color: red">{{ num }}</h1>
+        {% for new in news %}
+            {#style="list-style:none;去除标签前面的符号#}
+            <li style="list-style:none;">
+                <span>
+                    <a href="#">
+                        {{ new.title }}
+                    </a>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span>{{ new.author }}</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span>{{ new.time }}</span>
+            </li>
+        {% endfor %}
+    {% endfor %}
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+1、什么是selenium:自动化测试框架
+    支持通过各种dirver(FirefoxDirver、IternetExplorerDirver、OperaDirver、ChromeDirver)驱动真实浏览器完成测试
+    selenium支持无界面浏览器，例如:htmlUnit、PhantomJs
+
+2、为什么使用selenium
+    模拟浏览器功能，自动执行网页中的js代码，实现动态加载
+
+3、查看网上的谷歌浏览器webdirver版本对应表，哦那个过下面的地址下载webdirver
+    http://chromedriver.storage.googleapis.com/index.html
+
+4、selenium安装
+    pip install selenium
+
+5、导入
+    from selenium import webdriver
+
+6、添加下载的webdirver路径
+    path=r'D:\Program Files\Chrome\WebDirver\chromedriver.exe'
+
+7、创建webdirver对象
+    dirver=webdriver.Chrome(path)
+
+8、注意：当selenium启动不起来chrome浏览器的时候，有下面几种情况导致：
+    ①使用的是绿色版的chrome
+    ②下载的webdriver版本不对
+    ③没有使用安装包安装的chrome浏览器
+
+9、selenium定位
+    1、id定位： find_element_by_id()
+    2、name定位： find_element_by_name()
+    3、xpath定位：find_element_by_xpath()
+    4、tag定位：find_element_by_tag_name()
+    5、class定位：find_element_by_class_name()
+    6、CSS定位：find_element_by_css_selector()
+    7、link定位：find_element_by_link_text()
+    8、partial_link定位：find_element_by_partial_link_text()
+
+10、selenium交互
+    1、点击：click()
+    2、输入：send_kyes()
+    3、清空：clear()

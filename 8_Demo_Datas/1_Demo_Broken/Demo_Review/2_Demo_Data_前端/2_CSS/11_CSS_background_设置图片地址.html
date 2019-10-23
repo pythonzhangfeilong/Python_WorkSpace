@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS_background</title>
+    <style>
+        .backshow{
+            width:320px;
+            height:160px;
+            border:3px solid #333;
+            /*浮动*/
+            float:left;
+            /*外边距*/
+            margin:10px;
+        }
+         /*默认设置一个图片地址，图片会从盒子的左上角开始将盒子铺满。*/
+         .bg1{background:cyan url(bg.jpg);}
+         /*横向平铺盒子，盒子其他部分显示背景颜色“cyan”*/
+         .bg2{background:cyan url(bg.jpg) repeat-x;}
+         /*纵向平铺盒子，盒子其他部分显示背景颜色“cyan”*/
+         .bg3{background:cyan url(bg.jpg) repeat-y;}
+         /*背景不重复，背景和盒子左上角对齐，盒子其他部分显示背景颜色“cyan”。*/
+         .bg4{background:cyan url(bg.jpg) no-repeat;}
+         /*背景不重复，背景和盒子左中对齐，盒子其他部分显示背景颜色“cyan”。*/
+         .bg5{background:cyan url(bg.jpg) no-repeat left center;}
+         /*背景不重复，背景和盒子右中对齐，也就是背景图片的右边对齐盒子的右边，盒子其他部分显示背景颜色“cyan”*/
+         .bg6{background:cyan url(bg.jpg) no-repeat right center;}
+    </style>
+</head>
+<body>
+    <div class="backshow bg1"></div>
+    <div class="backshow bg2"></div>
+    <div class="backshow bg3"></div>
+    <div class="backshow bg4"></div>
+    <div class="backshow bg5"></div>
+    <div class="backshow bg6"></div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>news</title>
+</head>
+<body>
+{#for循环#}
+{#     <ul>#}
+{#        {% for new in news %}#}
+{#            <li style = "list-style: none;">#}
+{#                <span>#}
+{#                    <a href="#">#}
+{#                        {{ new.title }}#}
+{#                    </a>#}
+{#                </span>#}
+{#                &nbsp;&nbsp;&nbsp;&nbsp;<span>{{ new.author }}</span>#}
+{#                &nbsp;&nbsp;&nbsp;&nbsp;<span>{{ new.time }}</span>#}
+{#            </li>#}
+{#        {% endfor %}#}
+{#    </ul>#}
+{#嵌套for循环#}
+ <ul>
+            {% for num in inner %}
+                <h1 style = "color: red;"> {{ num }} </h1>
+                {% for new in news %}
+                    <li style = "list-style: none;">
+                        <span>
+                            <a href="#">
+                                {{ new.title }}
+                            </a>
+                        </span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span>{{ new.author }}</span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span>{{ new.time }}</span>
+                    </li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+
+</body>
+</html>

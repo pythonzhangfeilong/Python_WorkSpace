@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javascript函数</title>
+</head>
+<body>
+    <!--
+    函数是由事件驱动的或者当它被调用时执行的可重复使用的代码块。
+    1.函数是完成某一功能的代码段
+    2.函数是可重复执行的代码段
+    3.函数方便管理和维护
+    语法格式：
+    Function 函数名称（[参数][ 参数][ 参数]）{
+            代码段
+            Return 返回值
+    }
+    代码示例：
+    function box(name, age) {						//带参数的函数
+        alert('你的姓名：'+name+'，年龄：'+age);
+    }
+    box('For老师',28);								//调用函数，并传参
+    函数名称的规范：
+        1.函数名称不要包含特殊字符
+        2.函数名称最好遵循驼峰式的命名方法
+        3.函数名称严格区分大小写
+        4.函数名称如果重复会覆盖
+        5.函数可以有参数也可以没有参数，可以有一个参数也可以有多个参数
+        6.函数通过return返回值，如果没有默认返回undefined
+        7.函数不调用不执行
+    -->
+    <!--<script type="text/javascript">-->
+        <!--function func() {                               //创建定义一个函数-->
+            <!--alert("javascript first function")-->
+        <!--}-->
+        <!--func()                                          //调用函数-->
+    <!--</script>-->
+
+    <!--<script type="text/javascript">-->
+        <!--function func(name,age){-->
+            <!--alert("你的名字是："+name+"你的年龄是："+age)-->
+        <!--}-->
+        <!--func("zhang",20)-->
+    <!--</script>-->
+
+    <script type="text/javascript">
+        function func(a,b) {
+            return a+b
+        }
+        alert(func(1,2))
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>

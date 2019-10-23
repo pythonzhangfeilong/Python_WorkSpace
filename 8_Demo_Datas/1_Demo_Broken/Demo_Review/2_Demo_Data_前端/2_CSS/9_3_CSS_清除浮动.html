@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS_清除浮动</title>
+    <style>
+        .clearfix:after{display:table;clear:both;content:"";}
+        .clearfix{zoom:1}
+        img{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1 clearfix">
+        <img src="bg.jpg" alt="" style="width: 50%;height: 50%" >
+    </div>
+</body>
+</html>

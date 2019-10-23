@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+</head>
+<body>
+    <form action="/register" method="post">
+        {{ form.user_name.label }}
+        <p>{{ form.user_name }}</p>
+        {% for data in form.user_name.errors %}
+            <p>{{ data }}</p>
+        {% endfor %}
+
+        {{ form.password.label }}
+        <p>{{ form.password }}</p>
+        {% for data in form.password.errors %}
+            <p>{{ data }}</p>
+        {% endfor %}
+
+        {{ form.passwords.label }}
+        <p>{{ form.passwords }}</p>
+        {% for data in form.passwords.errors %}
+            <p>{{ data }}</p>
+        {% endfor %}
+
+        {{ form.submit }}
+    </form>
+</body>
+</html>

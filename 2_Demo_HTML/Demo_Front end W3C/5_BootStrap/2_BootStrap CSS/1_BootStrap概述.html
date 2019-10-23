@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap概述</title>
+    <!--<style>-->
+        <!--.img-responsive{-->
+            <!--display:inline-block;-->
+            <!--height: auto;-->
+            <!--max-width: 100%;-->
+        <!--}-->
+    <!--</style>-->
+</head>
+<body>
+    <!--
+    移动设备优先
+        移动设备优先是 Bootstrap 3 的最显著的变化。
+        在之前的 Bootstrap 版本中（直到 2.x），需要手动引用另一个 CSS，才能让整个项目友好的支持移动设备。
+        现在不一样了，Bootstrap 3 默认的 CSS 本身就对移动设备友好支持。
+        Bootstrap 3 的设计目标是移动设备优先，然后才是桌面设备。这实际上是一个非常及时的转变，因为现在越来越多的用户使用移动设备。
+        为了让 Bootstrap 开发的网站对移动设备友好，确保适当的绘制和触屏缩放，需要在网页的 head 之中添加 viewport meta 标签，如下所示：
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        width 属性控制设备的宽度。假设网站将被带有不同屏幕分辨率的设备浏览，那么将它设置为 device-width 可以确保它能正确呈现在不同设备上。
+        initial-scale=1.0 确保网页加载时，以 1:1 的比例呈现，不会有任何的缩放。
+        在移动设备浏览器上，通过为 viewport meta 标签添加 user-scalable=no 可以禁用其缩放（zooming）功能。
+        通常情况下，maximum-scale=1.0 与 user-scalable=no 一起使用。这样禁用缩放功能后，用户只能滚动屏幕，就能让的网站看上去更像原生应用的感觉。
+        注意，这种方式并不推荐所有网站使用，还是要看自己的情况而定！
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    -->
+
+    <!--
+    响应式图像
+    <img src="..." class="img-responsive" alt="响应式图像">
+    通过添加 img-responsive class 可以让 Bootstrap 3 中的图像对响应式布局的支持更友好。
+    看下这个 class 包含了哪些 css 属性。
+    在下面的代码中，可以看到img-responsive class 为图像赋予了 max-width: 100%; 和 height: auto; 属性，
+    可以让图像按比例缩放，不超过其父元素的尺寸。
+    .img-responsive {
+      display: inline-block;
+      height: auto;
+      max-width: 100%;
+    }
+    这表明相关的图像呈现为 inline-block。当把元素的 display 属性设置为 inline-block，
+    元素相对于它周围的内容以内联形式呈现，但与内联不同的是，这种情况下我们可以设置宽度和高度。
+    设置 height:auto，相关元素的高度取决于浏览器。
+    设置 max-width 为 100% 会重写任何通过 width 属性指定的宽度。这让图片对响应式布局的支持更友好。
+    -->
+    <!--<img src="../狗.jpg" alt="响应式图片" class="img-responsive">-->
+
+    <!--全局显示-->
+    <!--Bootstrap 3 使用 body {margin: 0;} 来移除 body 的边距-->
+    <!--
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.428571429;
+      color: #333333;
+      background-color: #ffffff;
+    }
+    第一条规则设置 body 的默认字体样式为 "Helvetica Neue", Helvetica, Arial, sans-serif。
+    第二条规则设置文本的默认字体大小为 14 像素。
+    第三条规则设置默认的行高度为 1.428571429。
+    第四条规则设置默认的文本颜色为 #333333。
+    最后一条规则设置默认的背景颜色为白色。
+    -->
+
+    <!--
+    排版
+    使用 @font-family-base、 @font-size-base 和 @line-height-base 属性作为排版样式。
+    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

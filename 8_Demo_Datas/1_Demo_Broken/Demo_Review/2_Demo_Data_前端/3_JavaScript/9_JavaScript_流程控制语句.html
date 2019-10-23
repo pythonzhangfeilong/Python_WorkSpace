@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript_流程控制语句</title>
+</head>
+<body>
+    <!--1、if语句格式-->
+    <!--<script>-->
+        <!--if(){-->
+
+        <!--}else{-->
+
+        <!--}-->
+    <!--</script>-->
+    <!--实例-->
+    <!--<script>-->
+        <!--var data=10;-->
+        <!--if(data=10){-->
+            <!--alert('data是10')-->
+        <!--}else{-->
+            <!--alert('data未知')-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--2、else if-->
+    <!--<script>-->
+        <!--if(){-->
+
+        <!--}else if(){-->
+
+        <!--}else if(){-->
+
+        <!--}else if(){-->
+
+        <!--}else{-->
+
+        <!--}-->
+    <!--</script>-->
+    <!--实例-->
+    <!--<script>-->
+    <!--var data=80;-->
+        <!--if(data=60){-->
+            <!--alert('及格')-->
+        <!--}else if(data=70){-->
+            <!--alert('良好')-->
+        <!--}else if(data=80){-->
+            <!--alert('优秀')-->
+        <!--}else if(data=90){-->
+            <!--alert('干得漂亮')-->
+        <!--}else if(data=100){-->
+            <!--alert('斥候上')-->
+        <!--} else{-->
+            <!--alert('挖白面去吧')-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--3、多重分支语句格式-->
+    <!--<script>-->
+        <!--var data=n;             //data等于多少就执行下面的case几-->
+        <!--switch (data){-->
+            <!--case 1:-->
+
+            <!--case 2:-->
+
+            <!--case 3:-->
+
+            <!--default:-->
+
+        <!--}-->
+    <!--</script>-->
+    <!--实例-->
+    <!--<script>-->
+        <!--var data=1;-->
+        <!--switch (data){-->
+            <!--case 1:-->
+                <!--alert('one');-->
+                <!--break;-->
+            <!--case 2:-->
+                <!--alert('two');-->
+                <!--break;-->
+            <!--case 3:-->
+                <!--alert('three');-->
+                <!--break;-->
+            <!--default:-->
+                <!--alert('error')-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--4、do...while..语句-->
+    <!--<script>-->
+        <!--var data=1;             //如果是1符合条件执行五次，如果是大于5不符合条件，执行1次-->
+        <!--do{-->
+            <!--alert(data);-->
+            <!--data++;-->
+        <!--}while(data<=5)-->
+    <!--</script>-->
+
+    <!--5、while语句-->
+    <!--<script>-->
+        <!--var data=1;             //如果符合条件执行5次，如果不符合条件，一次也不执行-->
+        <!--while(data<=5){         //先判断后执行-->
+            <!--alert(data);-->
+            <!--data++-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--6、for循环语句-->
+    <!--<script>-->
+                                                <!--//第一步，声明变量var box = 1;-->
+        <!--for(var data=1;data<=5;data++){         //第二步，判断box <=5-->
+            <!--alert(data)                         //第三步，alert(box)-->
+        <!--}                                       //第四步，box++-->
+                                                <!--//第五步，从第二步再来，直到判断为false-->
+    <!--</script>-->
+
+    7、for...in...语句
+    <script>
+        var data={                      //创建一个对象
+            'name':'zhang',
+            'age':18,
+            'addr':'huhehaote'
+        };
+        for(var i in data){             //列举出对象的所有属性
+            alert(i);
+        }
+
+    </script>
+</body>
+</html>

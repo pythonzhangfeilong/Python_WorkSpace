@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>navigation</title>
+</head>
+<body>
+{#forloop#}
+{# {% for d in data %}#}
+{#    <p> {{ d.label }} </p>#}
+{#    <p> {{ forloop }} </p>#}
+{#{% endfor %}#}
+
+{#forloop的嵌套#}
+{#{% for i in inner %}#}
+{#    {% for d in data %}#}
+{#        <p> {{ d.label }} </p>#}
+{#        <p> {{ forloop }} </p>#}
+{#    {% endfor %}#}
+{#{% endfor %}#}
+
+{#过滤器调用方法#}
+{% for d in data %}
+    <p> {{ d.label|upper }} </p>
+{% endfor %}
+
+</body>
+</html>

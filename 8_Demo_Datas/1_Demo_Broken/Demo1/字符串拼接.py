@@ -1,0 +1,1 @@
+print('/home'+'/python'+'/abc'+'efg')

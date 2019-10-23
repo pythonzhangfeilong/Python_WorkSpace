@@ -1,0 +1,66 @@
+1、什么是BeautifulSoup：
+BeautifulSoup4和 lxml 一样，Beautiful Soup 也是一个HTML/XML的解析器，主要的功能也是如何解析和提取 HTML/XML 数据。
+
+BeautifulSoup支持Python标准库中的HTML解析器,还支持一些第三方的解析器，如果不安装它，则 Python 会使用 Python默认的解析器，
+lxml 解析器更加强大，速度更快，推荐使用lxml 解析器。
+
+Beautiful Soup自动将输入文档转换为Unicode编码，输出文档转换为utf-8编码。你不需要考虑编码方式，除非文档没有指定一个编码方式
+，这时，Beautiful Soup就不能自动识别编码方式了。然后，仅仅需要说明一下原始编码方式就可以了。
+
+
+2、优缺点：
+    效率没有lxml的效率高
+    接口设计人性化，使用方便
+
+3、导入使用
+from bs4 import BeautifulSoup
+
+4、创建对象
+    网上文件生成对象：soup=BeautifulSoup('网上下载的字符串','lxml')
+    本地文件生成对象：soup=BeautifulSoup(open('1.html'),'lxml')
+
+5、节点定位
+    根据标签名查找节点：soup.a    (注意：只能找到第一个出现的a标签)
+    函数  find()          返回的是一个对象          find('a')只能找到第一个a标签
+                                                   find('a',title='名字')
+                                                   find('a',class='名字')
+          find_all()      返回的是一个列表          find_all('a')查找所有的a标签
+                                                   find_all(['a','span'])查找所有的标签个span标签
+                                                   find_all('a',limit=2)只查找前俩个a标签
+          select          根据选择器得到节点对象    element
+                                                   .class
+                                                   #id
+                                                   属性选择器    [attribute]
+                                                                 [attribute=value]
+                                                   等级选择器    [element element]
+                                                                 [element<element]
+                                                                 [element,element]
+
+6、节点信息
+    获取节点内容：obj.string
+                 obj.get_text()
+
+    节点属性：name:获取标签名
+              attrs:将属性值最为一个字典返回
+
+    获取节点属性：obj.attress.get('title')
+                 obj.get('title')
+                 obj['title']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

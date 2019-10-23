@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript嵌入页面的方式</title>
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+    <!--一、嵌入页面的方式-->
+    <!--1、行间事件(主要用于事件)，value就是按钮上文字的内容，onclick是点击事件-->
+    <!--<input type="button"  value="点击输出" onclick="alert('ok！')">-->
+
+    <!--2、页面script标签嵌入-->
+    <!--<script type="text/javascript">-->
+        <!--//var声明定义一个变量a，它的值是你好-->
+        <!--var a='你好！';-->
+        <!--//使用alert()方法在页面输出-->
+        <!--alert(a)-->
+    <!--</script>-->
+
+    <!--3、外部引入:通常写在head中-->
+    <!--<script type="text/javascript" src="./regutils.js"></script>-->
+
+
+    <!--javascript语句与注释-->
+    <!--1、一条javascript语句应该以;来结尾,onclick后面可以写输出的内容，也可以写执行的函数-->
+    <input type="button" value="点击输出" onclick="func()">
+    <script type="text/javascript">
+         var a=123;
+         var b="abc";
+         function func() {
+             alert(a);
+             alert(b)
+         }
+    </script>
+
+    <!--javascript注释-->
+    <!--//在javascript中适用于单行注释的-->
+    <!--/**/在javascript中是用于多行注释的-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

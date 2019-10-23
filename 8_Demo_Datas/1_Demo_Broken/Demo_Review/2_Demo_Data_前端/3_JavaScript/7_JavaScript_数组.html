@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript_数组</title>
+</head>
+<body>
+<!--一、创建数组-->
+    <!--1、使用new关键字创建数组-->
+    <!--<script>-->
+        <!--var box_1 = new Array();						//创建了一个数组-->
+        <!--var box_2 = new Array(10);					    //创建一个包含一个数字10的数组-->
+        <!--var box_3 = new Array('for','web','学神');		//创建一个数组并分配好了元素-->
+        <!--alert(box_1);-->
+        <!--alert(box_2);-->
+        <!--alert(box_3)-->
+    <!--</script>-->
+
+    <!--2、省去new关键字创建数组-->
+    <!--<script>-->
+        <!--var box_1 =  Array();						//创建了一个数组-->
+        <!--var box_2 =  Array(10);					    //创建一个包含一个数字10的数组-->
+        <!--var box_3 =  Array('for','web','学神');		//创建一个数组并分配好了元素-->
+        <!--alert(box_1);-->
+        <!--alert(box_2);-->
+        <!--alert(box_3)-->
+    <!--</script>-->
+
+    <!--3、直接声明变量赋值创建数组-->
+        <!--<script>-->
+            <!--var box_1 = [];								//创建一个空的数组-->
+            <!--var box_2 = ['for','web','学神'];			//创建包含元素的数组-->
+            <!--alert(box_1);-->
+            <!--alert(box_2);-->
+        <!--</script>-->
+
+    <!--4、使用索引下标来取值-->
+    <!--<script>-->
+        <!--var box = ['for','web','学神'];-->
+        <!--alert(box[1])-->
+    <!--</script>-->
+
+    <!--5、使用索引下标来修改值-->
+    <!--<script>-->
+        <!--var box = ['for','web','学神'];-->
+        <!--box[0]='zhang';-->
+        <!--box[1]='Python';-->
+        <!--box[2]='huhehaote';-->
+        <!--alert(box)-->
+    <!--</script>-->
+
+    <!--6、不存在的下标索引，会添加这个值-->
+    <!--<script>-->
+        <!--var box = ['for','web','学神'];-->
+        <!--box[3]='huhehaote';-->
+        <!--alert(box)-->
+    <!--</script>-->
+
+<!--二、操作数组中的数据-->
+
+    <!--1、length获取数组的长度-->
+    <!--<script>-->
+        <!--var data=[1,2,3,4,5,6,7,8,9];-->
+        <!--alert(data.length)-->
+    <!--&lt;!&ndash;</script>&ndash;&gt;-->
+
+    <!--2、[]用下标获取数组中的值-->
+    <!--<script>-->
+        <!--var data=['zhang','fei','long'];-->
+        <!--alert(data[2])-->
+    <!--</script>-->
+
+    <!--3、join()将数组成员合并成一个字符串，也就是格式化-->
+    <!--<script>-->
+        <!--var data=[1,2,3,4,5,6,7,8,9];-->
+        <!--alert(data.join('**'))-->
+    <!--</script>-->
+
+    <!--4、push()在数组的末尾为添加值-->
+    <!--<script>-->
+        <!--var data=[1,2,3,4,5,6,7,8,9];-->
+        <!--data.push(10);-->
+        <!--alert(data)-->
+    <!--</script>-->
+
+    <!--5、从数组的末尾删除值-->
+    <!--<script>-->
+        <!--var data=[1,2,3,4,5,6,7,8,9];-->
+        <!--alert(data.pop());-->
+        <!--alert(data)-->
+    <!--</script>-->
+
+    <!--6、unshift()在数组的开头添加值-->
+    <!--<script>-->
+        <!--var data=[1,2,3,4,5,6,7,8,9];-->
+        <!--data.unshift(10);-->
+        <!--alert(data)-->
+    <!--</script>-->
+
+    <!--7、shift()从数组的开头删除值-->
+    <!--<script>-->
+        <!--var data=[1,2,3,4,5,6,7,8,9];-->
+        <!--alert(data.shift());-->
+        <!--alert(data)-->
+    <!--</script>-->
+
+    <!--8、reverse()将数组反转-->
+    <!--<script>-->
+        <!--var data=[1,2,3,4,5,6,7,8,9];-->
+        <!--data.reverse();-->
+        <!--alert(data)-->
+    <!--</script>-->
+
+    <!--9、indexOf()返回数组中元素第一次出现的索引值-->
+    <!--<script>-->
+        <!--var data=['zhang','fei','long','zhang','fei','long'];-->
+        <!--alert(data.indexOf('fei'))-->
+    <!--</script>-->
+
+    <!--10、splice(start,delete,parameter)-->
+    <!--<script>-->
+        <!--var data=[1,2,3];-->
+        <!--data.splice(2,0,1,5,2,3,0,8);-->
+        <!--alert(data)-->
+    <!--</script>-->
+
+    多维数组
+    <script>
+        var data=[[1,2,3],[a,b,c]];
+        alert(data[0][2]);      //取出的是3
+        alert(data[1][1]);      //取出的是b
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        h1{color: red ; font-size: 50px}
+        p{color: #ff0000;}
+        p{color: #f00}
+
+        p { color: rgb(255,0,0); }
+        p { color: rgb(100%,0%,0%); }
+
+        /*如果值为多个单词就要加引号*/
+        p{font-family: "sans-serif";}
+
+        /*如果属性较多时，可以采用一行只写一个属性的方式，便于读*/
+        p {
+            text-align: center;
+            color: black;
+            font-family: arial;
+        }
+        /*空格和大小写：大多数样式表包含不止一条规则，而大多数规则包含不止一个声明。多重声明和空格的使用使得样式表更容易被编辑*/
+        body {
+              color: #000;
+              background: #fff;
+              margin: 0;
+              padding: 0;
+              font-family: Georgia, Palatino, serif;
+              }
+    </style>
+</head>
+<body>
+<!--CSS 规则由两个主要的部分构成：选择器，以及一条或多条声明。-->
+<!--  selector选择器,declaration声明
+selector {declaration1; declaration2; ... declarationN }
+选择器通常是您需要改变样式的 HTML 元素。
+每条声明由一个属性和一个值组成。
+-->
+<!--
+属性（property）是您希望设置的样式属性（style attribute）。每个属性有一个值。属性和值被冒号分开。
+selector {property: value}
+-->
+
+<!--给标题设置大小及颜色-->
+<h1>我是h1标签,标题一</h1>
+
+<!--值的不同写法和单位-->
+<p>除了英文单词red,还可以使用16进制的颜色值#ff0000</p>
+<p>为了节约字节，还可以使用css的缩写形式#f00</p>
+<p>还可以使用RGB值的写法</p>
+</body>
+</html>

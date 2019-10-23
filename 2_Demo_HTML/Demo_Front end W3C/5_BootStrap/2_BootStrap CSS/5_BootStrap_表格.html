@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BootStrap表格</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="//apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+    <script src="//apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--BootStrap创建表格布局-->
+    <!--
+    标签	                                描述
+    <table>	                            为表格添加基础样式。
+    <thead>	                            表格标题行的容器元素（<tr>），用来标识表格列。
+    <tbody>	                            表格主体中的表格行的容器元素（<tr>）。
+    <tr>	                            一组出现在单行上的表格单元格的容器元素（<td> 或 <th>）。
+    <td>	                            默认的表格单元格。
+    <th>	                            特殊的表格单元格，用来标识列或行（取决于范围和位置）。必须在 <thead> 内使用。
+    <caption>	                        关于表格存储内容的描述或总结
+    -->
+
+    <!--表格的表样式-->
+    <!--
+    类	                        描述
+    .table	                    为任意 <table> 添加基本样式 (只有横向分隔线)
+    .table-striped	            在 <tbody> 内添加斑马线形式的条纹 ( IE8 不支持)
+    .table-bordered	            为所有表格的单元格添加边框	尝试一下
+    .table-hover	                在 <tbody> 内的任一行启用鼠标悬停状态
+    .table-condensed	            让表格更加紧凑
+    .table-responsive：响应式表格（当你的浏览器可视区域小于768px时，表格底部会出现水平滚动条。
+                       当你的浏览器可视区域大于768px时，表格底部水平滚动条就会消失）
+    -->
+    <!--<h4>table 为任意 table添加基本样式 (只有横向分隔线)</h4>-->
+    <!--<table class="table">-->
+        <!--<tr>-->
+            <!--<td>#</td>-->
+            <!--<td>first name</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td>1</td>-->
+            <!--<td>zhang</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td>2</td>-->
+            <!--<td>fei</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td>3</td>-->
+            <!--<td>long</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td>4</td>-->
+            <!--<td>hhhhhhhhhhhhhhhhhhh</td>-->
+        <!--</tr>-->
+    <!--</table>-->
+
+    <!--<h4>table-striped为table添加斑马线条纹</h4>-->
+    <!--<table class="table-striped">-->
+        <!--<tr>-->
+            <!--<td>#</td>-->
+            <!--<td>first name</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td>1</td>-->
+            <!--<td>zhang</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td>2</td>-->
+            <!--<td>fei</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td>3</td>-->
+            <!--<td>long</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td>4</td>-->
+            <!--<td>hhhhhhhhhhhhhhhhhhh</td>-->
+        <!--</tr>-->
+    <!--</table>-->
+
+    <!--<tr>, <th> 和 <td> 类-->
+    <!--
+    类	                描述	实例
+    active	            将悬停的颜色应用在行或者单元格上
+    success	            表示成功的操作
+    info	            表示信息变化的操作
+    warning	            表示一个警告的操作
+    danger	            表示一个危险的操作
+    -->
+     <h2>表格</h2>
+      <p> active 类将悬停的颜色应用在行或者单元格上:</p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Firstname</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="active">
+            <td>1</td>
+            <td>Anna</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Debbie</td>
+          </tr>
+          <tr class="active">
+            <td>3</td>
+            <td>John</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+</body>
+</html>

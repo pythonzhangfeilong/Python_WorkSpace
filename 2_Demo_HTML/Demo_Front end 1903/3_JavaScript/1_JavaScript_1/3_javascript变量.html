@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javascript变量</title>
+</head>
+<body>
+    <!--JavaScript 是一种弱类型语言，javascript的变量类型由它的值来决定。 定义变量需要用关键字 'var'-->
+    <!--<script type="text/javascript">-->
+        <!--//javascript中定义变量是用var来声明的-->
+        <!--var a=123;-->
+        <!--var b="abc";-->
+
+        <!--//如果在一行声明定义多个变量的时候，可以用,来分隔-->
+        <!--var c="woshi" , d="hah"  , e="ooo"-->
+
+        <!--alert(a,b,c,d,e)-->
+    <!--</script>-->
+
+    <!--变量类型：5种数据类型：number、string、boolean、undefined、null-->
+    <!--1、javascript字符串-->
+    <!--
+    字符串是存储字符，字符串可以使括号中的任意文本，
+    -->
+
+    <!--2、javascript Number类型-->
+    <!--
+    javascript只有一种数字类型，数字可以带小数点，也可以不带小数点
+    var x1=3.1415926;  //可以写小数点
+    var x2=3;  //也可以不写小数点
+
+    NaN，即非数值(Not a Number)是一个特殊的值，这个数值用于表示一个本来要返回数值的操作数未返回数值的情况。
+    var box = 0 / 0;				//NaN
+    -->
+
+    <!--3、javascript布尔类型-->
+    <!--
+    布尔（逻辑）只能有两个值：true 或 false。
+    var x=true;
+    var y=false;
+    -->
+
+    <!--4、javascript数组-->
+    <!--
+    下面的实例是创建crs数组
+    var crs=new Array();
+    -->
+
+    <!--5、javascript对象-->
+    <!--
+    对象由{}来分割。在括号的内部，对象的属性以名称和值对的形式(name:value)来定义，属性由逗号来分隔
+    var person={firstname="haha",lastname="hehe",id=123456}
+    -->
+
+    <!--6、Undefinde类型-->
+    <!--Undefinde类型只有一个值，也就是特殊的undefined，在使用var声明变量，但没有对其赋值时，这个变量的值就是undefined。-->
+    <!--<script type="text/javascript">-->
+        <!--var func;-->
+        <!--alert(func)-->
+    <!--</script>-->
+
+    <!--7、null类型-->
+    <!--
+    Null类型是一个只有一个值的数据类型，即特殊的值null。它表示一个空对象引用(指针)，而typeof操作符检测null会返回object。
+    JavaScript描述了一组具有特定用途的关键字，一般用于控制语句的开始或结束，或者用于执行特定的操作等。关键字也是语言保留的，不能用作标识符
+    -->
+
+    <!--
+    变量是用于存储数据的"容器"。定义变量时要使用var操作符（var是关键），后面跟一个变量名（变量名是标识符）。
+    变量、函数、属性、函数参数命名规范：
+    1.	区分大小写
+    2.	第一个字符必须是字母、下划线（_）或者美元符号（$）
+    3.	其他字符可以是字母、下划线、美元符或数字
+    4.	变量名称对大小写敏感（y 和 Y 是不同的变量）
+    -->
+
+    <!--下面的这个实例是证明javascript是弱语言类型变量，python是强语言类型，因为强语言类型是数字不可以与字符相加的-->
+    <!--<script type="text/javascript">-->
+        <!--var a=123;-->
+        <!--var b="str";-->
+        <!--var c=a+b;-->
+        <!--alert(c)-->
+    <!--</script>-->
+
+
+
+
+
+
+
+
+
+</body>
+</html>

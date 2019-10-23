@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>排版样式</title>
+    <script src="bootstrap.min.css"></script>
+</head>
+<body>
+    <!--标题：-->
+    <!--
+    bootstrap和普通的html页面一样，定义标题都是使用<h1>-<h6>,只不过bootstrap覆盖了其默认的样式，使用其在浏览器下显示的效果不一样
+    -->
+
+    <!--
+    Bootstrap标题样式进行了以下显著的优化重置：
+        1、重新设置了margin-top和margin-bottom的值，  h1~h3重置后的值都是20px；h4~h6重置后的值都是10px。
+        2、所有标题的行高都是1.1（也就是font-size的1.1倍）,而且文本颜色和字体都继承父元素的颜色和字体。
+        3、固定不同级别标题字体大小，h1=36px，h2=30px，h3=24px，h4=18px，h5=14px和h6=12px。
+        标题的具体运用非常简单，和我们平时运用是一样的，使用<h1>~<h6>标签，分别表示标题一至标题六，h 后面的数字越大，表示级别越小，
+        文本也越小。来看一个简单的效果：右侧代码编辑器中的10-16行的代码。
+        在Bootstrap中为了让非标题元素和标题使用相同的样式，还特意定义了.h1~.h6六个类名。
+
+        3、全局样式
+        （1）移除body的margin声明
+        （2）设置body的背景色为白色
+        （3）为排版设置了基本的字体、字号和行高
+        （4）设置全局链接颜色，且当链接处于悬浮“:hover”状态时才会显示下划线样式
+         之前要引入bootstrap.min.css样式表
+     -->
+    <!--<small>内的文本字体在h1~h3内，其大小都设置为当前字号的65%；而在h4~h6内的字号都设置为当前字号的75%；-->
+    <!--
+    <h1>Bootstrap标题一<small>我是副标题</small></h1>
+    <h2>Bootstrap标题二<small>我是副标题</small></h2>
+    <h3>Bootstrap标题三<small>我是副标题</small></h3>
+    <h4>Bootstrap标题四<small>我是副标题</small></h4>
+    <h5>Bootstrap标题五<small>我是副标题</small></h5>
+    <h6>Bootstrap标题六<small>我是副标题</small></h6>
+    -->
+
+    <!--段落-->
+    <!--
+    1、全局文本字号为14px(font-size)。
+    2、行高为1.42857143（line-height），大约是20px(大家看到一串的小数或许会有疑惑，其实他是通过LESS编译器计算出来的，
+    当然Sass也有这样的功能)。
+    3、颜色为深灰色（#333）；
+    4、字体为"Helvetica Neue", Helvetica, Arial, sans-serif;（font-family），或许这样的字体对我们中文并不太合适，
+    但在实际项目中，大家可以根据自己的需求进行重置，在此我们不做过多阐述，我们回到这里。该设置都定义在<body>元素上，
+    由于这几个属性都是继承属性，所以Web页面中文本（包括段落p元素）如无重置都会具有这些样式效果。
+    -->
+    <!--<p>超酷的互联网、IT技术免费学习平台，创新的网络一站式学习、实践体验；服务及时贴心，内容专业、有趣易学。专注服务互联网工程师快速成为技术高手！</p>-->
+
+    <!--强调内容-->
+    <!--
+　　在实际项目中，对于一些重要的文本，希望突出强调的部分都会做另外的样式处理。Bootstrap同样对这部分做了一些轻量级的处理。
+　　如果想让一个段落p突出显示，可以通过添加类名“lead”实现，其作用就是增大文本字号，加粗文本，而且对行高和margin也做相应的处理。
+    -->
+
+    <!--粗体-->
+    <!--
+    　粗体就是给文本加粗，在普通的元素中我们一般通过font-weight设置为bold关键词给文本加粗。
+      在Bootstrap中，可以使用<b>和<strong>标签让文本直接加粗。
+    -->
+
+    <!--斜体-->
+    <!--
+    在排版中，除了用加粗来强调突出的文本之外，还可以使用斜体。斜体类似于加粗一样，
+    除了可以给元素设置样式font-style值为italic实现之外，在Bootstrap中还可以通过使用标签<em>或<i>来实现。
+    -->
+
+    <!--强调相关的类-->
+    <!--
+    在Bootstrap中除了使用标签<strong>、<em>等说明正文某些字词、句子的重要性，Bootstrap还定义了一套类名，
+    这里称其为强调类名（类似前面说的“.lead”）,这些强调类都是通过颜色来表示强调，具本说明如下：
+    .text-muted：提示，使用浅灰色（#999）
+    .text-primary：主要，使用蓝色（#428bca）
+    .text-success：成功，使用浅绿色(#3c763d)
+    .text-info：通知信息，使用浅蓝色（#31708f）
+    .text-warning：警告，使用黄色（#8a6d3b）
+    .text-danger：危险，使用褐色（#a94442）
+    -->
+
+    <!--
+    7、文本对齐风格
+    　　在排版中离不开文本的对齐方式。在CSS中常常使用text-align来实现文本的对齐风格的设置。其中主要有四种风格：
+      ?  左对齐，取值left
+      ?  居中对齐，取值center
+      ?  右对齐，取值right
+      ?  两端对齐，取值justify
+    　　为了简化操作，方便使用，Bootstrap通过定义四个类名来控制文本的对齐风格：
+      ?   .text-left：左对齐
+      ?   .text-center：居中对齐
+      ?   .text-right：右对齐
+      ?   .text-justify：两端对齐
+    <p class="text-left">我居左</p>
+    <p class="text-center">我居中</p>
+    <p class="text-right">我居右</p>
+    8.大小写
+    //设置英文文本大小写
+    <p class="text-lowercase">Bootstrap 框架</p> //小写
+    <p class="text-uppercase">Bootstrap 框架</p> //大写
+    <p class="text-capitalize">Bootstrap 框架</p>//首字母大写
+    9. 缩略语
+    //缩略语
+    Bootstrap<abbr title="Bootstrap" class="initialism">框架</abbr>
+    10. 地址文本
+    //设置地址，去掉了倾斜，设置了行高，底部 20px
+    <address>
+    <strong>Twitter, Inc.</strong><br>
+    795 Folsom Ave, Suite 600<br>
+    San Francisco, CA 94107<br>
+    <abbr title="Phone">P:</abbr> (123) 456-7890
+    </address>
+    11. 引用文本
+    //默认样式引用，增加了做边线，设定了字体大小和内外边距
+    <blockquote>
+    Bootstrap 框架
+    </blockquote>
+    //反向
+    <blockquote class="blockquote-reverse ">
+    Bootstrap 框架
+    </blockquote>
+    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery选择器</title>
+    <style>
+        tr{border: #FF0000 solid 1px;color: #00FF00}
+        td{border: #FF0000 solid 1px;color: #00FF00}
+        .first{width: 20px;text-align: center;color: #00FF00}
+        .two{width: 20px;text-align: center;color: #00FF00}
+        .thren{width: 20px;text-align: center;color: #00FF00}
+        .from{width: 40px;text-align: center;color: #00FF00}
+    </style>
+</head>
+<body>
+    <!--使用Jquery选择器，必须使用"$()"函数来包含CSS规则，而CSS规则作为参数传递到jquery对象的内部，再返回页面中对应元素的jquery对象-->
+
+    <!--在jquery中直接获取id和元素的操作
+        $('#box').css('color','red')   //获取DOM对象，并且添加行为
+    -->
+
+    <!--除了id选择器还有其他俩种选择器，分别是类选择器和元素名选择器-->
+    <table style="border: 1px solid red " cellspacing="0" width="800px">
+        <tr id="box">
+            <td class="first">选择器</td>
+            <td class="two">CSS模式</td>
+            <td class="thren">jquery模式</td>
+            <td class="from">描述</td>
+        </tr>
+
+        <tr>
+            <td class="first">元素名</td>
+            <td class="two">div{}</td>
+            <td class="thren">$('#box')</td>
+            <td class="from">.获取所有div元素的DOM对象</td>
+        </tr>
+
+        <tr>
+            <td class="first">id</td>
+            <td class="two">#box{}</td>
+            <td class="thren">$('#box')</td>
+            <td class="from">获取id为box元素的dom对象</td>
+        </tr>
+
+        <tr>
+            <td class="first">类</td>
+            <td class="two">.box</td>
+            <td class="thren">$('.box')</td>
+            <td class="from">获取所有class为box的所有DOM对象</td>
+        </tr>
+    </table>
+
+    <!--
+    $('div').css('color', 'red'); //元素选择器，返回多个元素
+    $('#box').css('color', 'red'); //ID 选择器，返回单个元素
+    $('.box').css('color', 'red'); //类(class)选择器，返回多个元素
+    -->
+
+    <!--jQuery 核心自带的属性 length 或 size()方法来查看返回的元素个数-->
+    <script>
+        alert($('tr').length());        //元素选择器，返回多个元素
+        alert($('.first').length());    //ID 选择器，返回单个元素
+        alert($('#box').length())       //类(class)选择器，返回多个元素
+    </script>
+
+    <span style="color: #FF704D;font-size: 40px">注意：id选择器在HTML中只能出现一次，会导致它后面的选择器失效</span>
+
+    <!--jquery与css写法的区分：
+    css找到元素后添加的是单一的样式
+    css找到元素后添加的是动作
+
+    jQuery 选择器在获取节点对象的时候不但简单，还内置了容错功能，这样避免像 JavaScript那样每次对节点的获取需要进行有效判断
+    -->
+
+    <!--
+    $('#pox').css('color', 'red'); //不存在 ID 为 pox 的元素，也不报错
+    document.getElementById('pox').style.color = 'red'; //报错了
+    因为 jQuery 内部进行了判断，而原生的 DOM 节点获取方法并没有进行判断，所以导
+    致了一个错误
+    -->
+
+    <!--在jquery中对元素是否存在进行判断-->
+    <div id="pox">你好</div>
+    <script>
+        if(document.getElementById('pox')){
+            document.getElementById('pox').style.color="red"
+        }
+    </script>
+
+    <!--对于缺失不存在的元素进行判断-->
+    <div id="dox">兄弟</div>
+    <script>
+        if($('#dox').length>0){         //判断元素包含的数量
+            $('#dox').css('color','red')
+        }
+    </script>
+
+    <!--转换为DOM对象进行判断-->
+    <script>
+        if($('#box').get(0)){
+
+        }
+        //或
+        if($('#lox')[0]){
+
+        }
+    </script>
+
+    <!--加载-->
+    <!--
+    在延迟等待加载，JavaScript提供了一个事件为load，方法如下：
+        window.onload = function () {}; //JavaScript等待加载
+        $(document).ready(function () {}); //jQuery等待加载
+    -->
+
+    <!--实际的开发过程中使用的最多的是$(document).ready(function(){})-->
+
+    <!--load和ready的区别-->
+    <table style="border: #00FF00 1px solid" cellspacing="0px">
+        <tr>
+            <td class="aaa">load和ready的区别</td>
+            <td class="bbb">windown.load</td>
+            <td class="ccc">$(document).ready()</td>
+        </tr>
+
+        <tr>
+            <td class="aaa">执行时机</td>
+            <td class="bbb">必须等待网页全部加载完毕（包括图片等），然后再执行包裹代码</td>
+            <td class="ccc">只需要等待网页中的DOM结构 加载完毕，就能执行包裹的代码</td>
+        </tr>
+
+        <tr>
+            <td class="aaa">执行次数</td>
+            <td class="bbb">只能执行一次，如果第二次，那么第一次的执行会被覆盖</td>
+            <td class="ccc">可以执行多次，第N次都不会被上一次覆盖</td>
+        </tr>
+
+        <tr>
+            <td class="aaa">简写方案</td>
+            <td class="bbb">无</td>
+            <td class="ccc">$(function () {});</td>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

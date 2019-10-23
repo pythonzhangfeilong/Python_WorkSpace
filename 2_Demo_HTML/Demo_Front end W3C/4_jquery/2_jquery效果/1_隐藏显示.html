@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>隐藏显示</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <!--带动画的隐藏
+    <script>
+        $(document).ready(function () {             //预加载
+            $('button').click(function () {       //获取元素，绑定事件
+                $(this).parents(".ex").hide("slow");
+            })
+        })
+    </script>
+    <style type="text/css">
+            div.ex
+            {background-color: #B2FF99;         /*设置背景色*/
+             padding: 20px;                     /*设置内边距*/
+             border: 1px solid #FF0000;         /*设置边框*/
+            }
+    </style>
+    -->
+</head>
+<body>
+    <!--<script>-->
+        <!--$(document).ready(function () {             //预加载-->
+            <!--$('p').click(function () {              //获取标签，设置事件-->
+                <!--$(this).hide()                      //执行函数-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<p>如果点击,就会消失</p>-->
+    <!--<p>点击就会消失</p>-->
+    <!--<p>全部会消失</p>-->
+
+    <!--带动画的隐藏-->
+    <!--<h3>中国</h3>-->
+    <!--<div class="ex">-->
+    <!--<button class="hide" type="button">点击隐藏</button>-->
+    <!--<p>-->
+        <!--联系人：张飞龙<br/>-->
+        <!--地址：呼和浩特<br/>-->
+    <!--</p>-->
+    <!--</div>-->
+    <!--<h3>美国</h3>-->
+    <!--<div class="ex">-->
+    <!--<button class="hide" type="button">点击隐藏</button>-->
+    <!--<p>-->
+        <!--联系人：鬼子<br/>-->
+        <!--地址：完犊子<br/>-->
+    <!--</p>-->
+    <!--</div>-->
+
+    <!--show()方法是显示，与hide()方法相反-->
+    <!--<script>-->
+        <!--//显示-->
+        <!--$(document).ready(function () {         //预加载-->
+            <!--$('#xianshi').click(function () {   //通过id选择器，选择操作的按钮，和对应的点击事件-->
+                <!--$('p').show()                   //执行的函数-->
+            <!--});-->
+        <!--});-->
+        <!--//隐藏-->
+        <!--$(document).ready(function () {-->
+            <!--$('#yincang').click(function () {-->
+                <!--$('p').hide()-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<p>如果点击按钮，就会做对应的事</p>-->
+    <!--<button type="button" id="xianshi">显示</button>-->
+    <!--<button type="button" id="yincang">隐藏</button>-->
+
+    <!--语法：-->
+    <!--
+    $(selector).hide(speed,callback);
+    $(selector).show(speed,callback);
+    可选的 speed 参数规定隐藏/显示的速度，可以取以下值："slow"、"fast" 或毫秒。
+    可选的 callback 参数是隐藏或显示完成后所执行的函数名称。
+    -->
+    <!--<script>-->
+        <!--//显示-->
+        <!--$(document).ready(function () {         //预加载-->
+            <!--$('#xianshi').click(function () {   //通过id选择器，选择操作的按钮，和对应的点击事件-->
+                <!--$('p').show(1000)                   //执行的函数，1000就是1s-->
+            <!--});-->
+        <!--});-->
+        <!--//隐藏-->
+        <!--$(document).ready(function () {-->
+            <!--$('#yincang').click(function () {-->
+                <!--$('p').hide(1000)-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+    <!--<p>如果点击按钮，就会做对应的事</p>-->
+    <!--<p>点击一下试试</p>-->
+    <!--<button type="button" id="xianshi">显示</button>-->
+    <!--<button type="button" id="yincang">隐藏</button>-->
+
+    <!-- toggle() 切换显示和隐藏-->
+    <script>
+        $(document).ready(function () {         //预加载
+            $('button').click(function () {     //获取标签绑定事件
+                 $('p').toggle(2000)            //执行函数也就是操作的对象1000毫秒=1秒
+            })
+        })
+    </script>
+    <p>p标签</p>
+    <p>看显示和隐藏切换</p>
+    <button type="button" >切换</button>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

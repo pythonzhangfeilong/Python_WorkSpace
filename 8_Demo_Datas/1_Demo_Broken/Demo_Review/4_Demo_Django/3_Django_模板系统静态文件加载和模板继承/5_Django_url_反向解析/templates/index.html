@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+{#href后面的是url反向解析的固定写法，app是来自urls.py总路由中设置的namespace，test是来自App中的url.py文件中设置的name#}
+    <a href="{% url 'app:test' %}">点击</a>
+</body>
+</html>

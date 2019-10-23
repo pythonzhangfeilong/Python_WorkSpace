@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>href</title>
+</head>
+<body>
+{# 在HTML中通过a标签中的href引用，可以直接跳转的其他网站#}
+{#    <a href="/AppProject_url/func_app/">点击就会执行根目录下views.py文件中的func_href函数</a>#}
+<br>
+{#url反向解析#}
+    <a href="{% url 'AppProject_url:url_fanxiangjiexi' %}">点击就会执行根目录下views.py文件中的func_AppProject_views</a>
+
+
+</body>
+</html>

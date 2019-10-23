@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javascript对象</title>
+</head>
+<body>
+    <!--JavaScript 中的所有事物都是对象：字符串、数值、数组、函数...此外，JavaScript 允许自定义对象。-->
+    <script type="text/javascript">
+        // 1.使用new运算符创建Object
+        // var person=new Object();        //new方式
+        // person.name="zhang";            //创建属性字段
+        // person.age=20;                  //创建属性字段
+        // alert(person.name);
+        // alert(person.age)
+
+        //2.new关键字可以省略
+        // var person=Object();
+        // person.name="zhang";            //创建属性字段
+        // person.age=20;                  //创建属性字段
+        // alert(person.name);
+        // alert(person.age)
+
+        // 3.使用字面量方式创建Object
+        // person={                           //字面量方式
+        //     name:"zhang",                  //创建属性字段，如果后面还有其他的属性字段，就要加,
+        //     age:20                         //创建属性字段，后面没有其他的属性字段是不需要加,
+        // };
+        // alert(person.name);
+        // alert(person.age)
+
+        // 4.使用字面量及传统复制方式
+        // var people ={};
+        // people.name='for';    							//字面量声明为空对象
+        // people.age=18;		  						//点符号给属性复制
+
+        //5.两种属性输出方式
+        //alert(people.age);								//点表示法输出
+        // person={name:"zhang",age:"20"};
+        // alert(person.age);
+        //alert(people ['age']);							//中括号表示法输出，注意引号
+        // alert(person['name']);
+        //直接写到页面上的方式
+        // document.write(person.age)
+
+        //6.给对象创建方法
+        // var person={
+        //     run:function () {
+        //         document.write("我是你爸爸");
+        //     }
+        // };
+        //调用对象中的方法
+        // person.run();
+
+        //7.使用delete删除对象属性
+        //在实际开发过程中，一般我们更加喜欢字面量的声明方式。因为它清晰，语法代码少，而且还给人一种封装的感觉。
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

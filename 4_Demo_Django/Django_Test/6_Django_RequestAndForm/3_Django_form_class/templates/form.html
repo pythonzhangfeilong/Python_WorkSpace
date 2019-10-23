@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+{#.as_就是谁要用什么标签修饰#}
+    {#as_p的意思就是obj用p标签来修饰#}
+    {{ obj.as_p }}
+
+    {#as_ul的意思就是obj用ul标签来修饰#}
+    {{ obj.as_ul }}
+
+{#给传递的参数添加样式#}
+<p>
+    <label style="color: red">{{ obj.username.label }}</label>
+    {#添加过的内容用列表的形式展示#}
+    {{ obj.username }}
+</p>
+
+<p>
+    <label style="color: red">{{ obj.password.label }}</label>
+    {#添加过的内容用列表的形式展示#}
+    {{ obj.password }}
+</p>
+
+<p>
+    <label style="color: red">{{ obj.email.label }}</label>
+    {#添加过的内容用列表的形式展示#}
+    {{ obj.email }}
+</p>
+
+<p>
+    <label style="color: red">{{ obj.phone.label }}</label>
+    {#添加过的内容用列表的形式展示#}
+    {{ obj.phone }}
+</p>
+
+{#使用for循环实现上面的效果#}
+{% for i in obj %}
+    <label style="color: red">{{ i.label }}</label>
+    {#添加过的内容用列表的形式展示#}
+    {{ i }}
+{% endfor %}
+</body>
+</html>

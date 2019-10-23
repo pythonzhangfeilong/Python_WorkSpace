@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动</title>
+        <style>
+            /*左右浮动div*/
+            /*.box1{float:left;width: 100px;height: 100px;background: #FF00FF}*/
+            /*.box2{float:left;width: 100px;height: 100px;background: #00FF00}*/
+
+            /*左上角1/4个浮动在另一个div上*/
+            /*.box1{float:left;width: 100px;height: 100px;background: #FF00FF}*/
+            /*.box2{width: 200px;height: 200px;background: #00FF00}*/
+
+            /*图片左浮动，文字在右侧*/
+            /*img{float: left}*/
+
+            /*清除浮动*/
+            /*1. 父级div定义伪类：after和zoom*/
+            .clearfix:after{display: table;clear: both;content:""}
+            .clearfix{zoom:1}
+            img{float: left}
+
+            /*2.父级div定义height*/
+            .box1{height: 700px}
+            img{float: left}
+
+            /*3.父级div定义overflow:hidden*/
+            .box1{overflow:hidden }
+            img{float: left}
+        </style>
+</head>
+<body>
+    <!--
+    一、浮动的特性
+    1、浮动元素有左浮动(float:left)和右浮动(float:right)两种
+    2、浮动的元素会向左或向右浮动，碰到父元素边界、浮动元素、未浮动的元素才停下来
+    3、相邻浮动的块元素可以并在一行，超出父级宽度就换行
+    4、浮动让行内元素或块元素自动转化为行内块元素
+    5、浮动元素后面没有浮动的元素会占据浮动元素的位置，没有浮动的元素内的文字会避开浮动的元素，形成文字饶图的效果
+    6、父元素内整体浮动的元素无法撑开父元素，需要清除浮动
+    7、浮动元素之间没有垂直margin的合并
+    -->
+    <!--<div class="box1"></div>-->
+    <!--<div class="box2"></div>-->
+    <!--在默认情况下，两个div标签是上下进行排列的。现在如果给float属性的第一个<div>标签出现了浮动，这个标签就会在另外一个层面上进行排列。
+    而第二个<div>不给浮动，它还会在自己的层面上遵从文档标准流进行排列。-->
+
+    <!--<div><img src="电脑壁纸.jpg" width="500px" height="500px"></div>-->
+    <!--<p>-->
+        <!--一、浮动的特性-->
+        <!--1、浮动元素有左浮动(float:left)和右浮动(float:right)两种-->
+        <!--2、浮动的元素会向左或向右浮动，碰到父元素边界、浮动元素、未浮动的元素才停下来-->
+        <!--3、相邻浮动的块元素可以并在一行，超出父级宽度就换行-->
+        <!--4、浮动让行内元素或块元素自动转化为行内块元素-->
+        <!--5、浮动元素后面没有浮动的元素会占据浮动元素的位置，没有浮动的元素内的文字会避开浮动的元素，形成文字饶图的效果-->
+        <!--6、父元素内整体浮动的元素无法撑开父元素，需要清除浮动-->
+        <!--7、浮动元素之间没有垂直margin的合并-->
+    <!--</p>-->
+
+    <!--二、清除浮动
+    1. 父级div定义伪类：after和zoom-->
+    <div class="box1 clearfix">
+        <img src="电脑壁纸.jpg" height="500px" width="500px" alt="电脑壁纸展示不全">
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

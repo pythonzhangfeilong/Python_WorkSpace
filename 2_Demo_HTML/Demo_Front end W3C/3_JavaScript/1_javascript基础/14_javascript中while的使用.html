@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javascript中while的使用</title>
+</head>
+<body>
+    <!--While 循环会在指定条件为true时循环执行代码块
+    语法
+    while (条件)
+      {
+      需要执行的代码
+      }
+    -->
+    <!--<p id="demo">空的p标签</p>-->
+    <!--<button type="button" onclick="func()">点击</button>-->
+    <!--<script>-->
+        <!--function func() {-->
+            <!--var x='',i=0;-->
+        <!--while (i<5){-->
+            <!--x=x+'小伙子'+i+'<br/>';-->
+            <!--i++;-->
+            <!--}-->
+        <!--document.getElementById('demo').innerHTML=x;-->
+        <!--}-->
+
+    <!--</script>-->
+
+    <!--do...while..循环-->
+    <!--
+    do/while 循环是 while 循环的变体。
+    该循环会执行一次代码块，在检查条件是否为真之前，然后如果条件为真的话，就会重复这个循环。
+    -->
+
+    <!--语法-->
+    <!--
+    do
+      {
+      需要执行的代码
+      }
+    while (条件);
+    -->
+    <!--<p>点一下，只要i小于5就会执行代码块</p>-->
+    <!--<p id="demo">kong</p>-->
+    <!--<button type="button" onclick="func()">点击一下</button>-->
+    <!--<script>-->
+        <!--function func() {-->
+        <!--var x='',i=0;-->
+        <!--do{-->
+            <!--x=x+'小伙子'+i+'<br/>';-->
+            <!--i++;-->
+        <!--}while (i<5);-->
+            <!--document.getElementById('demo').innerHTML=x;-->
+        <!--}-->
+
+    <!--</script>-->
+
+    <!--利用while循环一直获取数组中的值-->
+    <p>利用while循环一直获取数组中的值</p>
+    <p id="demo"></p>
+    <button type="button" onclick="func()">点击一下</button>
+    <script>
+        var cars=[1,2,3,4,5,6],i=0;
+        function func(){
+            while(cars[i]){
+                document.write(cars[i]+'<br/>');
+                i++
+            }
+        }
+    </script>
+
+
+
+
+</body>
+</html>
