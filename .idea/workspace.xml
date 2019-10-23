@@ -43,7 +43,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -204,6 +204,7 @@
       <workItem from="1571801598098" duration="277000" />
       <workItem from="1571802779557" duration="137000" />
       <workItem from="1571802925343" duration="928000" />
+      <workItem from="1571813269063" duration="914000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1570520907244</created>
