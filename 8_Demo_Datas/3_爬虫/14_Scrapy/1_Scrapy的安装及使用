@@ -1,0 +1,68 @@
+一、Scrapy组成：
+    1、引擎
+    2、下载器       从引擎获取请求后，从网络请求数据
+    3、spiders     手写的爬虫文件
+    4、调度器       框架有自己的调度机制
+    5、管道 items pipeline
+
+二、Scrapy创建项目
+    1、在终端中输入scrapy startproject 项目名称
+    2、cd 到项目名称中
+    3、scrapy genspider 创建一个爬虫名字 爬取项目的地址
+    4、打开爬虫项目的文件夹中会有创建爬虫名字的py文件，并且里面的name也是创建的爬虫名字
+    5、打开爬虫项目的文件夹中会有创建爬虫名字的py文件，allowed_domains是允许爬取的域名，需要爬取新的域名直接在后面添加
+    6、启动scrapy项目的时候，在scrapy的项目最外层文件夹中创建一个run.py的文件，写入下面的内容，启动scrapy项目直接运行run.py文件即可
+        from scrapy import cmdline
+        cmdline.execute('scrapy crawl baidu'.split())
+    7、在parse函数中的response参数中有下面的这些方法：
+        # 获取页面源码
+        # print(response.text)
+        # 直接进行xpath匹配   因为匹配到的内容是在一个selector对象的data中包含的，所以用extract()获取data中的数据
+        # print(response.xpath('//*[@id="lg"]'))
+        # 查看response中的方法
+        # print(dir(response))
+    8、extract()和extract_first()的区别
+        extract()提取data中的数据是列表
+        extract_first()提取data中的数据是正常的
+
+三、创建好Scrapy项目之后
+    1、打开settings文件，修改ROBOTSTXT_OBEY = False
+    2、打开settings文件，修改USER_AGENT = 'first (+http://www.yourdomain.com)'为USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36'
+
+四、管道的使用
+    1、items.py是处理字段的，也就是说没xpath匹配一个内容就是一个字段，然后在items中根据上面的例子编写
+    2、把爬虫文件中获取的字段逐一放置在items.py文件中，按照name = scrapy.Field()格式
+    3、在爬虫文件中导入items.py中字段的那个类，并且把这个类实例为一个名为item的对象
+    4、等号左边的字段就是items中添加的字段，等号右边为匹配出的内容，按照后面的格式编写item['items中添加的字段']=等号右边为匹配出的内容
+    5、逐一返回数据，yield item
+    6、在settings.py中找到下面的内容，解除注释
+        ITEM_PIPELINES = {'third_pipeliens.pipelines.ThirdPipeliensPipeline': 300,}
+    7、在pipelines.py文件中的类中，写入下面指定的方法，分别是打开文件、写入数据、关闭文件
+            def open_spider(self,spider):
+                self.f=open('kuai.json','a',encoding='utf-8')
+
+            def process_item(self, item, spider):
+                self.f.write(json.dumps(dict(item),ensure_ascii=False,indent=4)+',\n')
+                return item
+
+            def close_spider(self,spider):
+                self.f.close()
+
+五、通过管道写入mongodb数据库
+    1、首先在pipeliens.py中新建一个类MonPipeliensPipeline
+    2、在settings.py中添加ITEM_PIPELINES = {'third_pipeliens.pipelines.MonPipeliensPipeline': 301,}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
