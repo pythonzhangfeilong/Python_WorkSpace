@@ -1,0 +1,5 @@
+Scrapy中的post请求注意将get请求的内容注释，并且使用指定的def start_response(self):方法
+
+
+
+注意调用yield scrapy.FormRequest(url=post_url,callback=self.get_info,formdata=data)

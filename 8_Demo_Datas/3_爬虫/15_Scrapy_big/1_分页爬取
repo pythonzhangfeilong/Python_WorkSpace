@@ -1,0 +1,9 @@
+base_url='http://www.netbian.com/keai/index_%s.htm'
+
+for ye_data in range(2,6):
+    full_url=base_url%ye_data
+    print(full_url)
+    # scrapy请求，是一个回调函数
+    yield scrapy.Request(url=full_url,callback=self.parse)
+
+分页爬取的时候注意是一个回调函数，在最后的请求url的位置用yield返回，pipelines.py文件中的url不用变
