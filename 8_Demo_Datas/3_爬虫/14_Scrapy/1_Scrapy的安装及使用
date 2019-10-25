@@ -47,6 +47,7 @@
 
             def close_spider(self,spider):
                 self.f.close()
+    8、注意实例的时候记的后面加括号item=BianProjectItem()
 
 五、通过管道写入mongodb数据库
     1、首先在pipeliens.py中新建一个类MonPipeliensPipeline
