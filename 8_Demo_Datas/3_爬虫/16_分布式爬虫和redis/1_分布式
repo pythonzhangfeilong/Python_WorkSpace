@@ -1,0 +1,39 @@
+什么是分布式爬虫？
+    1、分布式爬虫就是将可以在多台电脑上运行，这样可以提高爬虫速度和效率
+    2、普通的爬虫是将起始任务定义在本机的爬虫文件中，分布式是将起始任务定义在远端服务器上，可以同时多台电脑去取任务，进行爬取
+
+分布式爬虫用法
+    首先在settings中进行一些相关的配置，以下是在settings中的一些配置
+        1、设置DUPEFILTER_CLASS,使用scrapy_redis的去重组件，不再使用scrapy自带的去重组件了
+        DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+        2、设置SCHEDULER，使用scrapy_redis的调度器组件，不再使用scrapy自带的调度器组件了
+        SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+        3、不清除redis的请求记录（队列）, 允许暂停和停止爬取，也就是断点爬取，上次运行到哪里结束下次还会接着运行
+        SCHEDULER_PERSIST = True
+        4、设置请求任务的队列模式
+            #SpiderPriorityQueue 是scrapy_redis框架默认的队列模式(有自己的优先级)
+            SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderPriorityQueue"
+
+            # SpiderQueue 是请求的队列模式(FifoQueue),先进先出
+            #SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderQueue"
+
+            # SpiderStack 是请求的队列模式(LifoQueue),后进先出
+            #SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderStack"
+        5、在item_pipelines里边激活redispipeline，把下边的代码添加进去
+            ITEM_PIPELINES = {
+                'scrapy_redis.pipelines.RedisPipeline': 400,
+            }
+        6、设置redis的IP和端口号
+            REDIS_HOST = '服务器IP'
+            REDIS_PORT = 6380
+
+接下来修改爬虫文件：
+聚焦爬虫(继承自scrapy.spider)
+    1、导入安装包from scrapy_redis.spiders import RedisSpider
+    2、把爬虫继承的对象改成RedisSpider
+    3、把起始任务改为从数据库里取的redis_key = 数据库里的起始任务的键
+
+通用爬虫(继承自CrawlSpider)
+    1、导入安装包from scrapy_redis.spiders import RedisCrawlSpider
+    2、把爬虫继承的对象改成RedisCrawlSpider
+    3、把起始任务改为从数据库里取的redis_key = 数据库里的起始任务的键

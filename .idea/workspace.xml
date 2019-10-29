@@ -2,27 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取/bian_project/bian.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取/bian_project/bian_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取/bian_project/bian_project/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取/bian_project/bian_project/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取/bian_project/bian_project/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取/bian_project/bian_project/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取/bian_project/bian_project/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取/bian_project/bian_project/spiders/bian.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取/bian_project/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取/bian_project/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_分页爬取" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_POST请求" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_Scrapy_POST请求/baidu_fanyi/baidu_fanyi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_Scrapy_POST请求/baidu_fanyi/baidu_fanyi/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_Scrapy_POST请求/baidu_fanyi/baidu_fanyi/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_Scrapy_POST请求/baidu_fanyi/baidu_fanyi/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_Scrapy_POST请求/baidu_fanyi/baidu_fanyi/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_Scrapy_POST请求/baidu_fanyi/baidu_fanyi/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_Scrapy_POST请求/baidu_fanyi/baidu_fanyi/spiders/fanyi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_Scrapy_POST请求/baidu_fanyi/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_Scrapy_POST请求/baidu_fanyi/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/1_分布式" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/App1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/App1/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/App1/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/App1/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/App1/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/App1/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/App1/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/App1/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/Fastproxy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/Fastproxy/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/Fastproxy/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/Fastproxy/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider/kuai_Spider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider/kuai_Spider/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider/kuai_Spider/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider/kuai_Spider/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider/kuai_Spider/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider/kuai_Spider/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider/kuai_Spider/spiders/kuaidaili.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider/kuaidaili.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/tempaltes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_workspace.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +56,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -65,24 +84,25 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy" />
+      <recent name="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/2_Scrapy_download/bian_project" />
+      <recent name="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_Scrapy_project_one/second" />
+      <recent name="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_Scrapy_project_one/second/second" />
+      <recent name="D:\Python_workspace\8_Demo_Datas\3_爬虫\5_批量下载_匹配" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取" />
       <recent name="D:\Python_workspace\8_Demo_Datas\3_爬虫\11_验证码识别" />
       <recent name="D:\Python_workspace\8_Demo_Datas\3_爬虫\9_requests" />
       <recent name="D:\Python_workspace\8_Demo_Datas\3_爬虫\8_爬取手机上的内容" />
       <recent name="D:\Python_workspace\8_Demo_Datas\3_爬虫\6_bs4" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/2_Scrapy_download/bian_project" />
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_Scrapy_project_one/second" />
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_Scrapy_project_one/second/second" />
-      <recent name="D:\Python_workspace\8_Demo_Datas\3_爬虫\5_批量下载_匹配" />
-      <recent name="D:\Python_workspace\8_Demo_Datas\3_爬虫" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.run (1)">
     <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,34 +126,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_Scrapy_project_one/second" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_Scrapy_project_one/second/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_Scrapy_project_one/third_pipeliens" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_Scrapy_project_one/third_pipeliens/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,6 +184,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="run (5)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/kuai_Spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/kuai_Spider/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python.run (5)" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.run (4)" />
         <item itemvalue="Python.run (3)" />
-        <item itemvalue="Python.run (2)" />
-        <item itemvalue="Python.run (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +281,8 @@
       <workItem from="1571832868874" duration="1335000" />
       <workItem from="1571880183071" duration="13445000" />
       <workItem from="1571965468695" duration="32000" />
-      <workItem from="1571966612579" duration="10833000" />
+      <workItem from="1571966612579" duration="10875000" />
+      <workItem from="1572311021522" duration="10571000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1570520907244</created>
@@ -382,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571972282555</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="提交">
+      <created>1571992477178</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1571992477178</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +442,7 @@
     <SUITE FILE_PATH="coverage/Python_workspace$baidu__translate.coverage" NAME="baidu_ translate Coverage Results" MODIFIED="1570777772707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_bs4_.coverage" NAME="1_bs4_爬取安居客房源信息 Coverage Results" MODIFIED="1570520572573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/6_bs4" />
     <SUITE FILE_PATH="coverage/Python_workspace$3_.coverage" NAME="3_爬取快手小视频 Coverage Results" MODIFIED="1570761415696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/8_爬取手机上的内容" />
-    <SUITE FILE_PATH="coverage/Python_WorkSpace$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1571899409464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_Scrapy_project_one/second" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1572335321556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider" />
     <SUITE FILE_PATH="coverage/PythonWorkSpace_master$1_test.coverage" NAME="1_test Coverage Results" MODIFIED="1571803178458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_文件" />
     <SUITE FILE_PATH="coverage/Python_workspace$3_selenium_QQ.coverage" NAME="3_selenium_登陆QQ空间 Coverage Results" MODIFIED="1570600887176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/7_selenium" />
     <SUITE FILE_PATH="coverage/Python_workspace$1___1_.coverage" NAME="1_爬取西瓜视频 (1) Coverage Results" MODIFIED="1571716571134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
@@ -444,5 +472,6 @@
     <SUITE FILE_PATH="coverage/Python_workspace$1_pymongo.coverage" NAME="1_pymongo数据插入 Coverage Results" MODIFIED="1571207867029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/12_MongoDB的安装使用" />
     <SUITE FILE_PATH="coverage/Python_workspace$video.coverage" NAME="video Coverage Results" MODIFIED="1571725759899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_ip.coverage" NAME="2_快代理ip爬取 Coverage Results" MODIFIED="1571710836062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$run__5_.coverage" NAME="run (5) Coverage Results" MODIFIED="1572321627214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/kuai_Spider" />
   </component>
 </project>

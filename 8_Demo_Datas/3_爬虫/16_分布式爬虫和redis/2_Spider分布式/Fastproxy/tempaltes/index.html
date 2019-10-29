@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+    <table style="border: 1px red">
+        <tr>
+            <td>IP</td>
+            <td>PORT</td>
+            <td>Anonymity</td>
+            <td>type</td>
+            <td>position</td>
+            <td>response_time</td>
+            <td>Last_validation_time</td>
+        </tr>
+
+        {%for var in p%}
+
+        <tr>
+            <td>{{var.ip}}</td>
+            <td>{{var.prot}}</td>
+            <td>{{var.Anonymity}}</td>
+            <td>{{var.type}}</td>
+            <td>{{var.position}}</td>
+            <td>{{var.response_time}}</td>
+            <td>{{var.Last_validation_time}}</td>
+        </tr>
+
+        {%endfor%}
+    </table>
+</body>
+</html>
