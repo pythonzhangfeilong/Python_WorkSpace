@@ -12,7 +12,6 @@ class QutuSpider():
 
     """发起请求，获取请求的内容"""
     def read_data(self,url,headers):
-        print('请求的url是：',url)
         response=requests.get(url=url,headers=headers)
         res=response.text
         return res
@@ -55,7 +54,7 @@ class QutuSpider():
 
     """启动下载图片"""
     def run(self):
-         self.get_img_url()
+        self.get_img_url()
 
 if __name__ == '__main__':
 
@@ -63,9 +62,6 @@ if __name__ == '__main__':
     qutuspider=QutuSpider()
     # 类对象调用方法
     qutuspider.run()
-
-
-
 
 
 
