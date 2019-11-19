@@ -29,8 +29,8 @@ print('正在查询请稍后')
 
 time.sleep(3)
 
-for i in html_data:
-    print(i)
+print(html_data[0].split('：')[-1])
+
 
 
 
