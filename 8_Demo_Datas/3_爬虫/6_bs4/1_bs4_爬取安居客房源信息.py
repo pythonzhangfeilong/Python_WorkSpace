@@ -33,7 +33,9 @@ def func_parse(url,headers):
         item['title'] = title
         item['data'] = data
         item['address'] = address
+
         items.append(item)
+
     json.dump(items, open('anjuke.json', 'a', encoding='utf-8'), ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
