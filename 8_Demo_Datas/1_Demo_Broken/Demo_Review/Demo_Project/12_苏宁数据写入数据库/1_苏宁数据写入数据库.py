@@ -39,11 +39,11 @@ class Suning():
     """创建数据库表"""
     def create_table(self):
         # 连接数据库，参数分别为本地地址、用户名、密码、数据库、字符集(数据库中的字符集认的是utf8，不是utf-8)
-        db = pymysql.connect('127.0.0.1', 'root', '12345678', 'suning_shop_data', charset='utf8')
+        db = pymysql.connect('127.0.0.1', 'root', '12345678', '01_spider_data', charset='utf8')
         # 使用cursor方法，创建一个游标对象，相当于操作者
         cursor = db.cursor()
         # 使用数据库游标对象，点上execute()直接写数据库sql语句
-        cursor.execute("create table spider_suning(id int primary key auto_increment,shop_img varchar(100) ,shop_url varchar(100),shop_jianjie varchar(200),shop_peizhi varchar (100),shop_shops_name varchar (100))")
+        cursor.execute("create table 02_spider_suning(id int primary key auto_increment,商品图片地址 varchar(100) ,商品详情地址 varchar(100),商品简介 varchar(200),商品配置 varchar (100),商品店铺名字 varchar (100))")
         # 关闭游标
         cursor.close()
         # 关闭数据库
@@ -53,12 +53,12 @@ class Suning():
     """把数据写入数据库"""
     def write_data(self,items):
         # 连接数据库，参数分别为本地地址、用户名、密码、数据库、字符集(数据库中的字符集认的是utf8，不是utf-8)
-        db = pymysql.connect('127.0.0.1', 'root', '12345678', 'suning_shop_data', charset='utf8')
+        db = pymysql.connect('127.0.0.1', 'root', '12345678', '01_spider_data', charset='utf8')
         # 使用cursor方法，创建一个游标对象，相当于操作者
         cursor = db.cursor()
         for item in items:
             # 使用数据库游标对象，点上execute()直接写数据库sql语句
-            sql="insert into spider_suning(shop_img,shop_url,shop_jianjie,shop_peizhi,shop_shops_name) values (%s,%s,%s,%s,%s);"
+            sql="insert into 02_spider_suning(商品图片地址,商品详情地址,商品简介,商品配置,商品店铺名字) values (%s,%s,%s,%s,%s);"
             cursor.execute(sql,[item['shop_img'], item['shop_url'], item['shop_jianjie'], item['shop_peizhi'], item['shop_shops_name']])
             # 提交给数据库
             db.commit()
@@ -72,6 +72,7 @@ class Suning():
     def run(self):
         res_data=self.get_html(url=url,headers=headers)
         items=self.get_data(res_data)
+        # self.create_table()
         self.write_data(items)
 
 if __name__ == '__main__':
