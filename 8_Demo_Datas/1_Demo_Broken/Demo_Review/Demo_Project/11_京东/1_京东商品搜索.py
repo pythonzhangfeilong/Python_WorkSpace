@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import pymysql
 import requests
 import json
 import ssl
@@ -43,11 +44,45 @@ class Jingdong():
     def write_json(self,items):
         json.dump(items,open('jingdong.json','a',encoding='utf-8'),ensure_ascii=False,indent=4)
 
+    """创建数据库表"""
+    def create_table(self):
+        # 连接数据库，参数分别为本地地址、用户名、密码、数据库、字符集(数据库中的字符集认的是utf8，不是utf-8)
+        db = pymysql.connect('127.0.0.1', 'root', '12345678', 'jingdong_data', charset='utf8')
+        # 使用cursor方法，创建一个游标对象，相当于操作者
+        cursor = db.cursor()
+        # 使用数据库游标对象，点上execute()直接写数据库sql语句
+        cursor.execute("create table spider_jingdong(id int primary key auto_increment,商品图片地址 varchar(100) ,商品价格 varchar(100),商品地址 varchar(200),商品配置 varchar (100),商品优惠 varchar (100),商品其他数据 varchar (100))")
+        # 关闭游标
+        cursor.close()
+        # 关闭数据库
+        db.close()
+        print('数据库表创建成功')
+
+    """把数据写入数据库"""
+
+    def write_data(self, items):
+        # 连接数据库，参数分别为本地地址、用户名、密码、数据库、字符集(数据库中的字符集认的是utf8，不是utf-8)
+        db = pymysql.connect('127.0.0.1', 'root', '12345678', 'jingdong_data', charset='utf8')
+        # 使用cursor方法，创建一个游标对象，相当于操作者
+        cursor = db.cursor()
+        for item in items:
+            # 使用数据库游标对象，点上execute()直接写数据库sql语句
+            sql = "insert into spider_jingdong(商品图片地址,商品价格,商品地址,商品配置,商品优惠,商品其他数据) values (%s,%s,%s,%s,%s,%s);"
+            cursor.execute(sql, [item['商品图片地址'], item['商品价格'],item['商品地址'], item['商品配置'], item['商品优惠'],item['商品其他数据']])
+            # 提交给数据库
+            db.commit()
+        # 关闭游标
+        cursor.close()
+        # 关闭数据库
+        db.close()
+        print('本次数据写入成功')
+
     """启动方法"""
     def run(self):
         res_data=self.html_data(url,headers)
         items=self.get_data(res_data)
-        self.write_json(items)
+        # self.create_table()
+        self.write_data(items)
 
 if __name__ == '__main__':
     input_data=str(input('请输入搜索的商品名字：'))
