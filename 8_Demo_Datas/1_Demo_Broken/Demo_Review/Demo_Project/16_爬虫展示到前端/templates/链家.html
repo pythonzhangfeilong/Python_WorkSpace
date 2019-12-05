@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>look_data</title>
+</head>
+<body>
+    <table width=”200″ border="1px" cellspacing="0px" style="border-collapse:collapse">
+        <div>
+            <tr>
+                <td>房子标题</td>
+                <td>房子类型</td>
+                <td>销售信息</td>
+                <td>所属区</td>
+                <td>所属商圈</td>
+                <td>详细地址</td>
+                <td>房屋居室</td>
+                <td>平米范围</td>
+                <td>房屋卖点</td>
+                <td>房屋单价</td>
+                <td>房屋钱数</td>
+            </tr>
+
+            <br>
+            {%for i in range(10)%}
+                <tr >
+                    <td>{{items.house_title}}</td>
+                    <td>{{items.house_type}}</td>
+                    <td>{{items.house_xiaoshou}}</td>
+                    <td>{{items.house_addr_qu}}</td>
+                    <td>{{items.house_addr_shangquan}}</td>
+                    <td>{{items.house_addr_xiangxi}}</td>
+                    <td>{{items.house_fangshi_type}}</td>
+                    <td>{{items.house_pingmi}}</td>
+                    <td>{{items.house_maidian}}</td>
+                    <td>{{items.house_danjia}}</td>
+                    <td>{{items.house_money}}</td>
+                </tr>
+            {%endfor%}
+
+        </div>
+    </table>
+</body>
+</html>
