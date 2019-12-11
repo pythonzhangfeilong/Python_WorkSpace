@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7_HTML_插入视频</title>
+</head>
+<body>
+    <h1>video视频控件</h1>
+    <p>视频支持的格式mp4 ogg webM</p>
+    <p>autoplay：自动播放</p>
+    <p>controls：显示控件</p>
+    <p>width：设置宽度</p>
+    <p>height：设置高度</p>
+    <video src="https://video.pearvideo.com/mp4/adshort/20191210/cont-1630937-14681831_adpkg-ad_hd.mp4" autoplay controls width="500px" height="500px"></video>
+
+    <hr>
+    <h4>为了不出现兼容的问题，放三种格式的视频文件，但是以防出现问题，再加一句您的浏览器不支持视频文件播放</h4>
+    <video controls autoplay width="500px" height="500px">
+        <source src="https://video.pearvideo.com/mp4/adshort/20191210/cont-1630937-14681831_adpkg-ad_hd.mp4">
+        <source src="https://video.pearvideo.com/mp4/adshort/20191210/cont-1630937-14681831_adpkg-ad_hd.ogg">
+        <source src="https://video.pearvideo.com/mp4/adshort/20191210/cont-1630937-14681831_adpkg-ad_hd.webM">
+        您的浏览器不支持视频文件播放
+    </video>
+
+</body>
+</html>

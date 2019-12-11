@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4_HTML_练习</title>
+</head>
+<body>
+    <h1>学生档案</h1>
+    <form action="">
+        <fieldset>
+            <legend>学生档案</legend><br><br>
+            姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：<input type="text" placeholder="请输入姓名" required autofocus><br><br>
+            手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：<input type="tel" maxlength="11" placeholder="请输入11位手机号" required><br><br>
+            邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：<input type="email" placeholder="请输入邮箱" required><br><br>
+            学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科：<input type="text" list="xueke" placeholder="请选择你的学科" required><br><br>
+            <datalist id="xueke" required><br><br>
+                <option>Python</option>
+                <option>Java</option>
+                <option>Linux</option>
+                <option>PHP</option>
+            </datalist>
+            学习成绩：<input type="number" maxlength="3" placeholder="请输入学科成绩" required><br><br>
+            入学时间：<input type="date" required><br><br>
+            毕业时间：<input type="date" required><br><br>
+            <input type="submit"><br><br>
+        </fieldset><br><br>
+    </form>
+</body>
+</html>

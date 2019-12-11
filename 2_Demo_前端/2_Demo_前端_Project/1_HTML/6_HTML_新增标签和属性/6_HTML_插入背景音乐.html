@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6_HTML_插入背景音乐</title>
+</head>
+<body>
+    <h1>声音控件</h1>
+    <p>autoplay：自动播放</p>
+    <p>controls：显示声音控制按钮</p>
+    <p>loop：播放次数，-1是无限循环</p>
+    <p>最好使用mp3格式的音乐</p>
+    <audio src="../image/让我做你的眼睛.mp3" autoplay="autoplay" controls loop="2"></audio>
+
+    <hr>
+
+    <h4>为了不出现兼容的问题，放三种格式的音乐文件，但是以防出现问题，再加一句您的浏览器不支持声音文件播放</h4>
+    <audio autoplay controls>
+        <source src="../image/让我做你的眼睛.mp3">
+        <source src="../image/让我做你的眼睛.ogg">
+        <source src="../image/让我做你的眼睛.war">
+        您的浏览器不支持播放音频文件，请使用谷歌浏览器
+    </audio>
+</body>
+</html>

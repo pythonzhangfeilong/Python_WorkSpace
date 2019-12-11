@@ -53,11 +53,14 @@
         </tbody>
     </table>
     <h1>input新增的属性</h1>
-    用户名：<input type="text" placeholder="请输入用户名"> <br>
-    用户名：<input type="text" autofocus>   <br>
-    传文件：<input type="file" multiple>   <br>
-    用户名：<input type="text" autocomplete="off">   <br>
-    用户名：<input type="text" required>   <br>
-    用户名：<input type="text" accesskey>   <br>
+        <form action="">
+            用户名：<input type="text" placeholder="请输入用户名"> <br>
+            用户名：<input type="text" autofocus>   <br>
+            传文件：<input type="file" multiple>   <br>
+            用户名：<input type="text" autocomplete="on" name="username">   <br>    <!--提交后，记录已输入过的内容,必须要有name属性,也就是记忆功能-->
+            用户名：<input type="text" required>   <br>
+            用户名：<input type="text" accesskey="s">   <br>    <!--在输入框设置后，在页面上按alt+字母直接把光标定位到-->
+            <input type="submit">
+        </form>
 </body>
 </html>
