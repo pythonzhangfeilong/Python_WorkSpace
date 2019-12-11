@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/6_HTML_新增标签和属性/4_HTML_练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/6_HTML_新增标签和属性/5_HTML_多媒体标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/6_HTML_新增标签和属性/6_HTML_插入背景音乐.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/6_HTML_新增标签和属性/7_HTML_插入视频.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/让我做你的眼睛.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/6_HTML_新增标签和属性/3_HTML_input新增属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/6_HTML_新增标签和属性/3_HTML_input新增属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_HTML_常用标签/4_HTML_图像标签img.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_HTML_常用标签/4_HTML_图像标签img.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/3_HTML_列表/3_HTML_无序列表练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/3_HTML_列表/3_HTML_无序列表练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/5_HTML_表单和表格控件/1_HTML_表单控件.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/5_HTML_表单和表格控件/1_HTML_表单控件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/6_HTML_新增标签和属性/6_HTML_插入背景音乐.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/6_HTML_新增标签和属性/6_HTML_插入背景音乐.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/三国演义.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/三国演义.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/失败.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/失败.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/查看.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/查看.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/水浒传.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/水浒传.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/红楼梦.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/红楼梦.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/荷塘月色.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/荷塘月色.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/西游记.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/西游记.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/让我做你的眼睛.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/让我做你的眼睛.mp3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -542,7 +547,7 @@
       <workItem from="1575872894273" duration="424000" />
       <workItem from="1575940052885" duration="10686000" />
       <workItem from="1576026839919" duration="15043000" />
-      <workItem from="1576059951374" duration="3860000" />
+      <workItem from="1576059951374" duration="4106000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1570520907244</created>
@@ -768,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576053602530</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="提交">
+      <created>1576066520723</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1576066520723</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
