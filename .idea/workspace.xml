@@ -2,12 +2,241 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/15_淘宝数据抓取/1_淘宝数据抓取.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/16_爬虫展示到前端/1_链家展示到前端.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/16_爬虫展示到前端/2_spider_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/16_爬虫展示到前端/templates/链家.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/6_数据的csv文件存取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_HTML_常用标签/1_HTML_标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_HTML_常用标签/2_HTML_文本格式化标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_HTML_常用标签/3_HTML_标签属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_HTML_常用标签/4_HTML_图像标签img.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_HTML_常用标签/5_HTML_链接标签a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_HTML_常用标签/6_HTML_锚点定位(也就是超链接).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_HTML_常用标签/7_HTML_base标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_HTML_常用标签/8_HTML_特殊符号.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_HTML_常用标签/9_HTML_注释.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/2_HTML_路径/1_HTML_相对路径.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/3_HTML_列表/1_HTML_无序列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/3_HTML_列表/2_HTML_有序列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/3_HTML_列表/3_HTML_无序列表练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/3_HTML_列表/4_HTML_自定义列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/4_HTML_表格/1_HTML_创建表格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/4_HTML_表格/2_HTML_标签属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/4_HTML_表格/3_HTML_表头标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/4_HTML_表格/4_HTML_表格结构.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/4_HTML_表格/5_HTML_表格标题标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/4_HTML_表格/6_HTML_合并单元格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/5_HTML_表单和表格控件/1_HTML_表单控件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/5_HTML_表单和表格控件/2_HTML_label标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/5_HTML_表单和表格控件/3_HTML_文本域控件textarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/5_HTML_表单和表格控件/4_HTML_下拉菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/6_HTML_新增标签和属性/1_HTML_常用新标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/6_HTML_新增标签和属性/2_HTML_新增的input  type新增属性值.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/6_HTML_新增标签和属性/3_HTML_input新增属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/三国演义.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/失败.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/查看.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/水浒传.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/红楼梦.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/荷塘月色.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/image/西游记.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_爬虫得到的数据保存在execel中/.\ke.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_爬虫得到的数据保存在execel中/C:\Users\Administrator\Desktop\qiubaibook.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/7_多维数据的存取.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/1_HTML/1_HTML基础/1_HTML基本结构.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/1_HTML/1_HTML基础/1_HTML基本结构.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/1_HTML/1_HTML基础/2_HTML段落及换行与字符实体.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/1_HTML/1_HTML基础/2_HTML段落及换行与字符实体.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/1_HTML/1_HTML基础/3_HTML块及标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/1_HTML/1_HTML基础/3_HTML块及标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/1_HTML/2_HTML进阶/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/1_HTML/2_HTML进阶/01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/1_HTML/2_HTML进阶/02.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/1_HTML/2_HTML进阶/02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/1_HTML/2_HTML进阶/03.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/1_HTML/2_HTML进阶/03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/1_HTML/2_HTML进阶/1_HTML链接.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/1_HTML/2_HTML进阶/1_HTML链接.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/1_HTML/2_HTML进阶/2_HTML列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/1_HTML/2_HTML进阶/2_HTML列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/1_HTML/2_HTML进阶/3_HTML表格.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/1_HTML/2_HTML进阶/3_HTML表格.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/1_HTML/2_HTML进阶/4_HTML表单.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/1_HTML/2_HTML进阶/4_HTML表单.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/1_HTML/2_HTML进阶/知识集合.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/1_HTML/2_HTML进阶/知识集合.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/2_CSS/1_CSS基础/1_CSS概述.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/2_CSS/1_CSS基础/1_CSS概述.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/2_CSS/1_CSS基础/2_CSS基本语法及页面引用.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/2_CSS/1_CSS基础/2_CSS基本语法及页面引用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/2_CSS/1_CSS基础/3_CSS文本设置.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/2_CSS/1_CSS基础/3_CSS文本设置.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/2_CSS/1_CSS基础/4_CSS颜色表示法.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/2_CSS/1_CSS基础/4_CSS颜色表示法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/2_CSS/1_CSS基础/5_CSS选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/2_CSS/1_CSS基础/5_CSS选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/2_CSS/1_CSS基础/6_CSS盒子模型.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/2_CSS/1_CSS基础/6_CSS盒子模型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/2_CSS/2_CSS进阶/1_元素溢出.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/2_CSS/2_CSS进阶/1_元素溢出.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/2_CSS/2_CSS进阶/2_块元素、内联元素、内联块元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/2_CSS/2_CSS进阶/2_块元素、内联元素、内联块元素.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/2_CSS/2_CSS进阶/3_浮动.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/2_CSS/2_CSS进阶/3_浮动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/2_CSS/2_CSS进阶/4_定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/2_CSS/2_CSS进阶/4_定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/2_CSS/2_CSS进阶/5_background属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/2_CSS/2_CSS进阶/5_background属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/2_CSS/2_CSS进阶/电脑壁纸.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/2_CSS/2_CSS进阶/电脑壁纸.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/1_JavaScript.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/1_JavaScript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/2_JavaScript嵌入页面的方式.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/2_JavaScript嵌入页面的方式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/3_javascript变量.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/3_javascript变量.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/4_javascript运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/4_javascript运算符.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/5_字符处理方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/5_字符处理方法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/6_类型转换.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/6_类型转换.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/7_javascript数组.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/7_javascript数组.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/1_JavaScript_1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/2_JavaScript_2/1_javascript对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/2_JavaScript_2/1_javascript对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/2_JavaScript_2/2_javascript流程控制语句.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/2_JavaScript_2/2_javascript流程控制语句.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/2_JavaScript_2/3_javascript函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/2_JavaScript_2/3_javascript函数.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/2_JavaScript_2/4_变量作用域.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/2_JavaScript_2/4_变量作用域.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/2_JavaScript_2/5_javascript BOM 浏览器对象模型.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/2_JavaScript_2/5_javascript BOM 浏览器对象模型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/3_JavaScript/2_JavaScript_2/6_javascript DOM 文档对象模型.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/3_JavaScript/2_JavaScript_2/6_javascript DOM 文档对象模型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/4_Jquery/1_Jquery基础/1_Jquery概述.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/4_Jquery/1_Jquery基础/1_Jquery概述.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/4_Jquery/1_Jquery基础/2_Jquery选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/4_Jquery/1_Jquery基础/2_Jquery选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/4_Jquery/1_Jquery基础/3_Jquery设置元素及内容.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/4_Jquery/1_Jquery基础/3_Jquery设置元素及内容.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/4_Jquery/2_Jquery事件和动画/1_节点插入.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/4_Jquery/2_Jquery事件和动画/1_节点插入.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/4_Jquery/2_Jquery事件和动画/jquery内部节点插入方法.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/4_Jquery/2_Jquery事件和动画/jquery内部节点插入方法.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/1_BootStrap基础/1_bootstrap_概述.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/1_BootStrap基础/1_bootstrap_概述.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/1_BootStrap基础/2_bootstrao_特点.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/1_BootStrap基础/2_bootstrao_特点.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/1_BootStrap基础/3_bootstrap_结构.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/1_BootStrap基础/3_bootstrap_结构.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/1_BootStrap基础/4_让页面兼容老旧版本的浏览器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/1_BootStrap基础/4_让页面兼容老旧版本的浏览器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/1_BootStrap基础/5_排版样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/1_BootStrap基础/5_排版样式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/1_BootStrap基础/6_列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/1_BootStrap基础/6_列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/1_BootStrap_表格.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/1_BootStrap_表格.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/2_BootStrap_按钮.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/2_BootStrap_按钮.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/3_BootStrap_表单.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/3_BootStrap_表单.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/4_BootStrap_表单控件.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/4_BootStrap_表单控件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/5_BootStrap_表单控件状态.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/5_BootStrap_表单控件状态.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/6_BootStrap_表单控件_提示信息.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/6_BootStrap_表单控件_提示信息.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/7_BootStrap_图片.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/7_BootStrap_图片.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/BootStrap导入顺序.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/BootStrap导入顺序.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/狗.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/2_BootStrap_进阶/狗.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end 1903/5_BootStrap/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/1_HTML/1_HTML基础教程/1_HTML基础.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/1_HTML/1_HTML基础教程/1_HTML基础.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/1_HTML/1_HTML基础教程/2_HTML元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/1_HTML/1_HTML基础教程/2_HTML元素.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/1_HTML/1_HTML基础教程/3_HTML属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/1_HTML/1_HTML基础教程/3_HTML属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/1_HTML/1_HTML基础教程/4_HTML样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/1_HTML/1_HTML基础教程/4_HTML样式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/1_HTML/1_HTML基础教程/5_HTML引用.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/1_HTML/1_HTML基础教程/5_HTML引用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/1_HTML/1_HTML基础教程/个人照片 .jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/1_HTML/1_HTML基础教程/个人照片 .jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/1_HTML/1_HTML基础教程/跳转链接.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/1_HTML/1_HTML基础教程/跳转链接.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/1_CSS基础语法/1_CSS基础语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/1_CSS基础语法/1_CSS基础语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/1_CSS基础语法/2_CSS高级语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/1_CSS基础语法/2_CSS高级语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/1_CSS基础语法/3_派生选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/1_CSS基础语法/3_派生选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/1_CSS基础语法/4_id选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/1_CSS基础语法/4_id选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/1_CSS基础语法/5_类选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/1_CSS基础语法/5_类选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/1_CSS基础语法/6_属性选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/1_CSS基础语法/6_属性选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/1_CSS基础语法/7_如何创建CSS.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/1_CSS基础语法/7_如何创建CSS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/1_CSS基础语法/个人照片 .jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/1_CSS基础语法/个人照片 .jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/2_CSS样式/1_CSS背景.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/2_CSS样式/1_CSS背景.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/2_CSS样式/2_CSS文本.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/2_CSS样式/2_CSS文本.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/2_CSS样式/3_CSS字体.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/2_CSS样式/3_CSS字体.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/2_CSS样式/4_CSS链接.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/2_CSS样式/4_CSS链接.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/2_CSS样式/5_CSS列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/2_CSS样式/5_CSS列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/2_CSS样式/6_CSS表格.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/2_CSS样式/6_CSS表格.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/2_CSS样式/上升箭头背景.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/2_CSS样式/上升箭头背景.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/2_CSS样式/条状图片.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/2_CSS样式/条状图片.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/2_CSS样式/背景.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/2_CSS样式/背景.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/2_CSS样式/铃铛.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/2_CSS样式/铃铛.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/3_CSS盒子模型/1_CSS盒子模型概述.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/3_CSS盒子模型/1_CSS盒子模型概述.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/3_CSS盒子模型/2_CSS盒子模型内边距.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/3_CSS盒子模型/2_CSS盒子模型内边距.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/3_CSS盒子模型/3_CSS盒子模型边框.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/3_CSS盒子模型/3_CSS盒子模型边框.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/3_CSS盒子模型/4_CSS盒子模型外边距.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/3_CSS盒子模型/4_CSS盒子模型外边距.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/3_CSS盒子模型/CSS盒子模型图解.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/3_CSS盒子模型/CSS盒子模型图解.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/4_CSS定位/1_定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/4_CSS定位/1_定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/4_CSS定位/2_相对定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/4_CSS定位/2_相对定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/4_CSS定位/3_绝对定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/4_CSS定位/3_绝对定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/4_CSS定位/4_浮动.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/4_CSS定位/4_浮动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/5_选择器/1_元素选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/5_选择器/1_元素选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/5_选择器/2_选择器分组.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/5_选择器/2_选择器分组.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/5_选择器/3_类选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/5_选择器/3_类选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/5_选择器/4_id选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/5_选择器/4_id选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/5_选择器/5_属性选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/5_选择器/5_属性选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/5_选择器/6_子元素选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/5_选择器/6_子元素选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/2_CSS/6_CSS高阶/1_对齐.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/2_CSS/6_CSS高阶/1_对齐.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/10_javascript比较.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/10_javascript比较.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/11_javascript中if...else...的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/11_javascript中if...else...的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/12_javascript中switch的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/12_javascript中switch的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/13_javascript中for循环的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/13_javascript中for循环的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/14_javascript中while的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/14_javascript中while的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/15_break和continue.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/15_break和continue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/16_javascript异常捕获.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/16_javascript异常捕获.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/1_javascript介绍.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/1_javascript介绍.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/2_javascript实现.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/2_javascript实现.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/3_javascript输出.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/3_javascript输出.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/4_javascript语句.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/4_javascript语句.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/5_javascript变量.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/5_javascript变量.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/6_javascript数据类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/6_javascript数据类型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/7_javascript对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/7_javascript对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/8_javascript函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/8_javascript函数.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/9_javascript运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/9_javascript运算符.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/JavaScript实例.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/JavaScript实例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/Mytext.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/Mytext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/javascript比较运算符.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/javascript比较运算符.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/javascript算数运算符.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/javascript算数运算符.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/javascript赋值运算符.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/javascript赋值运算符.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/3_JavaScript/1_javascript基础/javascript逻辑运算符.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/3_JavaScript/1_javascript基础/javascript逻辑运算符.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/1_jquery基础/1_jquery简介.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/1_jquery基础/1_jquery简介.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/1_jquery基础/2_jquery的引入方式.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/1_jquery基础/2_jquery的引入方式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/1_jquery基础/3_jquery语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/1_jquery基础/3_jquery语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/1_jquery基础/4_jquery选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/1_jquery基础/4_jquery选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/1_jquery基础/5_jquery事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/1_jquery基础/5_jquery事件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/1_jquery基础/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/1_jquery基础/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/1_jquery基础/jquery事件.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/1_jquery基础/jquery事件.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/1_jquery基础/jquery更多的选择器.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/1_jquery基础/jquery更多的选择器.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/2_jquery效果/1_隐藏显示.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/2_jquery效果/1_隐藏显示.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/2_jquery效果/2_淡入淡出.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/2_jquery效果/2_淡入淡出.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/2_jquery效果/3_滑动.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/2_jquery效果/3_滑动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/2_jquery效果/4_动画.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/2_jquery效果/4_动画.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/2_jquery效果/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/2_jquery效果/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/3_jquery HTML/1_获取.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/3_jquery HTML/1_获取.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/3_jquery HTML/2_设置.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/3_jquery HTML/2_设置.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/3_jquery HTML/3_添加.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/3_jquery HTML/3_添加.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/3_jquery HTML/4_删除.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/3_jquery HTML/4_删除.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/3_jquery HTML/5_jquery操作css类.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/3_jquery HTML/5_jquery操作css类.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/3_jquery HTML/6_给元素设置多个css()属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/3_jquery HTML/6_给元素设置多个css()属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/3_jquery HTML/7_尺寸.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/3_jquery HTML/7_尺寸.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/4_jquery/3_jquery HTML/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/4_jquery/3_jquery HTML/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/1_bootstrap/1_bootstrap_安装使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/1_bootstrap/1_bootstrap_安装使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/10_BootStrap_响应式工具.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/10_BootStrap_响应式工具.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/1_BootStrap概述.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/1_BootStrap概述.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/2_BootStrap网格系统.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/2_BootStrap网格系统.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/3_BootStrap_排版.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/3_BootStrap_排版.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/4_BootStrap_代码.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/4_BootStrap_代码.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/5_BootStrap_表格.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/5_BootStrap_表格.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/6_BootStrap_表单.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/6_BootStrap_表单.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/7_BootStrap_按钮.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/7_BootStrap_按钮.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/8_BootStrap_图片.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/8_BootStrap_图片.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/9_BootStrap_辅助类.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/2_BootStrap CSS/9_BootStrap_辅助类.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/3_BootStrap_布局组件/1_BootStrap_字体图标.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/3_BootStrap_布局组件/1_BootStrap_字体图标.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/3_BootStrap_布局组件/2_BootStrap_下拉菜单.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/3_BootStrap_布局组件/2_BootStrap_下拉菜单.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/3_BootStrap_布局组件/3_Bootstrap_按钮组.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/3_BootStrap_布局组件/3_Bootstrap_按钮组.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/3_BootStrap_布局组件/4-Bootstrap_按钮下拉菜单.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/3_BootStrap_布局组件/4-Bootstrap_按钮下拉菜单.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/BootStrap导入顺序.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/BootStrap导入顺序.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_HTML/Demo_Front end W3C/5_BootStrap/狗.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/1_Demo_P/Demo_Front end W3C/5_BootStrap/狗.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/6_数据的csv文件存取.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/6_数据的csv文件存取.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +277,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -76,23 +305,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_苏宁数据写入数据库" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/4_HTML_表格" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/16_爬虫展示到前端/templates" />
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/12_京东" />
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取梨视频" />
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy" />
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/2_Scrapy_download/bian_project" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/4_HTML_表格" />
       <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_苏宁数据写入数据库" />
       <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库/images" />
       <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取梨视频" />
       <recent name="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取" />
-      <recent name="D:\Python_workspace\8_Demo_Datas\3_爬虫\11_验证码识别" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML" />
+      <recent name="$PROJECT_DIR$/2_Demo_前端/1_Demo_P" />
+      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/16_爬虫展示到前端/templates" />
+      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/12_京东" />
+      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取梨视频" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,27 +336,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2_spider_test">
-    <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/16_爬虫展示到前端" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/16_爬虫展示到前端/123.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+  <component name="RunManager" selected="JavaScript Debug.1_HTML_表单控件.html">
+    <configuration name="1_HTML_标签.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python_WorkSpace/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_HTML_标签.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="1_HTML_表单控件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python_WorkSpace/2_Demo_前端/2_Demo_前端_Project/1_HTML/5_HTML_表单和表格控件/1_HTML_表单控件.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="2_JavaScript_嵌入页面的方式.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python_WorkSpace/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_Data_前端/3_JavaScript/2_JavaScript_嵌入页面的方式.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="1_链家展示到前端" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -144,138 +360,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/16_爬虫展示到前端/1_链家展示到前端.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_淘宝数据抓取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/15_淘宝数据抓取" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/15_淘宝数据抓取/1_淘宝数据抓取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_抖音官网专辑音乐" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_爬取抖音官网专辑音乐" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_爬取抖音官网专辑音乐/1_抖音官网专辑音乐.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_好看视频" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_爬取好看视频" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_爬取好看视频/1_好看视频.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_趣图" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网/1_趣图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_房天下储存到数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库/1_房天下储存到数据库.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_身份证号检验" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验/1_身份证号检验.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -438,29 +522,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2_spider_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/16_爬虫展示到前端" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/16_爬虫展示到前端/2_spider_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2_淘宝数据获取test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1_淘宝数据抓取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -473,7 +535,139 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/15_淘宝数据抓取/2_淘宝数据获取test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/15_淘宝数据抓取/1_淘宝数据抓取.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_抖音官网专辑音乐" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_爬取抖音官网专辑音乐" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_爬取抖音官网专辑音乐/1_抖音官网专辑音乐.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_好看视频" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_爬取好看视频" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_爬取好看视频/1_好看视频.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_趣图" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网/1_趣图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_房天下储存到数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库/1_房天下储存到数据库.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_身份证号检验" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验/1_身份证号检验.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/1_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -484,11 +678,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.1_HTML_表单控件.html" />
+        <item itemvalue="Python.1_test" />
+        <item itemvalue="JavaScript Debug.1_HTML_标签.html" />
+        <item itemvalue="JavaScript Debug.2_JavaScript_嵌入页面的方式.html" />
         <item itemvalue="Python.1_链家展示到前端" />
-        <item itemvalue="Python.2_spider_test" />
-        <item itemvalue="Python.123" />
-        <item itemvalue="Python.2_淘宝数据获取test" />
-        <item itemvalue="Python.1_淘宝数据抓取" />
       </list>
     </recent_temporary>
   </component>
@@ -572,7 +766,11 @@
       <workItem from="1575335422761" duration="14848000" />
       <workItem from="1575422501994" duration="60000" />
       <workItem from="1575422566629" duration="1729000" />
-      <workItem from="1575508731832" duration="16436000" />
+      <workItem from="1575508731832" duration="16461000" />
+      <workItem from="1575854194722" duration="2866000" />
+      <workItem from="1575872894273" duration="424000" />
+      <workItem from="1575940052885" duration="10686000" />
+      <workItem from="1576026839919" duration="15009000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1570520907244</created>
@@ -784,7 +982,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575423444842</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="提交">
+      <created>1575536956948</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1575536956948</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -856,7 +1061,7 @@
     <SUITE FILE_PATH="coverage/Python_workspace$1_requests.coverage" NAME="1_requests Coverage Results" MODIFIED="1570775247745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_.coverage" NAME="2_后花园网经典语录 Coverage Results" MODIFIED="1571711883612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_pymongo.coverage" NAME="1_pymongo数据插入 Coverage Results" MODIFIED="1571207867029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/12_MongoDB的安装使用" />
-    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_test.coverage" NAME="1_test Coverage Results" MODIFIED="1574818882091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/5_Demo_Numpy/1_Numpy_基础" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_test.coverage" NAME="1_test Coverage Results" MODIFIED="1575963120725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$run__5_.coverage" NAME="run (5) Coverage Results" MODIFIED="1572321627214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/kuai_Spider" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_selenium.coverage" NAME="1_selenium Coverage Results" MODIFIED="1570591525287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/7_selenium" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$text__1_.coverage" NAME="text (1) Coverage Results" MODIFIED="1572939160624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取梨视频" />

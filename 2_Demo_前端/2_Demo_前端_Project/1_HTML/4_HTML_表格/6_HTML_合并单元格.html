@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6_HTML_合并单元格</title>
+</head>
+<body>
+    <p>跨行合并：rowspan 上下</p>
+    <p>跨列合并：colspan 左右</p>
+    <strong><p>合并的时候记的把被合并的单元格删除，把合并的单元格属性写在要合并的单元格中，合并几个单元格合并属性值就写几</p></strong>
+
+    <table border="1px" cellspacing="0px" cellpadding="20px" align="center" width="500px">
+        <tr>
+            <td>55</td>
+            <td>55</td>
+            <td>55</td>
+        </tr>
+
+        <tr>
+            <td>55</td>
+            <td>55</td>
+            <td>55</td>
+        </tr>
+
+        <tr>
+            <td>55</td>
+            <td>55</td>
+            <td rowspan="2">55</td>
+        </tr>
+
+        <tr>
+            <td>55</td>
+            <td>55</td>
+        </tr>
+
+        <tr>
+            <td>55</td>
+            <td>55</td>
+            <td>55</td>
+        </tr>
+
+        <tr>
+            <td>55</td>
+            <td colspan="2">55</td>
+        </tr>
+    </table>
+</body>
+</html>

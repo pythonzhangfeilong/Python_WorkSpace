@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1_HTML5_常用新标签</title>
+</head>
+    <h1>HTM5_常用新标签</h1>
+    <ul>
+        <li><a href="https://www.w3school.com.cn/">W3c在线查询</a></li>
+        <li>header：定义文档的头部</li>
+        <li>nav：定义导航链接的部分</li>
+        <li>footer：定义文档的底部</li>
+        <li>article：定义文章</li>
+        <li>section：定义文档中的节（section、区段）</li>
+        <li>aside：定义其所处内容之外的内容 侧边</li>
+        <li>datalist：标签定义选项列表，与input元素搭配使用</li>
+        <li>fieldset：元素可以将表单内的相关元素分组，打包，与legend配合使用</li>
+    </ul>
+
+    <h1>datalist标签的使用</h1>
+    <p>datalist具有模糊搜索的功能，首先使用input标签中的list属性与datalist标签中的id属性建立链接，然后在输入框输入一个关键字，就会查询查相关的内容</p>
+    搜索<input type="text" list="star">
+    <datalist id="star">
+        <option>小米</option>
+        <option>华为</option>
+        <option>小刘</option>
+        <option>华语</option>
+        <option>苹果</option>
+    </datalist>
+
+    <h1>fieldset标签的使用</h1>
+    <p>fieldset具有包含标签内容的作用</p>
+    <fieldset>
+        <legend>用户登录</legend>
+        用户名：<input type="text"> <br>
+        密&nbsp;&nbsp;&nbsp;码：<input type="password">
+    </fieldset>
+</body>
+</html>

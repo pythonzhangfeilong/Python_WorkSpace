@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3_HTML_input新增属性</title>
+</head>
+<body>
+    <table border="1px" cellspacing="0px" cellpadding="5px" align="=center">
+        <thead>
+            <tr>
+                <th>属性</th>
+                <th>用法</th>
+                <th>含义</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>placeholder</td>
+                <td>&lt;input type="text" placeholder="请输入用户名" &gt;</td>
+                <td>占位符提示输入框可输入的信息</td>
+            </tr>
+
+            <tr>
+                <td>autofocus</td>
+                <td>&lt;input type="text" autofocus &gt;</td>
+                <td>规定页面加载时，input自动获得焦点</td>
+            </tr>
+
+        <tr>
+                <td>multiple</td>
+                <td>&lt;input type="file" multiple &gt;</td>
+                <td>多文件上传</td>
+            </tr>
+
+            <tr>
+                <td>autocomplete</td>
+                <td>&lt;input type="text" autocomplete="off" &gt;</td>
+                <td>规定表单是否启用自动完成功能，有俩个值，一个是off，一个是on，off代表不记录输入的值，on代表记录输入的值</td>
+            </tr>
+
+            <tr>
+                <td>required</td>
+                <td>&lt;input type="text" required &gt;</td>
+                <td>必须输入</td>
+            </tr>
+
+            <tr>
+                <td>accesskey</td>
+                <td>&lt;input type="text" accesskey &gt;</td>
+                <td>规定激活（使元素获得焦点）元素的快捷键，采用alt+字母</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>input新增的属性</h1>
+    用户名：<input type="text" placeholder="请输入用户名"> <br>
+    用户名：<input type="text" autofocus>   <br>
+    传文件：<input type="file" multiple>   <br>
+    用户名：<input type="text" autocomplete="off">   <br>
+    用户名：<input type="text" required>   <br>
+    用户名：<input type="text" accesskey>   <br>
+</body>
+</html>

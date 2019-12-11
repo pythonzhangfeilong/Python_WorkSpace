@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery事件</title>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+    <!--
+    jQuery 事件函数
+    jQuery 事件处理方法是 jQuery 中的核心函数。
+    事件处理程序指的是当 HTML 中发生某些事件时所调用的方法。术语由事件“触发”（或“激发”）经常会被使用。
+    通常会把 jQuery 代码放到 <head>部分的事件处理方法
+    -->
+    <script>
+        $(document).ready(function () {             //预加载
+            $("button").click(function () {         //点击事件触发执行函数
+                $("p").css('color','red')           //该方法是给p元素换色
+            })
+        })
+    </script>
+    <h1>事件实例</h1>
+    <p>标题标签</p>
+    <button type="button">clikc me</button>
+
+    <!--jquery事件-->
+    <div>
+    <img src="jquery事件.png" alt="jquery事件">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

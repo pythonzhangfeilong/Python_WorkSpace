@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1_HTML_表单控件</title>
+</head>
+<body>
+    <h1>1、表单控件input（输入）</h1>
+    <p>通过type属性来控制表单类型</p>
+    <table border="1px" cellspacing="0px" cellpadding="5px" align="center">
+        <thead>
+            <tr>
+                <th>属性</th>
+                <th>属性值</th>
+                <th>描述</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="9">type</td>
+                <td>text</td>
+                <td>单行文本输入框</td>
+            </tr>
+
+            <tr>
+                <td>password</td>
+                <td>密码输入框</td>
+            </tr>
+
+            <tr>
+                <td>radio</td>
+                <td>单选按钮</td>
+            </tr>
+
+            <tr>
+                <td>checkbox</td>
+                <td>复选框</td>
+            </tr>
+
+            <tr>
+                <td>button</td>
+                <td>普通按钮</td>
+            </tr>
+
+            <tr>
+                <td>submit</td>
+                <td>提交按钮</td>
+            </tr>
+
+            <tr>
+                <td>reset</td>
+                <td>重置按钮</td>
+            </tr>
+
+            <tr>
+                <td>image</td>
+                <td>图片形式的提交按钮</td>
+            </tr>
+
+            <tr>
+                <td>file</td>
+                <td>文件域</td>
+            </tr>
+
+            <tr>
+                <td>name</td>
+                <td>用户自定义</td>
+                <td>控件的名称</td>
+            </tr>
+
+            <tr>
+                <td>input</td>
+                <td>用户自定意</td>
+                <td>input控件中的默认文本值</td>
+            </tr>
+
+            <tr>
+                <td>size</td>
+                <td>正整数</td>
+                <td>input控件在页面中的显示宽度</td>
+            </tr>
+
+            <tr>
+                <td>checked</td>
+                <td>checked</td>
+                <td>定义控件默认被选中的项</td>
+            </tr>
+
+            <tr>
+                <td>maxlength</td>
+                <td>正整数</td>
+                <td>控件允许输入的最多字符数</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>2、控件实例</h1>
+    <p>用户名：<input type="text" value="用户名"></p>
+    <p>密&nbsp;&nbsp;&nbsp;码：<input type="password" maxlength="6"></p>
+    <p>性&nbsp;&nbsp;&nbsp;别：<input type="radio" name="sex">男 <input type="radio" name="sex">女</p>    <!--单选按钮，那么相同的同一组控件，加上type定义的单选类型，那么就是实现了段暄按钮的功能-->
+    <p>爱&nbsp;&nbsp;&nbsp;好：<input type="checkbox" name="happy">足球 <input type="checkbox" name="happy">篮球 <input type="checkbox" name="happy">台球</p>
+    <p>搜&nbsp;&nbsp;&nbsp;索：<input type="button" value="搜索"></p> <!--普通按钮-->
+    <p>提&nbsp;&nbsp;&nbsp;交：<input type="submit" value="提交"></p> <!--提交按钮-->
+    <p>重&nbsp;&nbsp;&nbsp;置：<input type="reset" value="重置"></p> <!--重置按钮-->
+    <p>图片按钮：<input type="image" src="../image/失败.png"></p>  <!--图片按钮-->
+    <p>文件按钮：<input type="file"></p> <!--上传文件按钮-->
+
+
+</body>
+</html>

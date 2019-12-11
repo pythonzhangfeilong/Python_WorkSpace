@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BootStrap_表单控件状态</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery.js"></script>
+    <script src="bootstrap.min.js"></script>
+</head>
+<body>
+    <!--1、焦点状态-->
+    <!--
+    要让控件在焦点状态下有上面样式效果，需要给控件添加类名“form-control”
+    （鼠标单击输入框，使其获得焦点就可以看到加入蓝色边框效果）
+
+　　在Bootstrap框架中，file、radio和checkbox控件在焦点状态下的效果也与普通的输入框控件不太一样，
+    主要是因为Bootstrap对他们做了一些特殊处理
+    -->
+    <div class="col-xs-6">
+        <input class="form-control input-lg" type="text" placeholder="焦点点状态下效果">
+    </div>
+
+    <!--2、禁用状态-->
+    <!--
+    Bootstrap框架的表单控件的禁用状态和普通的表单禁用状态实现方法是一样的，在相应的表单控件上添加属性“disabled”。
+       和其他表单的禁用状态不同的是，Bootstrap框架做了一些样式风格的处理。
+　　使用方法为：只需要在需要禁用的表单控件上加上“disabled”即可。
+　　在使用了“form-control”的表单控件中，样式设置了禁用表单背景色为灰色，而且手型变成了不准输入的形状。
+       如果控件中不使用类名“form-control”，禁用的控件只会有一个不准输入的手型出来。
+    -->
+    <div class="col-xs-6">
+        <input class="form-control input-lg" id="disabledInput" type="text" placeholder="表单已被禁用，不可输入" disabled>
+    </div>
+
+    <!--3、验证状态-->
+    <!--
+    　在制作表单时，不免要做表单验证。同样也需要提供验证状态样式，在Bootstrap框架中同样提供这几种效果。
+        1、.has-warning:警告状态（黄色）
+        2、.has-error：错误状态（红色）
+        3、.has-success：成功状态（绿色）
+    使用的时候只需要在form-group容器上对应添加状态类名。
+
+    很多时候，在表单验证的时候，不同的状态会提供不同的 icon，比如成功是一个对号（√），错误是一个叉号（×）等。
+    在Bootstrap框中也提供了这样的效果。如果你想让表单在对应的状态下显示 icon 出来，只需要在对应的状态下添加类名
+    “has-feedback”。请注意，此类名要与“has-error”、“has-warning”和“has-success”在一起。
+    -->
+    <form role="form">
+        <div class="form-group has-success has-feedback">
+            <label class="control-label" for="inputSuccess1">成功状态</label>
+            <input type="text" class="form-control" id="inputSuccess1" placeholder="成功状态" >
+            <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+        </div>
+
+        <div class="form-group has-warning has-feedback">
+            <label class="control-label" for="inputWarning1">警告状态</label>
+            <input type="text" class="form-control" id="inputWarning1" placeholder="警告状态">
+            <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+        </div>
+
+        <div class="form-group has-error has-feedback">
+            <label class="control-label" for="inputError1">错误状态</label>
+            <input type="text" class="form-control" id="inputError1" placeholder="错误状态">
+            <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+</body>
+</html>
