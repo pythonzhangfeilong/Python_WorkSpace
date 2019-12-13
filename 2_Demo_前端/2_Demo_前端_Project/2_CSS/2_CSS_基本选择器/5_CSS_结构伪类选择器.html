@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5_CSS_结构伪类选择器</title>
+    <style>
+        li:first-child{     /*选第一个*/
+            color: #d81b60;
+        }
+        li:last-child{      /*选最后一个*/
+            color:#0aa858;
+        }
+        li:nth-child(5){    /*根据需要自己选择，n代表第几个*/
+            color: #0D47A1;
+        }
+        li:nth-child(3n){    /*根据需要自己选择，还可以写n的倍数*/
+            color: #d39e00;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS_结构伪类选择器</h3>
+    <ol>
+        <li>:first-child    选取属于父类元素的首个子元素的指定选择器</li>
+        <li>:last-child     选取属于父元素的最后一个子元素的自定选择器</li>
+        <li>:nth-child(n)   匹配属于父元素的第n个子元素，不论元素的类型，even偶数，odd奇数，n从0开始</li>
+        <li>:nth-last-child(n)  选择器匹配属于元素的第n个子元素的每个元素，不论元素的类型，从元素的最后一个子元素计数，n可以是数字、关键词或公式</li>
+    </ol>
+
+    <p>:nth-child(n)            正数</p>
+    <p>:nth-last-child(n)       倒数，与 :nth-child(n)正好相反</p>
+
+    <ul>
+        <li>第1个孩子</li>
+        <li>第2个孩子</li>
+        <li>第3个孩子</li>
+        <li>第4个孩子</li>
+        <li>第5个孩子</li>
+        <li>第6个孩子</li>
+        <li>第7个孩子</li>
+    </ul>
+</body>
+</html>

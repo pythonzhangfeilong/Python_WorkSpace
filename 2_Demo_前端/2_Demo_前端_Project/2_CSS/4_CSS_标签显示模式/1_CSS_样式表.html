@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1_CSS_样式表</title>
+</head>
+<body>
+    <h1>1、行内式样式表(内联样式)</h1>
+    <h4>内联样式表，也就是在标签内部直接写样式属性,适用于小部分样式修改调整</h4>
+    <p>行内样式实例:</p>
+    &lt;div style="属性值" &gt;行内样式&lt;/div&gt;
+
+    <h1>2、内部样式表</h1>
+    <h4>内部样式表，也就是最常规的写法，把样式写在head标签中</h4>
+    <p>注意：由于使用的html5，所以style标签可以写type="text/css"也可以不写，根据需要选择就行</p>
+    <p>内部样式表实例</p>
+    &lt;head&gt; <br>
+        &lt;style&gt;   <br>
+            选择器{属性1:属性值1 属性2:属性值2} <br>
+        &lt;/style&gt; <br>
+    &lt;/head&gt; <br>
+
+    <h1>外部样式表(外链式)</h1>
+    <p>嵌入式是将所有的样式放在一个或多个以CSS为拓展名的外部样式文件中，通过link标签将外部样式表文件链接到html文件中</p>
+    <p>基本语法如下:</p>
+    &lt;link href="css文件路径" type="text/css" rel="stylesheet" &gt;
+
+</body>
+</html>

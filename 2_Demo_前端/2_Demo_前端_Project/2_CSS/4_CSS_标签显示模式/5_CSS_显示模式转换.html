@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5_CSS_显示模式转换</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: #d81b60;
+            display: inline;    /*块元素转行内元素*/
+        }
+
+        span{
+            width: 100px;
+            height: 100px;
+            background-color: #d81b60;
+            display: block;    /*行内元素转块元素*/
+        }
+
+        a{
+            width: 100px;
+            height: 100px;
+            background-color: #d81b60;
+            display: inline-block;    /*块、行内元素转换为行内块*/
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS_显示模式转换</h1>
+    <ol>
+        <li>块元素转行内元素，display:inline</li>
+        <li>行内元素转块元素，display:block</li>
+        <li>块、行内元素转换为行内块，display:inline-block</li>
+    </ol>
+
+    <div>123</div>
+    <div>456</div>
+    <div>789</div>
+
+    <hr>
+
+    <span>123</span>
+    <span>456</span>
+    <span>789</span>
+
+    <hr>
+
+    <a href="#">123</a>
+    <a href="#">123</a>
+</body>
+</html>

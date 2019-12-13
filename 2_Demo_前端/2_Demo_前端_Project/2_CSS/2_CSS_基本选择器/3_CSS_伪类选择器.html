@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3_CSS_伪类选择器</title>
+    <style>
+        a:link{     /*未访问*/
+            font-size: 16px;
+            color: #0f0f0f;
+            font-weight: 700;
+        }
+        a:visited{  /*已访问*/
+            font-size: 16px;
+            color: #0aa858;
+            font-weight: 700;
+        }
+        a:hover{    /*鼠标移动悬停*/
+            font-size: 16px;
+            color: #286090;
+            font-weight: 700;
+        }
+        a:active{   /*鼠标点击*/
+            font-size: 16px;
+            color: #d81b60;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <h3>五、伪类选择器</h3>
+    <p>伪类选择器用于向某些选择器添加特殊的效果</p>
+    <p>为了和类选择器区别，类选择器使用的是".",伪类选择器使用的是":"</p>
+
+    <h3>六、链接伪类选择器</h3>
+    <p>伪类选择器的顺序不可变</p>
+    <p>伪类选择器中的链接选择器主要是针对a标签</p>
+    <p>:link  未访问的链接</p>
+    <p>:visited  已访问的链接</p>
+    <p>:hover  鼠标移动到链接上</p>
+    <p>:active  选定的链接</p>
+
+    <div>
+        <a href="#">秒杀</a>
+    </div>
+</body>
+</html>
