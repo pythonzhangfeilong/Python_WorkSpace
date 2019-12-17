@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4_CSS_子元素选择器</title>
+    <style>
+        .ul_one>li{
+            color: #d81b60;
+        }
+        .ul_two>li{
+            color: #0aa858;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS_子元素选择器</h1>
+    <p>子元素选择器只能作为某元素子元素的元素，其写法就是把父级标签写在前面，子集标签写在后面，中间用一个>链接，注意>的前后都要留一个空格</p>
+    <p>注意：子元素选择器指的是子元素，并不是往下到孙子那一级</p>
+    <p>选择器1 > 选择器2{属性1:属性值1; 属性2:属性值2;}</p>
+
+    <ul class="ul_one">
+        <li>子
+            <ul>
+                <li>123</li>
+                <li>456</li>
+            </ul>
+        </li>
+    </ul>
+
+    <ul>
+        <li>子
+            <ul class="ul_two">
+                <li>孙</li>
+                <li>123</li>
+                <li>456</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

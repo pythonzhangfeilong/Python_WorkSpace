@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4_CSS_背景图片缩放_CSS3新特性</title>
+    <style>
+        div{
+            width: 400px;
+            height: 400px;
+            background:#ffccbc url("../../image/魔兽世界.jpg") no-repeat center;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <table border="1px" cellspacing="0px" cellpadding="5px" align="center">
+        <thead>
+            <tr>
+                <th>属性名</th>
+                <th>语法</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>给图片直接设置宽高</td>
+                <td>background-size:400px 500px;</td>
+            </tr>
+
+            <tr>
+                <td>给定一个固定值，防止图片缩放失真</td>
+                <td>background-size:100px</td>
+            </tr>
+
+            <tr>
+                <td>设置图片百分比</td>
+                <td>background-size:50%</td>
+            </tr>
+
+            <tr>
+                <td>图片等比例缩放，缩放时宽度或者高度都会有一定的损失(推荐)</td>
+                <td>background-size:cover</td>
+            </tr>
+
+            <tr>
+                <td>图片等比例缩放，缩放时有一边达到最大值时，另一边停止缩放，好处是图片不会损失，但是不会盖住整个盒子</td>
+                <td>background-size:contain</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+
+    </div>
+</body>
+</html>

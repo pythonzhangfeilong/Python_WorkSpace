@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6_CSS_文字的凹凸效果_CSS3新特性</title>
+    <style>
+        body{background-color: #ccc}
+        div{
+            color:#ccc;
+            font: 700 100px "微软雅黑";
+        }
+
+        .div_one:first-child{
+            /*text-shadow: 水平位置 垂直位置 模糊距离 阴影颜色;*/
+            text-shadow: 1px 1px 1px #000,-1px -1px 1px #fff;
+        }
+        div:last-child{
+            /*text-shadow: 水平位置 垂直位置 模糊距离 阴影颜色;*/
+            text-shadow: -1px -1px 1px #000,1px 1px 1px #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS_文字的凹凸效果_CSS3新特性</h1>
+
+    <div class="div_one">文字凸起</div>
+    <div id="div_two">文字凹陷</div>
+
+
+
+
+</body>
+</html>

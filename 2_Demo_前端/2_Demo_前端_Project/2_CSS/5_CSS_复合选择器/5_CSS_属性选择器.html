@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5_CSS_属性选择器</title>
+    <style>
+        input[type]{
+            color:red;
+        }
+
+        input[type="text"]{
+            color:green;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS_属性选择器</h1>
+    <p>属性选择器：选取标签带有某些特殊属性的选择器</p>
+    <p>属性选择器用[]来表示</p>
+    <input type="text" value="文本输入框">
+    <input type="submit" value="提交按钮">
+    <input type="reset" value="重置按钮">
+    <input type="text" value="文本输入框">
+    <input type="text" value="文本输入框">
+
+
+
+
+
+    <table border="1px" cellspacing="0px" cellpadding="5px" align="center">
+        <thead>
+            <tr>
+                <th>属性选择器名称</th>
+                <th>属性选择器语法</th>
+                <th>解释</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>属性选择器</td>
+                <td>选择器[标签属性]{属性1:属性值1; 属性2:属性值2;}</td>
+                <td>标签存在的属性</td>
+            </tr>
+
+            <tr>
+                <td>属性=属性值选择器</td>
+                <td>选择器[标签属性=标签属性值]{属性1:属性值1; 属性2:属性值2;}</td>
+                <td>标签属性完全等于标签属性值</td>
+            </tr>
+
+            <tr>
+                <td>包含属性值val开头选择器</td>
+                <td>选择器[class^="val"]{属性1:属性值1; 属性2:属性值2;}</td>
+                <td>属性值里面包含val在开始的位置</td>
+            </tr>
+
+            <tr>
+                <td>包含属性值val结束选择器</td>
+                <td>选择器[class$="val"]{属性1:属性值1; 属性2:属性值2;}</td>
+                <td>属性值里面包含val在结束的位置</td>
+            </tr>
+
+            <tr>
+                <td>包含属性值val任意位置选择器</td>
+                <td>选择器[class*="val"]{属性1:属性值1; 属性2:属性值2;}</td>
+                <td>属性值里面包含val在任意的位置</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

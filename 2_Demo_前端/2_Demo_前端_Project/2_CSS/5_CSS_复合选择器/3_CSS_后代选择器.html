@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3_CSS_后代选择器</title>
+    <style>
+        .one_first ul li{
+            color:#d81b60;
+        }
+
+        div ul li{
+            color:#0aa858;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS_后代选择器</h1>
+    <p>后代选择器又成为包含选择器，用来选择元素或者元素的后代，其写法是把外层标签写在前面，内层标签写在后面，中间用空格分割，当标签嵌套时，内层标签就是外层标签的后代</p>
+    <p>后代选择器写法</p>
+    <p>选择器1 选择器2{属性1:属性值1 属性2:属性值2}</p>
+
+
+    <div class="one_first">
+        <ul>
+            <li>123</li>
+            <li>456</li>
+            <li>789</li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li>123</li>
+            <li>456</li>
+            <li>789</li>
+        </ul>
+    </div>
+
+
+</body>
+</html>
