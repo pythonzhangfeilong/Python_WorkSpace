@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1_CSS_处理表格边框粗的问题</title>
+    <style>
+        table{
+            width: 400px;
+            height: 500px;
+            border:1px solid red;
+            border-collapse: collapse;
+        }
+        td{
+            border:1px solid red
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS_处理表格边框粗的问题</h1>
+    <p>通常表格边框设置为1像素，但是俩个表格重叠的部分会变为俩像素，这样看上去就会显的变粗，给表格添加border-collapse: collapse;就会保留1像素的宽度</p>
+    <table cellspacing="0px" cellpadding="5px">
+        <tr>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+        </tr>
+
+        <tr>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+        </tr>
+
+        <tr>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+        </tr>
+
+        <tr>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+        </tr>
+
+        <tr>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+        </tr>
+
+    </table>
+</body>
+</html>

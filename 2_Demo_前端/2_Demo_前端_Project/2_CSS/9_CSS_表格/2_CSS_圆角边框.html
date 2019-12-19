@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2_CSS_圆角边框</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+        }
+        div:nth-child(2){    /*结构伪类选择器，选取父类下的首个子元素*/
+            border-radius: 20px;    /*一个数值表示四个角都是10px*/
+        }
+        div:nth-child(3){
+            border-radius: 50%;     /*取宽度和高度的一半就会变成圆*/
+        }
+        div:nth-child(4){
+            border-radius: 100px;
+            height: 100px;
+        }
+        div:nth-child(5){
+            border-radius: 100px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS_圆角边框</h1>
+    <p>边框的圆角使用border-radius:属性设置，选择边框的位置顺序分别是左上，右上，右下，左下</p>
+
+
+    <div>20px</div>
+    <div>50%</div>
+    <div>100px</div>
+    <div>100px 0</div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5_CSS_盒子模型_外边距实现盒子水平居中对齐</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: #ffccbc;
+            margin: 30px auto;  /*上下30px，左右auto(自动),这样设置就会使盒子水品居中对齐*/
+        }
+        header{
+            width: 1000px;
+            height: 100px;
+            background-color: #0f0f0f;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS_盒子模型_外边距实现盒子水平居中对齐</h1>
+    <p>让盒子水平居中，需要满足下面俩个条件</p>
+    <ol>
+        <li>盒子必须是块级元素</li>
+        <li>盒子必须指定了左右宽度</li>
+    </ol>
+    <p>然后给盒子的左右外边距设置为auto，就可以是块级元素水平居中</p>
+
+    <div></div>
+    <header></header>
+</body>
+</html>
