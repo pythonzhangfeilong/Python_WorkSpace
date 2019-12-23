@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3_CSS_浮动要先有父级块再给子块设置浮动</title>
+    <style>
+        #da{height: 300px;
+            width: 100%;
+            background-color: #ffccbc;
+        }
+        #one{
+            height: 300px;
+            width: 20%;
+            background-color: #8b1014;
+            float: left;
+        }
+        #two{
+            height: 300px;
+            width: 80%;
+            background-color: #0aa858;
+            float: left;
+        }
+        #da_2{
+            height: 150px;
+            width: 100%;
+            border: 1px solid #ffccbc;
+            margin-top: 10px;
+        }
+        #da_2_one{
+            height: 150px;
+            width: 24%;
+            background-color: #0aa858;
+            float: left;
+        }
+        #da_2_zhong_12{
+            height: 150px;
+            width: 1%;
+            background-color: #f0f0f0;
+            float: left;
+        }
+        #da_2_two{
+            height: 150px;
+            width: 24%;
+            background-color: #f57c00;
+            float: left;
+        }
+        #da_2_zhong_23{
+            height: 150px;
+            width: 1%;
+            background-color: #f0f0f0;
+            float: left;
+        }
+        #da_2_there{
+            height: 150px;
+            width: 24%;
+            background-color: #ff3d00;
+            float: left;
+        }
+        #da_2_zhong_34{
+            height: 150px;
+            width: 1%;
+            background-color: #f0f0f0;
+            float: left;
+        }
+        #da_2_four{
+            height: 150px;
+            width: 24%;
+            background-color: #fff176;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS_浮动要先有父级块再给子块设置浮动</h1>
+    <p>css的浮动使用需要注意的是：一般在页面布局的时候首先按照文档流的模式在横向上分为几个div，这几个div也就是一个父级块，然后在父级块的里面设置浮动的块元素</p>
+    <p>浮动的元素总是会找离他最近的父级块元素对齐，但是不会超出内边距的范围</p>
+    <p>如果子盒子一个进行浮动，那么其他盒子都需要浮动</p>
+    <div id="da">
+        <div id="one"></div>
+        <div id="two"></div>
+    </div>
+
+    <div id="da_2">
+        <div id="da_2_one"></div>
+        <div id="da_2_zhong_12"></div>
+        <div id="da_2_two"></div>
+        <div id="da_2_zhong_23"></div>
+        <div id="da_2_there"></div>
+        <div id="da_2_zhong_34"></div>
+        <div id="da_2_four"></div>
+    </div>
+</body>
+</html>

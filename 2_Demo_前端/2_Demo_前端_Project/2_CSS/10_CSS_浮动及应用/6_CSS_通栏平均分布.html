@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6_CSS_通栏平均分布</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        .top{
+        /*通栏的盒子可以不写宽度，默认和浏览器同宽*/
+            height: 80px;
+            background-color: #eeeeee;
+            text-align: center;
+        }
+        .banner{
+            width: 960px;
+            margin: 10px auto; /*外边距的上下为10，左右为auto盒子会自动居中*/
+            height: 150px;
+            background-color: #ff3d00;
+            text-align: center;
+        }
+        .small{
+            width: 960px;
+            margin: 10px auto; /*外边距的上下为10，左右为auto盒子会自动居中*/
+            height: 100px;
+            text-align: center;
+        }
+        .small ul li{
+            width: 230px;
+            height: 98px;
+            background-color: #0aa858;
+            float: left;
+            margin-left: 10px;
+        }
+        .small .nomargin{
+            margin-left: 0;
+        }
+        .small .right_wei{
+            margin-right: 0;
+        }
+        .bottom{
+        /*通栏的盒子可以不写宽度，默认和浏览器同宽*/
+            height: 80px;
+            background-color: #eeeeee;
+            text-align: center;
+        }
+        .big{
+            width: 960px;
+            height: 150px;
+            margin: 10px auto;
+            text-align: center;
+        }
+        .big ul li{
+            width: 230px;
+            height: 148px;
+            background-color: #f57c00;
+            float: left;
+            margin-left: 10px;
+        }
+        .big .big_nomargin{
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">通栏顶部</div>
+    <div class="banner">广告条</div>
+    <div class="small">
+        <ul>
+            <li class="nomargin">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li class="right_wei">4</li>
+        </ul>
+    </div>
+    <div class="big">
+        <ul>
+            <li class="big_nomargin">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+
+    </div>
+    <div class="bottom">通栏底部</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2_CSS_使用浮动进行页面布局</title>
+    <style>
+        #da{
+            height: 200px;
+            width: 100%;
+            border: 1px solid #0069d9;
+        }
+        #one{
+            height: 200px;
+            width: 200px;
+            border: 1px solid #ffccbc;
+            background-color: #ffccbc;
+            float:left;
+
+        }
+        #two{
+            height: 200px;
+            width: 200px;
+            border: 1px solid #f57c00;
+            background-color: #f57c00;
+            float:left;
+        }
+        #there{
+            height: 200px;
+            width: 200px;
+            border: 1px solid #8b1014;
+            background-color: #8b1014;
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS_使用浮动进行页面布局</h1>
+    <p>使用浮动将三个块标签div放在一行中</p>
+    <div id="da">
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="there"></div>
+    </div>
+    <p>浮动也可以使用把块元素变为行内块元素的属性，但是效果可以达到，只是中间有缝隙</p>
+</body>
+</html>

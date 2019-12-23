@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5_CSS_margin上下边距为0，左右设置为auto盒子会居中</title>
+    <style>
+        *{  /*CSS初始化*/
+            margin: 0;
+            padding: 0;
+        }
+        /*相同的样式使用并集选择器*/
+        #da{
+            margin: 0 auto;     /*margin的上下边距为0，左右设置为auto，盒子会水平居中*/
+            border: 1px solid #0f0f0f;
+            width: 1200px;
+            text-align: center;/*文本居中*/
+            margin-top: 10px;   /*上边距*/
+        }
+        #123{
+            height: 200px;
+            background-color: #fff176;
+        }
+        #234{
+            height: 200px;
+            background-color: #ff3d00;
+        }
+        #345{
+            height: 200px;
+            background-color: #f57c00;
+        }
+        #456{
+            height: 200px;
+            background-color: #ffccbc;
+        }
+        #567{
+            height: 200px;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS_margin上下边距为0，左右设置为auto盒子会居中</h1>
+    <div id="da">
+        <div id="123">123</div>
+        <div id="234">234</div>
+        <div id="345">345</div>
+        <div id="456">456</div>
+        <div id="567">567</div>
+    </div>
+</body>
+</html>
