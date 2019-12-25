@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1_CSS_清除浮动的本质</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .father{
+            border: 1px solid red;
+        }
+        .damao{
+            width: 100px;
+            height: 100px;
+            background-color: #f57c00;
+            float: left;
+        }
+        .ermao{
+            width: 150px;
+            height: 100px;
+            background-color: #558b2f;
+            float: left;
+        }
+        .xiaomi{
+            width: 300px;
+            height: 120px;
+            background-color: #ffccbc;
+
+        }
+
+        .clearfix:before,.clearfix:after{
+        content:"";
+        display:table;
+        }
+        .clearfix:after{
+            clear:both;
+        }
+        .clearfix{
+            *zoom:1;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS_清除浮动的本质</h1>
+    <p>清除浮动主要为了解决父级元素因为自己浮动引起内部高度为0的问题</p>
+
+    <div class="father clearfix">
+        <div class="damao"></div>
+        <div class="ermao"></div>
+    </div>
+    <div class="xiaomi"></div>
+</body>
+</html>

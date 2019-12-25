@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7_JS_Number把其他类型转换为数值类型</title>
+    <script>
+        console.log('1、使用Number()把其他类型数据转换为数值类型');
+        var s1='str';
+        var s2=true;
+        //把其他类型的数据转换为数值类型
+        console.log(Number(s1));    //结果为NaN，也就是Not a Number
+        console.log(Number(s2));    //结果为1，在计算机存储中true是1，False是0
+
+        //把字符串包含数字的字符串转换为数值类型
+        console.log(Number('123')); //结果为123
+        //把字符串包既含数字也包含其他字符串的字符串转换为数值类型
+        console.log(Number('123abc'))   //结果为NaN，也就是Not a Number
+    </script>
+</head>
+<body>
+    <p>把其他类型的数据转换为数值类型使用Number()</p>
+    <p>如果转换的字符串是数字那么就会返回数字，如果字符串中既包含数字又包含英文，那么就会返回NaN</p>
+</body>
+</html>

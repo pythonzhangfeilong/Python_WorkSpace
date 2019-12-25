@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4_CSS_清除浮动_双伪元素选择器</title>
+</head>
+<body>
+    <h1>CSS_清除浮动_双伪元素选择器</h1>
+    <p>给父级标签添加一个class="clearfix"，在css样式中写入：</p>
+    .clearfix:before,.clearfix:after{
+        content:"";
+        display:table;
+    }
+    .clearfix:after{
+        clear:both;
+    }
+    .clearfix{
+        *zoom:1;
+    }
+</body>
+</html>

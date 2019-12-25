@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8_JS_parseInt()把其他类型解析为数据类型</title>
+    <script>
+        console.log('1、parseInt常规转换');
+        var s1='123';
+        console.log(parseInt(s1));  //返回123
+        var s2=false;
+        console.log(parseInt(s2));  //返回NaN
+        var s3='abc';
+        console.log(parseInt(s3));  //返回NaN
+
+        console.log('2、');
+        var s4='123abc';
+        var s5='abc123';
+        console.log(parseInt(s4));
+        console.log(parseInt(s5))
+    </script>
+</head>
+<body>
+
+</body>
+</html>

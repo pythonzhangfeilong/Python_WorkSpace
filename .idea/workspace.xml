@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/10_CSS_浮动及应用/1_CSS_文字环绕.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/10_CSS_浮动及应用/2_CSS_使用浮动进行页面布局.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/10_CSS_浮动及应用/3_CSS_浮动要先有父级块再给子块设置浮动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/10_CSS_浮动及应用/4_CSS_版心布局.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/10_CSS_浮动及应用/5_CSS_margin上下边距为0，左右设置为auto盒子会居中.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/10_CSS_浮动及应用/6_CSS_通栏平均分布.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/8_CSS_盒子模型/10_CSS_外边距合并.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/8_CSS_盒子模型/11_CSS_计算盒子尺寸.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/8_CSS_盒子模型/12_CSS_padding不影响盒子宽度.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/8_CSS_盒子模型/6_CSS_盒子模型_文字居中和背景.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/8_CSS_盒子模型/7_CSS_清除内外边距.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/8_CSS_盒子模型/8_CSS_行内元素上下内外边距问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/8_CSS_盒子模型/9_CSS_外边距合并.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/11_CSS_清除浮动/1_CSS_清除浮动的本质.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/11_CSS_清除浮动/2_CSS_清除浮动_额外标签法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/11_CSS_清除浮动/3_CSS_清除浮动_父级添加overflow方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/11_CSS_清除浮动/4_CSS_清除浮动_双伪元素选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/1_JavaScript_变量/1_JS_什么变量.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/1_JavaScript_变量/2_JS_变量的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/1_JavaScript_变量/3_JS_变量命名规则和规范.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/2_JavaScript_数据类型/1_JS_数值类型Number.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/2_JavaScript_数据类型/2_JS_字符类型String.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/2_JavaScript_数据类型/3_JS_Undefined和Null.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/2_JavaScript_数据类型/4_JS_Boolean类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/2_JavaScript_数据类型/5_JS_Object复杂数据类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/2_JavaScript_数据类型/6_JS_toString把其他类型的数据转换为字符串类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/2_JavaScript_数据类型/7_JS_Number把其他类型转换为数值类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/2_JavaScript_数据类型/8_JS_parseInt()把其他类型解析为数据类型.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -523,7 +525,10 @@
       <workItem from="1576632599862" duration="7182000" />
       <workItem from="1576717408995" duration="5546000" />
       <workItem from="1576804264955" duration="228000" />
-      <workItem from="1577063585389" duration="7035000" />
+      <workItem from="1577063585389" duration="10620000" />
+      <workItem from="1577151488084" duration="9000" />
+      <workItem from="1577151587928" duration="7784000" />
+      <workItem from="1577236176281" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1570520907244</created>
@@ -784,7 +789,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576717434407</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="提交">
+      <created>1577075230431</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1577075230431</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

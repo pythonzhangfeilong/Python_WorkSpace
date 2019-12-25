@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6_JS_toString把其他类型的数据转换为字符串类型</title>
+    <script>
+        var age=18;
+        var name='zhang';
+        var isRight=true;
+        var data_1=null;
+        var data_2;
+
+        console.log('查看各个类型在Chrome中显示的颜色');
+        console.log(age);       //在Chrome的控制台中是深蓝色
+        console.log(name);      //在Chrome的控制台中是黑色
+        console.log(isRight);   //在Chrome的控制台中是淡蓝色      MAC下
+        console.log(data_1);    //在Chrome的控制台中是灰色
+        console.log(data_2);    //在Chrome的控制台中是灰色
+
+        console.log('1、使用toString()把数值类型、布尔类型转换为字符串类型');
+        console.log(age.toString());        //把数字类型转换为字符串类型
+        console.log(typeof age.toString());
+        console.log(isRight.toString());    //把Boolean类型转换为字符串类型
+        console.log(typeof isRight.toString());
+
+        console.log('2、使用Strong()把null和undefined转换为字符串');
+        console.log(String(data_1));        //把null转换为字符串
+        console.log(typeof String(data_1));
+        console.log(String(data_2));        //把undefined转换为字符串
+        console.log(typeof String(data_2));
+
+        console.log('3、使用拼接空字符串的方式把其他类型的数据转换为字符串类型');
+        console.log(typeof(age+''));        //把number拼接空字符串转换为String类型
+        console.log(typeof(isRight=''));    //把Boolean拼接空字符串转换为String类型
+    </script>
+</head>
+<body>
+    <p>把其他类型的数据转换为字符串类型使用toString()方法</p>
+    <p>null和undefined是没有toString()方法的</p>
+    <p>想要把null和undefined转化为字符串要是用String()方法</p>
+</body>
+</html>

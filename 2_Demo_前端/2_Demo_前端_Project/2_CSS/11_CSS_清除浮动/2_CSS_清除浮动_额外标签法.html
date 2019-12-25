@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2_CSS_清除浮动_额外标签法</title>
+
+</head>
+<body>
+    <h1>CSS_清除浮动_额外标签法</h1>
+    <p>清除浮动实际叫做闭合浮动更好一些，清除浮动就是把浮动的盒子圈起来，让父盒子闭合起来，不影响其他的盒子</p>
+    <p>在css中用clear属性来清除浮动，clear的属性值：</p>
+    <ol>
+        <li>left，清除做浮动</li>
+        <li>right，清除右浮动</li>
+        <li>both，同时清除俩侧浮动</li>
+    </ol>
+    <p>清除浮动额外标签法，就是在清除浮动盒子的末尾添加一个空盒子，只写clear：both；</p>
+    &lt;style&gt;
+        选择器{
+            clear：both；
+    }
+    &lt;style/&gt;
+    <p>优缺点：</p>
+    <p>优点：通熟易懂，书写方便</p>
+    <p>缺点：添加来许多无意义的标签，无用代码较多</p>
+</body>
+</html>
