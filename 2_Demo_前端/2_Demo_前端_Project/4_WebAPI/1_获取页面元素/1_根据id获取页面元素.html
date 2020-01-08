@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1_根据id获取页面元素</title>
+
+</head>
+<body>
+    <div>hello</div>
+    <div id="main">world</div>
+    <div>heima</div>
+    <div></div>
+    <div></div>
+
+    <!--注意：为什么把Script标签放在了body结束标签之前，就是因为在文档对象操作的时候页面加载是从上到下的，如果把script放在head中是不会找到ID的，放在body的结束标签之前文档内容加载就已经加载完成-->
+    <script>
+        //document 文档对象 DOM
+        var main=document.getElementById('main');  //get获取Element元素By根据Id
+        console.log(main);
+        console.dir(main);  //打印对象
+    </script>
+</body>
+</html>

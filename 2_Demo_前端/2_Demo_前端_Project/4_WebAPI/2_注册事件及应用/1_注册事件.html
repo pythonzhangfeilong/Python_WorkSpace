@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1_注册事件</title>
+</head>
+<body>
+    <input type="button" id="btn" value="点我">
+    <div id="main">1111</div>
+    <script>
+        //事件：当什么什么时候做什么什么事件
+
+        //1、获取按钮
+        var btn=document.getElementById('btn');
+
+        //2、给按钮注册事件
+        btn.onclick=function () {   //onclick是一个的单击事件
+            alert('卧槽，别动！')
+        };
+
+        //3、给div注册事件
+        var divs=document.getElementById('main');
+        divs.onclick=function () {  //点击触发的事件
+            alert('我是id为main的div')
+        }
+    </script>
+</body>
+</html>

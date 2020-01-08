@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/4_JavaScript_流程控制/1_JS_if 条件判断.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/4_JavaScript_流程控制/2_JS_switch语句.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/1_获取页面元素/1_根据id获取页面元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/1_获取页面元素/2_根据标签名获取标签的内容.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/1_注册事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/2_点击按钮切换图片.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/3_非标签单元素的属性.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/4_Demo_Django/1_Django_初识/1_Django_first/Django_first/urls.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,19 +80,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/1_获取页面元素" />
+      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/3_JavaScript_操作符" />
+      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/2_CSS_字体" />
+      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project" />
+      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/3_CSS_外观样式及应用" />
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/4_HTML_表格" />
       <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_苏宁数据写入数据库" />
       <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库/images" />
       <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取梨视频" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/3_JavaScript_操作符" />
-      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/2_CSS_字体" />
-      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project" />
-      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML" />
-      <recent name="$PROJECT_DIR$/2_Demo_前端/1_Demo_P" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -550,7 +552,7 @@
       <workItem from="1577151587928" duration="7784000" />
       <workItem from="1577236176281" duration="1911000" />
       <workItem from="1577322024395" duration="8780000" />
-      <workItem from="1578443690533" duration="3972000" />
+      <workItem from="1578443690533" duration="9286000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1570520907244</created>
@@ -832,7 +834,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578448478800</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="提交">
+      <created>1578452348306</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1578452348306</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

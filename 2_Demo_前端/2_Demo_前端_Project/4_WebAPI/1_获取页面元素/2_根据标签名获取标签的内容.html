@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2_根据标签名获取标签的内容</title>
+</head>
+<body>
+    <div>hello</div>
+    <div>world</div>
+    <div>zhang</div>
+
+    <div id="container">
+        <div>123</div>
+        <div>456</div>
+        <div>789</div>
+    </div>
+
+    <!--getElementsByTagName()获取到的集合是一个动态的集合-->
+    <script>
+        //获取单独的div标签内容
+        var divs = document.getElementsByTagName('div');
+        console.log(divs);
+
+        //获取嵌套div标签中的内容
+        var container=document.getElementById('container');
+        var div_num=container.getElementsByTagName('div');
+        console.log(div_num)
+    </script>
+
+
+</body>
+</html>
