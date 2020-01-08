@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1_JS_if 条件判断</title>
+    <script>
+        //1、单条件判断
+        var num1=3;
+        if(num1>2/*判断条件*/){
+            console.log('num1为大于2的数')  //判断条件成立执行的语句
+        }
+
+        //2、完整条件判断写法
+        var num2=4;
+        if(num2>2/*判断条件*/){
+            console.log('num2为大于2的数')  //判断条件成立执行的语句
+        }else{
+            console.log('num2为小于2的数') //判断条件不成立执行的语句
+        }
+
+        //3、多条件判断写法
+        var fenshu=92;
+        //注意：JavaScript语法特殊，所以这种判断的时候不能写成60<=fenshu<70
+        if(60<=fenshu && fenshu<70/*判断条件1*/){
+            console.log('及格') //判断条件成立执行的语句1
+        }else if(70<=fenshu && fenshu<80/*判断条件2*/){
+            console.log('良好') //判断条件成立执行的语句2
+        }else if(80<=fenshu && fenshu<90/*判断条件3*/){
+            console.log('优良') //判断条件成立执行的语句3
+        }else if(fenshu<60){
+            console.log('不及格，请重新学习考试'/*判断条件4*/)
+        }else if(90<=fenshu && fenshu<100){  //条件判断成立执行的语句4
+            console.log('优秀')
+        }else if(fenshu>=100 /*判断条件5*/){
+            console.log('小伙子你牛逼大了') //条件判断成立执行的语句5
+        }else{
+            console.log('小伙子去医院看看吧')
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
