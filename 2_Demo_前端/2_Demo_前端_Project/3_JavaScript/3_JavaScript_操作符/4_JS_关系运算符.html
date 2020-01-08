@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4_JS_关系运算符</title>
+    <script>
+        console.log(' < > <= >= == != === !==');
+        var a=5;
+        var b=6;
+        var c='10';
+        var d=10;
+        console.log('1、常规比较大小');
+        console.log(a<b);
+        console.log(a>b);
+        console.log(a<=b);
+        console.log(a>=b);
+
+        console.log('2、等于比较');
+        console.log(a == b);  //一个等号是赋值，俩个等号比较的是值是否相等
+        console.log(a == c);  //俩个等号比较的是值是否相等，所以会先把字符串转换为数值再比较
+        console.log(a != b);  //值不相等就会返回true
+
+        console.log('3、三等号比较');
+        console.log(c === d); //三个等号不光比较数值是否相等，还比较类型是否相等,只有类型和值完全一样才会返回true
+        console.log(c !== d); //值和类型完全不相等就会返回true
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

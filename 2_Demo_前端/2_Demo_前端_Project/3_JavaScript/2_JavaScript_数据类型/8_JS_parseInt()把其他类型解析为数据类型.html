@@ -12,9 +12,9 @@
         var s3='abc';
         console.log(parseInt(s3));  //返回NaN
 
-        console.log('2、');
-        var s4='123abc';
-        var s5='abc123';
+        console.log('2、parseInt()特殊转换');
+        var s4='123abc';    //在解析的时候第一个遇到的是数字就会返回数值，不返回其他内容
+        var s5='abc123';    //在解析的时候第一个遇到的不是数字就会返回NaN
         console.log(parseInt(s4));
         console.log(parseInt(s5))
     </script>
