@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4_点击显示隐藏div</title>
+    <style>
+        #box{
+            background-color: red;
+            width: 400px;
+            height: 400px;
+        }
+        .show{
+            display: block;
+        }
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <input id="btn" type="button" value="隐藏">
+    <div id="box"></div>
+
+    <script>
+        //1、获取元素
+        var btn = document.getElementById('btn');
+        //2、给按钮注册事件
+        //isShow记录了box的状态
+        var isShow=true;
+        btn.onclick = function () {
+            //3、控制div的显示隐藏
+            var box=document.getElementById('box');
+            if(isShow){
+                //给div设置累样式采用的是className，因为在JavaScript中class是关键字
+                box.className='hidden';
+                //4、改变按钮中的文字
+                //修改属性
+                btn.value='显示';
+                //记录box的状态
+                isShow=false;
+            }else{
+                //给div设置累样式采用的是className，因为在JavaScript中class是关键字
+                box.className='show';
+                //修改属性
+                btn.value='隐藏';
+                //记录box的状态
+                isShow=true;
+            }
+        };
+    </script>
+</body>
+</html>

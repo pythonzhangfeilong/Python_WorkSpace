@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5_取消a标签的默认行为</title>
+</head>
+<body>
+    <a href="http://www.baidu.com" id="link">百度</a>
+
+    <script>
+        var link=document.getElementById('link');
+        link.onclick=function(){
+            alert('点击了');
+            //取消a标签的默认行为就是把点击后跳转href的操作取消,在绑定事件的末尾添加一个return false；
+            return false;
+        }
+    </script>
+</body>
+</html>
