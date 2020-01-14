@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8_innerText解决兼容性问题</title>
+</head>
+<body>
+    <div id="box">
+        hello word
+    </div>
+
+
+    <script>
+        //如何知道浏览器是否支持某个元素的属性
+        var box=document.getElementById('box');
+        //console.log(typeof box.a);  //当属性不存在的时候，返回undefined
+        //console.log(typeof box.id); //当属性存在的时候，返回属性的字符串类型
+        console.log(getInnerText(box)); //这样就会获取到标签中的内容
+
+        //处理兼容性的函数
+        function getInnerText(element){
+            //判断浏览器是否支持元素的innerText属性，如果支持innerText那么就使用element.innerText获取内容
+            //如果不支持innerText，就使用element.textContent获取内容
+            if (typeof element.innerText=='string'){
+                return element.innerText;
+            }else{
+                return element.textContent
+            }
+        }
+    </script>
+</body>
+</html>

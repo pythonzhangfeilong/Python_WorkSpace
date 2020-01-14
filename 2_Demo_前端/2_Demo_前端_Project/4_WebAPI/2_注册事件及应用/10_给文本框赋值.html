@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10_给文本框赋值</title>
+</head>
+<body>
+    <p>1、当页面加载的时候给所有的文本框赋值</p>
+    <p>2、当点击按钮的时候获取所有文本框的值，并用|分割输出</p>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+
+    <input type="button" id="btn" value="获取文本框的值">
+
+    <script>
+        //1、当页面加载完给所有的文本框赋值
+        var inputs=document.getElementsByTagName('input');
+        for(var i=0;i<inputs.length;i++){
+            //获取每一个文本框
+            var input=inputs[i];
+            //根据type属性判断是否为文本框
+            if(input.type==='text'){
+                input.value=i;
+            }
+        }
+        //2、当点击按钮的时候获取所有文本框的值，并用|分割输出
+        var btn=document.getElementById('btn');
+        var s='';
+        btn.onclick=function () {
+            for(var i=0;i<inputs.length;i++){
+                //获取每一个文本框
+                var input=inputs[i];
+                //根据type属性判断是否为文本框
+                if(input.type==='text'){
+                    s+=input.value+'|'
+                }
+            }
+            //由于输出的内容末尾多一个|，所以下面要把它使用的截取的方式去掉
+            string_s=s.substr(0,s.length-1);    //substr()第一个参数是从什么位置截取，第二个参数是截取的长度
+            console.log(string_s);
+        }
+    </script>
+</body>
+</html>

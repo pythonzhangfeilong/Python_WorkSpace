@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9_表单元素的属性</title>
+</head>
+<body>
+    <p>表单元素属性：</p>
+    <ol>
+        <li>value 用于大部分表单元素内容的获取(option除外)</li>
+        <li>type 可以获取input标签的类型(输入框或者复选框)</li>
+        <li>disabled 禁用属性</li>
+        <li>checked 复选框的选中属性</li>
+        <li>selected 下拉菜单选中属性</li>
+    </ol>
+    
+    
+    <input type="button" value="禁用按钮" id="btn1">
+    <input type="button" value="输入按钮" id="btn2">
+    <input type="button" value="输入规定值" id="btn3">
+    <br>
+    <input type="text" id="txt">
+
+    <script>
+        //1、获取元素
+        var txt = document.getElementById('txt');
+
+        //2、注册事件
+        //禁止输入框输入内容
+        var btn1 = document.getElementById('btn1');
+        btn1.onclick=function () {
+            txt.disabled=true;
+        };
+        //允许输入框输入内容
+        var btn2 = document.getElementById('btn2');
+        btn2.onclick=function () {
+            txt.disabled=false;
+        };
+        //输入框在禁用的情况下输入指定的值
+        var btn3 = document.getElementById('btn3');
+        btn3.onclick=function () {
+            txt.value='hello wold';
+        };
+    </script>
+</body>
+</html>

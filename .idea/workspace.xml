@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/4_点击显示隐藏div.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/5_取消a标签的默认行为.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/6_使用a标签做一个相册.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/1-1-缩.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/2-1-缩.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/2-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/3-1-缩.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/3-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/4-1-缩.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/4-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/placeholder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/10_给文本框赋值.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/11_把内容逐一添加到数组中.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/12_校验输入的用户名和密码.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/7_innerHTML和innerText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/8_innerText解决兼容性问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/9_表单元素的属性.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/三国演义.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/按钮.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/查看.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/水浒传.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/红楼梦.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/荷塘月色.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/西游记.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,23 +77,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/3_CSS_外观样式及应用" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用" />
+      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/3_CSS_外观样式及应用" />
+      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/4_HTML_表格" />
+      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_苏宁数据写入数据库" />
+      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/1_获取页面元素" />
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/3_JavaScript_操作符" />
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/2_CSS_字体" />
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project" />
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/3_CSS_外观样式及应用" />
-      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/4_HTML_表格" />
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_苏宁数据写入数据库" />
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库/images" />
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取梨视频" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -165,94 +151,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/16_爬取12306的票/1_12306.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_房天下储存到数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库/1_房天下储存到数据库.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_身份证号检验" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验/1_身份证号检验.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_趣图" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网/1_趣图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_安居客新房数据写入数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_安居客数据库写入" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_安居客数据库写入/1_安居客新房数据写入json文件.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -437,6 +335,94 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="1_房天下储存到数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库/1_房天下储存到数据库.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_身份证号检验" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验/1_身份证号检验.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_趣图" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网/1_趣图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_安居客新房数据写入数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_安居客数据库写入" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_安居客数据库写入/1_安居客新房数据写入json文件.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1_tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -568,7 +554,12 @@
       <workItem from="1577236176281" duration="1911000" />
       <workItem from="1577322024395" duration="8780000" />
       <workItem from="1578443690533" duration="9307000" />
-      <workItem from="1578532819623" duration="7406000" />
+      <workItem from="1578532819623" duration="7426000" />
+      <workItem from="1578619511241" duration="73000" />
+      <workItem from="1578619817447" duration="673000" />
+      <workItem from="1578877146853" duration="203000" />
+      <workItem from="1578880303418" duration="543000" />
+      <workItem from="1578962425289" duration="7745000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1570520907244</created>
@@ -864,7 +855,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578471907460</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="提交">
+      <created>1578555810593</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1578555810593</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

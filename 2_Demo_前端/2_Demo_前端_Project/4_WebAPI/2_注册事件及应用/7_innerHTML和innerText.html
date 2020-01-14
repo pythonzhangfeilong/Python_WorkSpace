@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7_innerHTML和innerText</title>
+</head>
+<body>
+    <div id="box">
+        这是一个div
+        <span>这是一个span标签</span>
+    </div>
+
+    <script>
+        var box=document.getElementById('box');
+        // console.dir(box);
+        //innerHTML innerText，获取开始标签和结束标签之间的内容
+        console.log(box.innerHTML); //获取标签之间的内容时，如果有标签就会显示出来（注意：会原模原样的把div中的内容获取到）
+        console.log(box.innerText); //获取标签之间的内容时，如果有标签会过滤掉，会把标签前后的空白和换行符去掉
+
+        //box.innerHTML给标签设置新内容，不会显示出标签
+        box.innerHTML='';//清空标签内容
+        box.innerHTML='<b>张飞龙</b>是你爸爸';//设置标签内容
+
+        // box.innerText给标签设置新内容，会显示出标签
+        box.innerText='';//清空标签内容
+        box.innerText='<b>张飞龙</b>是你爸爸';//设置标签内容
+    </script>
+</body>
+</html>

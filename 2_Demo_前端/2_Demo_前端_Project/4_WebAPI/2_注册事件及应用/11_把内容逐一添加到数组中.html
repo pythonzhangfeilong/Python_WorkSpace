@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11_把内容逐一添加到数组中</title>
+</head>
+<body>
+    <p>1、当页面加载的时候给所有的文本框赋值</p>
+    <p>2、当点击按钮的时候获取所有文本框的值，并用|分割输出</p>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+    <input type="text"> <br>
+
+    <input type="button" id="btn" value="获取文本框的值">
+
+    <script>
+        //1、当页面加载完给所有的文本框赋值
+        var inputs=document.getElementsByTagName('input');
+        for(var i=0;i<inputs.length;i++){
+            //获取每一个文本框
+            var input=inputs[i];
+            //根据type属性判断是否为文本框
+            if(input.type==='text'){
+                input.value=i;
+            }
+        }
+        //2、当点击按钮的时候获取所有文本框的值，并用|分割输出
+        var btn=document.getElementById('btn');
+        var array=[];   //创建一个数组，也就是python中的列表
+        btn.onclick=function () {
+            for(var i=0;i<inputs.length;i++){
+                //获取每一个文本框
+                var input=inputs[i];
+                //根据type属性判断是否为文本框
+                if(input.type==='text'){
+                    array.push(input.value)     //把内容添加到列表中，python使用的是append，javascript使用的是push推
+                }
+            }
+            console.log(array.join('|'));   //join默认是使用逗号分割元素，给设置参数后就会按照指定的参数分割
+        }
+    </script>
+</body>
+</html>
