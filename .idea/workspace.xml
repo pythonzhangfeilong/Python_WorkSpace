@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/10_给文本框赋值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/11_把内容逐一添加到数组中.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/12_校验输入的用户名和密码.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/7_innerHTML和innerText.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/8_innerText解决兼容性问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/9_表单元素的属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用/13_自定义属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/3_节点介绍及应用/1_父节点.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -559,7 +555,10 @@
       <workItem from="1578619817447" duration="673000" />
       <workItem from="1578877146853" duration="203000" />
       <workItem from="1578880303418" duration="543000" />
-      <workItem from="1578962425289" duration="7745000" />
+      <workItem from="1578962425289" duration="8072000" />
+      <workItem from="1579050909127" duration="1193000" />
+      <workItem from="1579052937208" duration="297000" />
+      <workItem from="1579053397091" duration="1595000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1570520907244</created>
@@ -862,7 +861,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578555810593</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="提交">
+      <created>1578989398379</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1578989398379</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
