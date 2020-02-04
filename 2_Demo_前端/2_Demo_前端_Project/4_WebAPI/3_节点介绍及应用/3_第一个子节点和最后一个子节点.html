@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3_第一个子节点和最后一个子节点</title>
+</head>
+<body>
+    <div id="box">
+        <div>这是一个广告图片</div>
+        <ul>
+            <li>这是一个列表</li>
+        </ul>
+        <span>这是说明性文字</span>
+    </div>
+
+    <script>
+        //firstChild    获取第一个节点
+        //lastChild     获取最后一个节点
+        var box=document.getElementById('box');
+        console.log(box.firstChild);
+
+        //box.firstElementChild     获取第一个子元素
+
+        console.log(box.firstElementChild);
+        console.log(box.lastElementChild);
+
+
+    </script>
+</body>
+</html>

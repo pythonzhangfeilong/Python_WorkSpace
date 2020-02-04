@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菜单栏</title>
+    <style type="text/css">
+        div ul li{
+            list-style: None;   /*去除li前面的小点*/
+            display: inline;    /*让li显示在一行*/
+            padding: 10px 10px;
+            background-color:#fffccf;
+        }
+        div ul li a{
+            text-decoration:none;   /*去除a标签的下划线*/
+            color:black;
+        }
+        a:hover{
+            background-color:#0aa858;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <ul>
+            <!--li中写a标签的目的就是为了让鼠标指上去的时候是一个小手-->
+            <li class="current"><a href="http://www.baidu.com">首页</a></li>
+            <li><a href="javascript:void(0)">博客</a></li>    <!--<a href="javascript:void(0)"></a>点击时什么都不会发生-->
+            <li><a href="javascript:void(0)">播客</a></li>
+            <li><a href="javascript:void(0)">相册</a></li>
+            <li><a href="javascript:void(0)">关于</a></li>
+            <li><a href="javascript:void(0)">帮助</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>隔行变色</title>
+</head>
+<body>
+    <ul id="mv">
+        <li>工本</li>
+        <li>铠</li>
+        <li>后裔</li>
+        <li>狂铁</li>
+        <li>孙策</li>
+    </ul>
+
+    <script>
+        var mv=document.getElementById('mv');
+        // 判断是否有子节点
+        if(mv.hasChildNodes()){
+            for( var i=0;i<mv.children.length;i++){
+                var li=mv.children[i];
+                //奇数行
+                if (i%2 === 0){
+                    li.style.background='red';
+                }
+            }
+        }
+    </script>
+</body>
+</html>
