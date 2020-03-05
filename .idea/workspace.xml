@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/3_节点介绍及应用/2_隔行变色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/3_节点介绍及应用/3_第一个子节点和最后一个子节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/3_节点介绍及应用/4_菜单栏.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/4_课堂笔记/1_Python/1-2   python变量、输入、输出、数字、字符串 .docx" beforeDir="false" afterPath="$PROJECT_DIR$/8_Demo_Datas/4_课堂笔记/1_Python/1-2   python变量、输入、输出、数字、字符串 .docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/1_IPython/1_IPython的基本使用方法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/1_Numpy_数据维度.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/2_Numpy_数组对象ndarray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/3_Numpy_数组的创建和变换.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/4_Numpy_ndarray数组的操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/5_Numpy_ndarray数组运算.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/6_数据的csv文件存取.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/7_多维数据的存取.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -56,13 +62,11 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/11_京东/2_Selenium获取价格等数据.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/5_Numpy_ndarray数组运算.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/12_苏宁数据写入数据库/2_Selenium获取商品价格.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/4_Numpy_ndarray数组的操作.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/3_Numpy_数组的创建和变换.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/9_Python数据分析与展示[Numpy、Matplotlib、Pandas]/2_Numpy/2_Numpy_数组对象ndarray.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/13_爬虫得到的数据保存在execel中/1_彼岸.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/12_苏宁数据写入数据库/2_Selenium获取商品价格.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/1_百度接口实现车牌识别/baidu_api_车牌识别.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/1_Demo_Python_1903/2_Python变量、字符串、数字的输入输出/2_Python数字类型.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/11_京东/2_Selenium获取价格等数据.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1RpB9r2pgZAfX0Onygs4AjiNf82" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -105,227 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1_12306">
-    <configuration name="1_淘宝数据抓取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/15_淘宝数据抓取" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/15_淘宝数据抓取/1_淘宝数据抓取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_12306" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/16_爬取12306的票" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/16_爬取12306的票/1_12306.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_趣图" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网/1_趣图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_房天下储存到数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库/1_房天下储存到数据库.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_身份证号检验" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验/1_身份证号检验.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_趣图" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网/1_趣图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_安居客新房数据写入数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_安居客数据库写入" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_安居客数据库写入/1_安居客新房数据写入json文件.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_图片验证码识别" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/4_百度接口图片验证码识别" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/4_百度接口图片验证码识别/1_图片验证码识别.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_苏宁数据写入数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_苏宁数据写入数据库" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_苏宁数据写入数据库/1_苏宁数据写入数据库.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_趣图" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网/1_趣图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.2_turtle_画奥运五环">
     <configuration name="1_爬取段子网" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -436,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1_tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1_趣图" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -444,12 +228,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/7_Demo_tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/7_Demo_tkinter/1_tkinter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网/1_趣图.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -458,7 +242,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="baidu_api_车牌识别朗读" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1_房天下储存到数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -466,12 +250,232 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/2_百度接口识别车牌，并且朗读车牌号" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/2_百度接口识别车牌，并且朗读车牌号/baidu_api_车牌识别朗读.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库/1_房天下储存到数据库.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_身份证号检验" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验/1_身份证号检验.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_安居客新房数据写入数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_安居客数据库写入" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_安居客数据库写入/1_安居客新房数据写入json文件.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_图片验证码识别" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/4_百度接口图片验证码识别" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/4_百度接口图片验证码识别/1_图片验证码识别.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_苏宁数据写入数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_苏宁数据写入数据库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_苏宁数据写入数据库/1_苏宁数据写入数据库.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_趣图" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_趣图网/1_趣图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_round" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/8_Python四舍五入round" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/8_Python四舍五入round/1_round.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_time" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/9_Python_time模块" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/9_Python_time模块/1_time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_turtle绘图，求俩点间的距离" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/10_使用turtle画出折线图，并且求俩点的距离" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/10_使用turtle画出折线图，并且求俩点的距离/1_turtle绘图，求俩点间的距离.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2_turtle_画奥运五环" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/1_Python海归绘图" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/1_Python海归绘图/2_turtle_画奥运五环.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -482,10 +486,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.baidu_api_车牌识别朗读" />
-        <item itemvalue="Python.1_12306" />
-        <item itemvalue="Python.1_淘宝数据抓取" />
-        <item itemvalue="Python.1_tkinter" />
+        <item itemvalue="Python.2_turtle_画奥运五环" />
+        <item itemvalue="Python.1_time" />
+        <item itemvalue="Python.1_round" />
+        <item itemvalue="Python.1_turtle绘图，求俩点间的距离" />
+        <item itemvalue="Python.1_test" />
       </list>
     </recent_temporary>
   </component>
@@ -600,7 +605,11 @@
       <workItem from="1579141259786" duration="908000" />
       <workItem from="1579753328083" duration="276000" />
       <workItem from="1579878088210" duration="447000" />
-      <workItem from="1580806180837" duration="3982000" />
+      <workItem from="1580806180837" duration="4530000" />
+      <workItem from="1580811798026" duration="119000" />
+      <workItem from="1580973599096" duration="7948000" />
+      <workItem from="1581061098370" duration="8670000" />
+      <workItem from="1583377359721" duration="486000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1570520907244</created>
@@ -917,7 +926,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579070513263</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="提交">
+      <created>1580810422677</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1580810422677</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -973,6 +989,7 @@
     <SUITE FILE_PATH="coverage/Python_workspace$3_requests_cookie.coverage" NAME="3_requests_cookie定制 Coverage Results" MODIFIED="1571021488516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
     <SUITE FILE_PATH="coverage/Python_workspace$chaojiying.coverage" NAME="chaojiying Coverage Results" MODIFIED="1571104100392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/11_验证码识别" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$6_BeautifulSoup.coverage" NAME="6_BeautifulSoup Coverage Results" MODIFIED="1574130503586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/10_多网站实例练习" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$99.coverage" NAME="99乘法表 Coverage Results" MODIFIED="1580974038110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo1" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1___1_.coverage" NAME="1_苏宁数据写入数据库 (1) Coverage Results" MODIFIED="1574411287188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/12_苏宁数据写入数据库" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1____.coverage" NAME="1_梨视频-社会-爬取-函数版 Coverage Results" MODIFIED="1573531396658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取梨视频" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2.coverage" NAME="2 Coverage Results" MODIFIED="1574410291305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_京东" />
@@ -989,8 +1006,10 @@
     <SUITE FILE_PATH="coverage/Python_WorkSpace$9_.coverage" NAME="9_梨视频 Coverage Results" MODIFIED="1574152852991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/10_多网站实例练习" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_requests.coverage" NAME="1_requests Coverage Results" MODIFIED="1570775247745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_.coverage" NAME="2_后花园网经典语录 Coverage Results" MODIFIED="1571711883612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_round.coverage" NAME="1_round Coverage Results" MODIFIED="1583377688221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/8_Python四舍五入round" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$2_turtle_.coverage" NAME="2_turtle_画奥运五环 Coverage Results" MODIFIED="1583377886339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/1_Python海归绘图" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_pymongo.coverage" NAME="1_pymongo数据插入 Coverage Results" MODIFIED="1571207867029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/12_MongoDB的安装使用" />
-    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_test.coverage" NAME="1_test Coverage Results" MODIFIED="1575963120725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_test.coverage" NAME="1_test Coverage Results" MODIFIED="1581072981969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$run__5_.coverage" NAME="run (5) Coverage Results" MODIFIED="1572321627214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/kuai_Spider" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_tkinter.coverage" NAME="1_tkinter Coverage Results" MODIFIED="1577343625406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/7_Demo_tkinter" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_selenium.coverage" NAME="1_selenium Coverage Results" MODIFIED="1570591525287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/7_selenium" />
@@ -1003,6 +1022,7 @@
     <SUITE FILE_PATH="coverage/Python_WorkSpace$3_Selenium.coverage" NAME="3_Selenium获取数据并且写入数据库 Coverage Results" MODIFIED="1574756117202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_京东" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_bs4_.coverage" NAME="1_bs4_爬取安居客房源信息 Coverage Results" MODIFIED="1570520572573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/6_bs4" />
     <SUITE FILE_PATH="coverage/Python_workspace$3_.coverage" NAME="3_爬取快手小视频 Coverage Results" MODIFIED="1570761415696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/8_爬取手机上的内容" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$2_Python.coverage" NAME="2_Python数字类型 Coverage Results" MODIFIED="1580976285659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Demo_Python_1903/2_Python变量、字符串、数字的输入输出" />
     <SUITE FILE_PATH="coverage/Python_workspace$1___1_.coverage" NAME="1_爬取西瓜视频 (1) Coverage Results" MODIFIED="1571716571134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_spider_.coverage" NAME="1_spider_美团 Coverage Results" MODIFIED="1574827641142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_美团数据" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_test.coverage" NAME="2_淘宝数据获取test Coverage Results" MODIFIED="1575522610825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/15_淘宝数据抓取" />
@@ -1013,6 +1033,7 @@
     <SUITE FILE_PATH="coverage/Python_WorkSpace$run__3_.coverage" NAME="run (3) Coverage Results" MODIFIED="1571971540031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/2_Scrapy_download/bian_project" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$run.coverage" NAME="run Coverage Results" MODIFIED="1571990126674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_Scrapy_POST请求/baidu_fanyi" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$7_.coverage" NAME="7_最好大学网 Coverage Results" MODIFIED="1574135588316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/10_多网站实例练习" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_turtle.coverage" NAME="1_turtle绘图，求俩点间的距离 Coverage Results" MODIFIED="1583377525838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/10_使用turtle画出折线图，并且求俩点的距离" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_pymongo.coverage" NAME="2_pymongo数据查询 Coverage Results" MODIFIED="1571207940222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/12_MongoDB的安装使用" />
     <SUITE FILE_PATH="coverage/Python_workspace$4_.coverage" NAME="4_有道翻译 Coverage Results" MODIFIED="1571025171738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_logins.coverage" NAME="2_logins Coverage Results" MODIFIED="1575517816770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/15_淘宝数据抓取" />
@@ -1026,5 +1047,6 @@
     <SUITE FILE_PATH="coverage/Python_WorkSpace$text.coverage" NAME="text Coverage Results" MODIFIED="1572509740698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取西瓜视频" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_Selenium.coverage" NAME="2_Selenium获取商品价格 Coverage Results" MODIFIED="1574756176266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/12_苏宁数据写入数据库" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_ip.coverage" NAME="2_快代理ip爬取 Coverage Results" MODIFIED="1571710836062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_time.coverage" NAME="1_time Coverage Results" MODIFIED="1583377718586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/9_Python_time模块" />
   </component>
 </project>

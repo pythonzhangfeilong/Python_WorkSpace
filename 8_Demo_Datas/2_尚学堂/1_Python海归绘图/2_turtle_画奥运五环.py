@@ -42,6 +42,6 @@ turtle.forward(110)     # 向前移动55
 turtle.pendown()        # 落下画笔
 turtle.color('green')   # 把颜色改为绿色
 turtle.circle(50)       # 以半径为50画圆
-
+turtle.done()           # 调用done()使得窗口等待被关闭，否则将立刻关闭窗口:
 
 
