@@ -23,6 +23,9 @@
 <body>
     <div id="box">
         <ul>
+            <!--a标签中的href冒号前面的是协议，后面的是执行的内容-->
+            <li class="current"><a href="javascript:alert('123')">首页</a></li>
+
             <!--li中写a标签的目的就是为了让鼠标指上去的时候是一个小手-->
             <li class="current"><a href="http://www.baidu.com">首页</a></li>
             <li><a href="javascript:void(0)">博客</a></li>    <!--<a href="javascript:void(0)"></a>点击时什么都不会发生-->
@@ -32,5 +35,9 @@
             <li><a href="javascript:void(0)">帮助</a></li>
         </ul>
     </div>
+
+    <script>
+        var box=document.getElementById('box');
+    </script>
 </body>
 </html>

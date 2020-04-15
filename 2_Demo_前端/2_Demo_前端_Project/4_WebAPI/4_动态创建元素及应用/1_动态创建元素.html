@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1_动态创建元素</title>
+<!--Css_Code-->
+    <style>
+
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <input type="button" value="按钮" id="btn">
+
+    <div id="box">111</div>
+<!--JavaScript_Code-->
+    <script>
+        //动态创建元素
+        //document.write()    直接在页面中写,但是会把页面原有内容覆盖     注意：有小括号的是方法，没有小括号的是属性
+        //element.innerHTML
+        //document.createElement()  在内存中创建标签，但是不会直接显示
+
+        //演示document.write()
+        var btn=document.getElementById('btn');
+        btn.onclick=function(){
+            document.write('hello <p>Word</p>');
+        };
+
+        //演示document.createElement()
+        var p=document.createElement('p');  //在内存中创建一个DOM对象
+        //设置对象的属性
+        p.innerText='hello';
+        p.style.color='red';
+        var box=document.getElementById('box'); //把p元素放到DOM上
+        box.appendChild(p);
+
+    </script>
+</body>
+</html>
