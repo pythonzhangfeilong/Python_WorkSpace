@@ -2,59 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/3_节点介绍及应用/5_兄弟节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/4_动态创建元素及应用/1_动态创建元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/16_房天下租房数据写入excel/1_fang_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/17_汉服网图片/1_汉服.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/1_Matplotlib_2D绘图/1_Matplotlib安装.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/1_Matplotlib_2D绘图/2_隐式创建画布_创建一个使用默认的直角坐标系.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/1_Matplotlib_2D绘图/3_显式创建画布_创建多个自定义的直角坐标系.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/1_Matplotlib是什么.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/2_简单的绘图实例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/3_图形中文显示.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/4_获取系统已注册字体.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/5_自定义坐标图的格式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/6_绘制正弦波.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/7_subplot()在一张图中画多个坐标系.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/simhei.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_数据分析/1_把全国人口获取下来做成直方图/1_get_people.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_数据分析/1_把全国人口获取下来做成直方图/各省人口.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy/1_NumPy基础/1_NumPy介绍" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy/1_NumPy基础/2_Numpy_基础.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy/1_NumPy基础/3_ndarray的重要属性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy/1_NumPy基础/4_数组创建.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy/1_NumPy基础/5_打印数组.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/3_节点介绍及应用/4_菜单栏.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/3_节点介绍及应用/4_菜单栏.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/13_爬虫得到的数据保存在execel中/2_贝壳找房网.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/13_爬虫得到的数据保存在execel中/2_贝壳找房网.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/1_Matplotlib_2D绘图/1_Matplotlib安装.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib 2D绘图/1_Matplotlib安装.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/1_Matplotlib_2D绘图/2_隐式创建画布_创建一个使用默认的直角坐标系.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib 2D绘图/2_隐式创建画布_创建一个使用默认的直角坐标系.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/1_Matplotlib_2D绘图/3_显式创建画布_创建多个自定义的直角坐标系.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib 2D绘图/3_显式创建画布_创建多个自定义的直角坐标系.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/1_Matplotlib是什么.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib/1_Matplotlib是什么.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/2_简单的绘图实例.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib/2_简单的绘图实例.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/3_图形中文显示.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib/3_图形中文显示.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/4_获取系统已注册字体.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib/4_获取系统已注册字体.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/5_自定义坐标图的格式.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib/5_自定义坐标图的格式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/6_绘制正弦波.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib/6_绘制正弦波.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/7_subplot()在一张图中画多个坐标系.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib/7_subplot()在一张图中画多个坐标系.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/8_pyplot 子模块提供 bar() 函数来生成条形图.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib/8_pyplot 子模块提供 bar() 函数来生成条形图.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/simhei.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib/simhei.ttf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="01_spider_data库" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="01_spider_data库" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="01_spider_data库" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="01_spider_data: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,10 +44,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/1_百度接口实现车牌识别/baidu_api_车牌识别.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/1_Demo_Python_1903/2_Python变量、字符串、数字的输入输出/2_Python数字类型.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy/1_NumPy基础/4_数组创建.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/13_爬虫得到的数据保存在execel中/1_彼岸.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/11_京东/2_Selenium获取价格等数据.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy/1_NumPy基础/3_ndarray的重要属性.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy/1_NumPy基础/1_NumPy介绍" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/12_苏宁数据写入数据库/2_Selenium获取商品价格.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/8_趣图网/1_趣图.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_数据分析/1_把全国人口获取下来做成直方图/1_get_people.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1RpB9r2pgZAfX0Onygs4AjiNf82" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -92,71 +69,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_数据分析/1_把全国人口获取下来做成直方图" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy/1_NumPy基础" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/1_获取页面元素" />
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/3_JavaScript/3_JavaScript_操作符" />
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/2_CSS_字体" />
-      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project" />
-      <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_数据分析/1_把全国人口获取下来做成直方图" />
       <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/2_注册事件及应用" />
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/2_CSS/3_CSS_外观样式及应用" />
       <recent name="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/1_HTML/4_HTML_表格" />
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_苏宁数据写入数据库" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.8_pyplot 子模块提供 bar() 函数来生成条形图">
-    <configuration name="1_汉服" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/17_汉服网图片" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/17_汉服网图片/1_汉服.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_好看视频" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_爬取好看视频" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/8_爬取好看视频/1_好看视频.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.1_get_people">
     <configuration name="1_趣图" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_图形中文显示" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1_get_people" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,12 +208,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_数据分析/1_把全国人口获取下来做成直方图" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/3_图形中文显示.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_数据分析/1_把全国人口获取下来做成直方图/1_get_people.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,7 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5_自定义坐标图的格式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2_简单的绘图实例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,12 +230,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/5_自定义坐标图的格式.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib/2_简单的绘图实例.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,7 +244,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6_绘制正弦波" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3_ndarray的重要属性" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,12 +252,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/6_绘制正弦波.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy/1_NumPy基础/3_ndarray的重要属性.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,7 +266,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7_subplot()在一张图中画多个坐标系" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4_数组创建" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,12 +274,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/7_subplot()在一张图中画多个坐标系.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy/1_NumPy基础/4_数组创建.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,7 +288,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8_pyplot 子模块提供 bar() 函数来生成条形图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="8_pyplot 子模块提供 bar() 函数来生成条形图 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -363,12 +296,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib/8_pyplot 子模块提供 bar() 函数来生成条形图.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib/8_pyplot 子模块提供 bar() 函数来生成条形图.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -379,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.8_pyplot 子模块提供 bar() 函数来生成条形图" />
-        <item itemvalue="Python.7_subplot()在一张图中画多个坐标系" />
-        <item itemvalue="Python.6_绘制正弦波" />
-        <item itemvalue="Python.5_自定义坐标图的格式" />
-        <item itemvalue="Python.3_图形中文显示" />
+        <item itemvalue="Python.1_get_people" />
+        <item itemvalue="Python.8_pyplot 子模块提供 bar() 函数来生成条形图 (1)" />
+        <item itemvalue="Python.2_简单的绘图实例" />
+        <item itemvalue="Python.4_数组创建" />
+        <item itemvalue="Python.3_ndarray的重要属性" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +439,10 @@
       <workItem from="1586481940925" duration="5962000" />
       <workItem from="1586740842336" duration="4483000" />
       <workItem from="1586827033747" duration="6535000" />
-      <workItem from="1586914058051" duration="8732000" />
+      <workItem from="1586914058051" duration="9166000" />
+      <workItem from="1586998891764" duration="3559000" />
+      <workItem from="1587346760361" duration="6949000" />
+      <workItem from="1587443775732" duration="5232000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1570520907244</created>
@@ -837,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583377947321</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="huitu">
+      <created>1586940157747</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1586940157747</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -861,57 +804,70 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="huitu" />
+    <option name="LAST_COMMIT_MESSAGE" value="huitu" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="150" key="GridCell.Tab.0.bottom" timestamp="1586939881284">
+    <state x="435" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587000571943">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="435" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.798@0.23.1440.798" timestamp="1587000571943" />
+    <state x="307" y="23" key="CommitChangelistDialog2" timestamp="1586940157217">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1586768782422" />
-    <state width="1398" height="150" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1586939881284" />
+    <state x="307" y="23" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1586940157217" />
+    <state width="1398" height="254" key="GridCell.Tab.0.bottom" timestamp="1587460147385">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1587460147385" />
+    <state width="1398" height="136" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1587460078072" />
     <state width="1398" height="150" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1586937873452" />
     <state width="1398" height="150" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1586938009962" />
-    <state width="1398" height="150" key="GridCell.Tab.0.center" timestamp="1586939881283">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="254" key="GridCell.Tab.0.center" timestamp="1587460147385">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="254" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1586768782422" />
-    <state width="1398" height="150" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1586939881283" />
+    <state width="1398" height="254" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1587460147385" />
+    <state width="1398" height="136" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1587460078071" />
     <state width="1398" height="150" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1586937873451" />
     <state width="1398" height="150" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1586938009961" />
-    <state width="1398" height="150" key="GridCell.Tab.0.left" timestamp="1586939881282">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="254" key="GridCell.Tab.0.left" timestamp="1587460147385">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="254" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1586768782421" />
-    <state width="1398" height="150" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1586939881282" />
+    <state width="1398" height="254" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1587460147385" />
+    <state width="1398" height="136" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1587460078071" />
     <state width="1398" height="150" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1586937873450" />
     <state width="1398" height="150" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1586938009961" />
-    <state width="1398" height="150" key="GridCell.Tab.0.right" timestamp="1586939881283">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="254" key="GridCell.Tab.0.right" timestamp="1587460147385">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="254" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1586768782422" />
-    <state width="1398" height="150" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1586939881283" />
+    <state width="1398" height="254" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1587460147385" />
+    <state width="1398" height="136" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1587460078072" />
     <state width="1398" height="150" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1586937873451" />
     <state width="1398" height="150" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1586938009961" />
-    <state width="1398" height="254" key="GridCell.Tab.1.bottom" timestamp="1586846164534">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="254" key="GridCell.Tab.1.bottom" timestamp="1587460147386">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="254" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1586768782424" />
+    <state width="1398" height="254" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1587460147386" />
     <state width="1398" height="254" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1586846164534" />
-    <state width="1398" height="254" key="GridCell.Tab.1.center" timestamp="1586846164534">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="254" key="GridCell.Tab.1.center" timestamp="1587460147386">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="254" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1586768782423" />
+    <state width="1398" height="254" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1587460147386" />
     <state width="1398" height="254" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1586846164534" />
-    <state width="1398" height="254" key="GridCell.Tab.1.left" timestamp="1586846164534">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="254" key="GridCell.Tab.1.left" timestamp="1587460147385">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="254" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1586768782423" />
+    <state width="1398" height="254" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1587460147385" />
     <state width="1398" height="254" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1586846164534" />
-    <state width="1398" height="254" key="GridCell.Tab.1.right" timestamp="1586846164534">
+    <state width="1398" height="254" key="GridCell.Tab.1.right" timestamp="1587460147386">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1587460147386" />
+    <state width="1398" height="254" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1586846164534" />
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1586940168313">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="254" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1586768782423" />
-    <state width="1398" height="254" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1586846164534" />
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1586940168313" />
     <state x="420" y="139" width="600" height="566" key="find.popup" timestamp="1586844827181">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
@@ -934,6 +890,7 @@
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_tkinter.coverage" NAME="1_tkinter Coverage Results" MODIFIED="1577343625406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/7_Demo_tkinter" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_pymongo.coverage" NAME="2_pymongo数据查询 Coverage Results" MODIFIED="1571207940222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/12_MongoDB的安装使用" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_turtle_.coverage" NAME="2_turtle_画奥运五环 Coverage Results" MODIFIED="1583377886339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/1_Python海归绘图" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$3_ndarray.coverage" NAME="3_ndarray的重要属性 Coverage Results" MODIFIED="1587008543863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_12306.coverage" NAME="1_12306 Coverage Results" MODIFIED="1577347520650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/16_爬取12306的票" />
     <SUITE FILE_PATH="coverage/Python_workspace$3_text.coverage" NAME="3_text Coverage Results" MODIFIED="1571210617867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/12_MongoDB的安装使用" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_Python.coverage" NAME="2_Python数字类型 Coverage Results" MODIFIED="1580976285659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Demo_Python_1903/2_Python变量、字符串、数字的输入输出" />
@@ -945,6 +902,7 @@
     <SUITE FILE_PATH="coverage/Python_workspace$1_pymongo.coverage" NAME="1_pymongo数据插入 Coverage Results" MODIFIED="1571207867029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/12_MongoDB的安装使用" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$tes.coverage" NAME="tes Coverage Results" MODIFIED="1586231714047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/16_哈哈" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$baidu_api_.coverage" NAME="baidu_api_车牌识别朗读 Coverage Results" MODIFIED="1579878424136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/2_百度接口识别车牌，并且朗读车牌号" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_get_people.coverage" NAME="1_get_people Coverage Results" MODIFIED="1587516950689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_数据分析/1_把全国人口获取下来做成直方图" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_fang_datas.coverage" NAME="2_fang_datas Coverage Results" MODIFIED="1586745728710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/16_房天下租房数据写入excel" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1____.coverage" NAME="1_梨视频-社会-爬取-函数版 Coverage Results" MODIFIED="1573531396658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取梨视频" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_.coverage" NAME="1_汉服 Coverage Results" MODIFIED="1586923053464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/17_汉服网图片" />
@@ -957,7 +915,7 @@
     <SUITE FILE_PATH="coverage/Python_WorkSpace$run__3_.coverage" NAME="run (3) Coverage Results" MODIFIED="1571971540031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/2_Scrapy_download/bian_project" />
     <SUITE FILE_PATH="coverage/Python_workspace$word.coverage" NAME="word Coverage Results" MODIFIED="1570601871848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/7_selenium" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_json.coverage" NAME="1_安居客新房数据写入json文件 Coverage Results" MODIFIED="1574394338448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_安居客数据库写入" />
-    <SUITE FILE_PATH="coverage/Python_WorkSpace$4_.coverage" NAME="4_获取系统已注册字体 Coverage Results" MODIFIED="1586938227262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$4_.coverage" NAME="4_数组创建 Coverage Results" MODIFIED="1587365264660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/3_NumPy" />
     <SUITE FILE_PATH="coverage/Python_workspace$5_phantomjs_.coverage" NAME="5_phantomjs_的使用 Coverage Results" MODIFIED="1570674797501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/7_selenium" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$text.coverage" NAME="text Coverage Results" MODIFIED="1572509740698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取西瓜视频" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$7_subplot__.coverage" NAME="7_subplot()在一张图中画多个坐标系 Coverage Results" MODIFIED="1586939881274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
@@ -1001,17 +959,18 @@
     <SUITE FILE_PATH="coverage/Python_WorkSpace$6_BeautifulSoup.coverage" NAME="6_BeautifulSoup Coverage Results" MODIFIED="1586502346293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/10_多网站实例练习" />
     <SUITE FILE_PATH="coverage/Python_workspace$3_selenium_QQ.coverage" NAME="3_selenium_登陆QQ空间 Coverage Results" MODIFIED="1570600887176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/7_selenium" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_QQ.coverage" NAME="2_模拟登陆QQ空间 Coverage Results" MODIFIED="1570593256094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/7_selenium" />
-    <SUITE FILE_PATH="coverage/Python_WorkSpace$8_pyplot__bar___.coverage" NAME="8_pyplot 子模块提供 bar() 函数来生成条形图 Coverage Results" MODIFIED="1586940045036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$8_pyplot__bar___.coverage" NAME="8_pyplot 子模块提供 bar() 函数来生成条形图 Coverage Results" MODIFIED="1586998950725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_test.coverage" NAME="1_test Coverage Results" MODIFIED="1581072981969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$9_.coverage" NAME="9_梨视频 Coverage Results" MODIFIED="1574152852991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/10_多网站实例练习" />
     <SUITE FILE_PATH="coverage/Python_workspace$chaojiying.coverage" NAME="chaojiying Coverage Results" MODIFIED="1571104100392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/11_验证码识别" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_ndarray.coverage" NAME="2_创建ndarray Coverage Results" MODIFIED="1574819818751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/5_Demo_Numpy/1_Numpy_基础" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$run.coverage" NAME="run Coverage Results" MODIFIED="1571990126674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_Scrapy_POST请求/baidu_fanyi" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_.coverage" NAME="1_爬取西瓜视频 Coverage Results" MODIFIED="1571216408359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
-    <SUITE FILE_PATH="coverage/Python_WorkSpace$2_.coverage" NAME="2_简单的绘图实例 Coverage Results" MODIFIED="1586936253791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$2_.coverage" NAME="2_简单的绘图实例 Coverage Results" MODIFIED="1587371217320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_spider_.coverage" NAME="1_spider_美团 Coverage Results" MODIFIED="1574827641142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_美团数据" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_ip.coverage" NAME="1_快代理ip爬取 Coverage Results" MODIFIED="1571880290268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_turtle.coverage" NAME="1_turtle绘图，求俩点间的距离 Coverage Results" MODIFIED="1583377525838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/10_使用turtle画出折线图，并且求俩点的距离" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$8_pyplot__bar_____1_.coverage" NAME="8_pyplot 子模块提供 bar() 函数来生成条形图 (1) Coverage Results" MODIFIED="1587452234195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy Matplotlib" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$text__1_.coverage" NAME="text (1) Coverage Results" MODIFIED="1572939160624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取梨视频" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1572335321556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/Fastproxy/kuai_Spider" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_selenium.coverage" NAME="1_selenium Coverage Results" MODIFIED="1570591525287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/7_selenium" />
