@@ -31,6 +31,8 @@ print(data_array)
 函数ones创建一个完整的数组，
 函数empty创建一个数组，其初始内容是随机的，取决于内存的状态。
 默认情况下，创建的数组的dtype是 float64 类型的。
+linspace()  创建等差数列数组
+logspace()  创建等比数列数组
 '''
 
 print(numpy.zeros((3,4)))
