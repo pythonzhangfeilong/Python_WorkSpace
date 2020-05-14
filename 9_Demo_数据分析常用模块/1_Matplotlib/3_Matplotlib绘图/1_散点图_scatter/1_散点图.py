@@ -10,11 +10,11 @@ import random
 from matplotlib import pyplot
 
 hight=[]
-for i in range(6):
+for i in range(60):
     s=random.randint(100,199)
     hight.append(s)
 weight=[]
-for i in range(6):
+for i in range(60):
     y=random.randint(30,99)
     weight.append(y)
 
