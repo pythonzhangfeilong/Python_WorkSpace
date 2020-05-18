@@ -1,5 +1,5 @@
 """
-@File    : 1_根据css选择器获取元素.py
+@File    : 1_css选择器class获取元素.py
 @Time    : 2020/5/14 4:44 下午
 @Author  : FeiLong
 @Software: PyCharm
@@ -11,6 +11,7 @@ web_driver=webdriver.Chrome(r'/Users/feilong/02_应用/chromedriver_mac64/chrome
 
 web_driver.get('http://f.python3.vip/webauto/sample1.html')
 
+# css选择器的原理就是根据HTML上的css选择器去取页面中的元素
 print(web_driver.find_element_by_css_selector('.plant').text)
 
 web_driver.quit()

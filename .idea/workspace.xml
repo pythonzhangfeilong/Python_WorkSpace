@@ -2,24 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/1_实例演示/1_Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/2_Selenium选择元素/1_根据元素的id属性选择元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/2_Selenium选择元素/2_根据class属性选择元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/2_Selenium选择元素/3_根据tag选择元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/2_Selenium选择元素/4_WebDriver和WebElement的区别.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/2_Selenium选择元素/5_通过WebElement对象选择元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/2_Selenium选择元素/6_隐式等待.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/1_点击_click().py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/2_输入_send_keys().py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/3_获取文本_.text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/4_获取元素属性_get_attribute(元素名).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/5_获取指定div中的所有元素get_attribute(outerHTML).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/6_获取指定div下包含的元素get_attribute(innerHTML).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/7_获取输入框中的文字_get_attribute(value).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/8_.text无法获取文本信息时.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/1_根据css选择器获取元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/10_css选择器兄弟选择器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/11_css选择器包含.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/2_css选择器tag获取元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/3_css选择器id获取元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/4_css选择子元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/5_css选择后代元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/6_css选择器属性值获取元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/7_css满足多个条件时用,分隔.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/8_css选择器按次序获取元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/9_css选择器倒数次序获取元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/5_Selenium_frameq切换/1_Selenium_frame切换进去.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/5_Selenium_frameq切换/2_Selenium_frame切换出来.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/6_Selenium_窗口切换/1_Selenium_html切换出去.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/6_Selenium_窗口切换/2_selenium_html切换回来.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框/1_点选_radio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框/2_勾选_checkbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框/3_下拉单选_select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框/4_多选_select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框/5_select_常用方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/8_Selenium_实战技巧/1_鼠标悬停.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/8_Selenium_实战技巧/2_冻结界面.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/8_Selenium_实战技巧/3_弹出对话框.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/10_父节点.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/11_兄弟节点.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/12_Selenium_使用Xpath注意点.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/1_绝对路径.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/2_相对路径.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/3_通配符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/4_根据属性选择元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/5_根据id选择元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/6_根据class选择元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/7_根据次序选择元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/8_根据范围选择元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/9_组选择.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/3_获取文本_.text.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/3_获取文本_.text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/1_根据css选择器获取元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/1_css选择器class获取元素.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Demo_Selenium/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_Demo_Selenium/Selenium_Project/1_HHHTRQRL_Login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +102,13 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/10_Demo_Selenium/Selenium_Project" />
+      <recent name="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/4_Matplotlib_Project/1_Spider_People" />
+      <recent name="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/4_Matplotlib_Project" />
+      <recent name="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/5_饼状图_pie" />
+      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/14_图上展示文字信息" />
       <recent name="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/4_Matplotlib_Project/1_Spider_People" />
@@ -89,16 +116,9 @@
       <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_数据分析/1_把全国人口获取下来做成直方图" />
       <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_常用模块/2_NumPy Matplotlib" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/4_Matplotlib_Project/1_Spider_People" />
-      <recent name="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/4_Matplotlib_Project" />
-      <recent name="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/5_饼状图_pie" />
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project" />
-      <recent name="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_数据分析" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="1_安居客新房数据写入数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.1_HHHTRQRL_Login">
+    <configuration name="12_Selenium_使用Xpath注意点" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,12 +126,188 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_安居客数据库写入" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_安居客数据库写入/1_安居客新房数据写入json文件.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath/12_Selenium_使用Xpath注意点.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_鼠标悬停" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Demo_Selenium/8_Selenium_实战技巧" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Demo_Selenium/8_Selenium_实战技巧/1_鼠标悬停.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_HHHTRQRL_Login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Demo_Selenium/Selenium_Project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Demo_Selenium/Selenium_Project/1_HHHTRQRL_Login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_饼状图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/5_饼状图_pie/1_饼状图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_一张画布上画多个子图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/6_子图_subplot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/6_子图_subplot/1_一张画布上画多个子图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_多个画布也就是多个画布对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/7_创建多张画布" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/7_创建多张画布/1_多个画布也就是多个画布对象.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_纵向和横向画图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/3_条形图_bar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/3_条形图_bar/1_纵向和横向画图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_房天下储存到数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库/1_房天下储存到数据库.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_身份证号检验" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验/1_身份证号检验.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,7 +426,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1_饼状图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3_下拉单选_select" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,12 +434,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/5_饼状图_pie/1_饼状图.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框/3_下拉单选_select.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,7 +448,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1_一张画布上画多个子图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4_多选_select" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,232 +456,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/6_子图_subplot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/6_子图_subplot/1_一张画布上画多个子图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_多个画布也就是多个画布对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/7_创建多张画布" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/7_创建多张画布/1_多个画布也就是多个画布对象.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_形状" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/17_形状" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/17_形状/1_形状.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_纵向和横向画图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/3_条形图_bar" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/3_条形图_bar/1_纵向和横向画图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_房天下储存到数据库" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/9_房天下储存到数据库/1_房天下储存到数据库.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_身份证号检验" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/14_身份证号检验/1_身份证号检验.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_根据css选择器获取元素" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素/1_根据css选择器获取元素.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4_获取元素属性_get_attribute(元素名)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/4_获取元素属性_get_attribute(元素名).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5_获取指定div中的所有元素get_attribute(outerHTML)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/5_获取指定div中的所有元素get_attribute(outerHTML).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="7_获取输入框中的文字_get_attribute(value)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素/7_获取输入框中的文字_get_attribute(value).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Demo_Selenium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Demo_Selenium/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框/4_多选_select.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -496,11 +472,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.1_根据css选择器获取元素" />
-        <item itemvalue="Python.7_获取输入框中的文字_get_attribute(value)" />
-        <item itemvalue="Python.5_获取指定div中的所有元素get_attribute(outerHTML)" />
-        <item itemvalue="Python.4_获取元素属性_get_attribute(元素名)" />
+        <item itemvalue="Python.1_HHHTRQRL_Login" />
+        <item itemvalue="Python.12_Selenium_使用Xpath注意点" />
+        <item itemvalue="Python.1_鼠标悬停" />
+        <item itemvalue="Python.4_多选_select" />
+        <item itemvalue="Python.3_下拉单选_select" />
       </list>
     </recent_temporary>
   </component>
@@ -640,14 +616,9 @@
       <workItem from="1589245992727" duration="12943000" />
       <workItem from="1589332188233" duration="7509000" />
       <workItem from="1589417551038" duration="160000" />
-      <workItem from="1589417868427" duration="9074000" />
-    </task>
-    <task id="LOCAL-00003" summary="提交">
-      <created>1570699871932</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1570699871932</updated>
+      <workItem from="1589417868427" duration="9291000" />
+      <workItem from="1589503642986" duration="7041000" />
+      <workItem from="1589764380685" duration="7991000" />
     </task>
     <task id="LOCAL-00004" summary="提交">
       <created>1570765428716</created>
@@ -985,7 +956,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589417880305</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="selenium">
+      <created>1589446721394</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1589446721394</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1011,7 +989,8 @@
     <MESSAGE value="huitu" />
     <MESSAGE value="提交" />
     <MESSAGE value="Matplotlib" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matplotlib" />
+    <MESSAGE value="selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589256529922">
@@ -1022,49 +1001,49 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="435" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.798@0.23.1440.798" timestamp="1587000571943" />
-    <state x="0" y="23" width="1440" height="798" key="CommitChangelistDialog2" timestamp="1589417879873">
+    <state x="0" y="23" width="1440" height="798" key="CommitChangelistDialog2" timestamp="1589446720866">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="0" y="23" width="1440" height="798" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1589417879873" />
+    <state x="0" y="23" width="1440" height="798" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1589446720866" />
     <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1589246353701" />
     <state x="10" y="23" key="CommitChangelistDialog2/0.23.1440.804@0.23.1440.804" timestamp="1587517066503" />
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom" timestamp="1589446520697">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="164" key="GridCell.Tab.0.bottom" timestamp="1589790524417">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1589360502587" />
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1589335881787" />
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1589446520697" />
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1589357774792" />
+    <state width="1398" height="164" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1589790524417" />
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1589767277583" />
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1589507058040" />
     <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1589429068316" />
     <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1589428410466" />
     <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1589428167937" />
-    <state width="1398" height="165" key="GridCell.Tab.0.center" timestamp="1589446520697">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="164" key="GridCell.Tab.0.center" timestamp="1589790524416">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state width="1398" height="254" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1589360502587" />
-    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1589335881786" />
-    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1589446520697" />
-    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1589357774791" />
+    <state width="1398" height="164" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1589790524416" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1589767277582" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1589507058039" />
     <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1589429068315" />
     <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1589428410465" />
     <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1589428167936" />
-    <state width="1398" height="165" key="GridCell.Tab.0.left" timestamp="1589446520696">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="164" key="GridCell.Tab.0.left" timestamp="1589790524415">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state width="1398" height="254" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1589360502587" />
-    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1589335881785" />
-    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1589446520696" />
-    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1589357774790" />
+    <state width="1398" height="164" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1589790524415" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1589767277582" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1589507058039" />
     <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1589429068315" />
     <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1589428410464" />
     <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1589428167936" />
-    <state width="1398" height="165" key="GridCell.Tab.0.right" timestamp="1589446520697">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="164" key="GridCell.Tab.0.right" timestamp="1589790524416">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state width="1398" height="254" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1589360502587" />
-    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1589335881786" />
-    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1589446520697" />
-    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1589357774791" />
+    <state width="1398" height="164" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1589790524416" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1589767277583" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1589507058040" />
     <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1589429068316" />
     <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1589428410465" />
     <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1589428167937" />
@@ -1092,10 +1071,10 @@
     <state width="1398" height="254" key="GridCell.Tab.1.right/0.23.1440.795@0.23.1440.795" timestamp="1589360502588" />
     <state width="1398" height="254" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1589334743306" />
     <state width="1398" height="254" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1587523360196" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1589417891818">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1589446730084">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.798@0.23.1440.798" timestamp="1589417891818" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.798@0.23.1440.798" timestamp="1589446730084" />
     <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1589246364810" />
     <state x="320" y="163" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1587517082858" />
     <state x="420" y="139" width="600" height="566" key="find.popup" timestamp="1586844827181">
@@ -1132,19 +1111,23 @@
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_xlwt.coverage" NAME="1_xlwt Coverage Results" MODIFIED="1575356309498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_爬虫得到的数据保存在execel中" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$run__4_.coverage" NAME="run (4) Coverage Results" MODIFIED="1571986690542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/1_Scrapy_分页爬取/bian_project" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_pymongo.coverage" NAME="1_pymongo数据插入 Coverage Results" MODIFIED="1571207867029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/12_MongoDB的安装使用" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$8_css.coverage" NAME="8_css选择器按次序获取元素 Coverage Results" MODIFIED="1589512495364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$3_twiny.coverage" NAME="3_双坐标轴twiny Coverage Results" MODIFIED="1587891373618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/12_一张图上双坐标轴" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$baidu_api_.coverage" NAME="baidu_api_车牌识别朗读 Coverage Results" MODIFIED="1579878424136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/2_百度接口识别车牌，并且朗读车牌号" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_get_people.coverage" NAME="1_get_people Coverage Results" MODIFIED="1587516950689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/2_Demo_数据分析/1_把全国人口获取下来做成直方图" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_HHHTRQRL_Login.coverage" NAME="1_HHHTRQRL_Login Coverage Results" MODIFIED="1589790544148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/Selenium_Project" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1____.coverage" NAME="1_梨视频-社会-爬取-函数版 Coverage Results" MODIFIED="1573531396658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取梨视频" />
-    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_.coverage" NAME="1_纵向和横向画图 Coverage Results" MODIFIED="1589337017114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/3_条形图_bar" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_.coverage" NAME="1_鼠标悬停 Coverage Results" MODIFIED="1589772902118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/8_Selenium_实战技巧" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1.coverage" NAME="1 Coverage Results" MODIFIED="1589334762203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/4_Matplotlib_Project/1_Spider_People" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_NumPy.coverage" NAME="2_NumPy常用函数 Coverage Results" MODIFIED="1587522028974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy/3_NumPy数组操作" />
     <SUITE FILE_PATH="coverage/Python_workspace$test.coverage" NAME="test Coverage Results" MODIFIED="1570503436958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/6_bs4" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_get_people__1_.coverage" NAME="1_get_people (1) Coverage Results" MODIFIED="1587518657596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/18_把全国人口获取下来做成直方图" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_guazi.coverage" NAME="1_guazi Coverage Results" MODIFIED="1586506856818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/17_爬取瓜子二手车" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2.coverage" NAME="2 Coverage Results" MODIFIED="1586230204423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/16_哈哈" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$3_cssid.coverage" NAME="3_css选择器id获取元素 Coverage Results" MODIFIED="1589507917789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$run__3_.coverage" NAME="run (3) Coverage Results" MODIFIED="1571971540031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/2_Scrapy_download/bian_project" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$7__get_attribute_value_.coverage" NAME="7_获取输入框中的文字_get_attribute(value) Coverage Results" MODIFIED="1589444965109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$4_css.coverage" NAME="4_css选择子元素 Coverage Results" MODIFIED="1589509252282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_json.coverage" NAME="1_安居客新房数据写入json文件 Coverage Results" MODIFIED="1574394338448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_安居客数据库写入" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_People_data.coverage" NAME="1_People_data Coverage Results" MODIFIED="1589360416140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/4_Matplotlib_Project/1_Spider_People" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$3_tag.coverage" NAME="3_根据tag选择元素 Coverage Results" MODIFIED="1589428410454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/2_Selenium选择元素" />
@@ -1154,12 +1137,17 @@
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_time.coverage" NAME="1_time Coverage Results" MODIFIED="1583377718586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/9_Python_time模块" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_data.coverage" NAME="1_data Coverage Results" MODIFIED="1585897360715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/16_哈哈" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_requests_post_.coverage" NAME="2_requests_post_百度翻译 Coverage Results" MODIFIED="1570777339715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$4__select.coverage" NAME="4_多选_select Coverage Results" MODIFIED="1589771953402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$3_.coverage" NAME="3_图形中文显示 Coverage Results" MODIFIED="1589337195598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/2_NumPy Matplotlib" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$tesctrv.coverage" NAME="tesctrv Coverage Results" MODIFIED="1572938615063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/7_爬取梨视频" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_.coverage" NAME="2_后花园网经典语录 Coverage Results" MODIFIED="1571711883612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$run__5_.coverage" NAME="run (5) Coverage Results" MODIFIED="1572321627214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/16_分布式爬虫和redis/2_Spider分布式/kuai_Spider" />
     <SUITE FILE_PATH="coverage/Python_workspace$05_.coverage" NAME="05-有道翻译 Coverage Results" MODIFIED="1571025230845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_Selenium_html.coverage" NAME="1_Selenium_html Coverage Results" MODIFIED="1589766689630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/6_Selenium_窗口切换" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$9_css.coverage" NAME="9_css选择器倒数次序获取元素 Coverage Results" MODIFIED="1589512720267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_Selenium_frame.coverage" NAME="1_Selenium_frame切换出来 Coverage Results" MODIFIED="1589514501315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/5_Selenium_frameq切换" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_bs4_.coverage" NAME="1_bs4_爬取安居客房源信息 Coverage Results" MODIFIED="1570520572573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/6_bs4" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$7__.coverage" NAME="7_满足多个条件时用,分隔 Coverage Results" MODIFIED="1589511749117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1571906745472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_Scrapy_project_one/third_pipeliens" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$6_.coverage" NAME="6_隐式等待 Coverage Results" MODIFIED="1589443558004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/2_Selenium选择元素" />
     <SUITE FILE_PATH="coverage/Python_workspace$1___1_.coverage" NAME="1_爬取西瓜视频 (1) Coverage Results" MODIFIED="1571716571134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
@@ -1176,6 +1164,8 @@
     <SUITE FILE_PATH="coverage/Python_workspace$chaojiying.coverage" NAME="chaojiying Coverage Results" MODIFIED="1571104100392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/11_验证码识别" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$run.coverage" NAME="run Coverage Results" MODIFIED="1571990126674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/15_Scrapy_big/2_Scrapy_POST请求/baidu_fanyi" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_ip.coverage" NAME="1_快代理ip爬取 Coverage Results" MODIFIED="1571880290268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$12_Selenium_Xpath.coverage" NAME="12_Selenium_使用Xpath注意点 Coverage Results" MODIFIED="1589790089703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/9_Xpath" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$2_csstag.coverage" NAME="2_css选择器tag获取元素 Coverage Results" MODIFIED="1589507700846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_R_video.coverage" NAME="1_R_video Coverage Results" MODIFIED="1585897834250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/16_哈哈" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_round.coverage" NAME="1_round Coverage Results" MODIFIED="1583377688221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/2_尚学堂/8_Python四舍五入round" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_pymongo.coverage" NAME="2_pymongo数据查询 Coverage Results" MODIFIED="1571207940222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/12_MongoDB的安装使用" />
@@ -1190,6 +1180,7 @@
     <SUITE FILE_PATH="coverage/PythonWorkSpace_master$1_test.coverage" NAME="1_test Coverage Results" MODIFIED="1571803178458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_文件" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_Text.coverage" NAME="1_Text公式 Coverage Results" MODIFIED="1588922404369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/15_Text数学公式" />
     <SUITE FILE_PATH="coverage/Python_workspace$3_requests_cookie.coverage" NAME="3_requests_cookie定制 Coverage Results" MODIFIED="1571021488516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$2__checkbox.coverage" NAME="2_勾选_checkbox Coverage Results" MODIFIED="1589770578698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_Jepen_video.coverage" NAME="1_Jepen_video Coverage Results" MODIFIED="1586231124962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/16_哈哈" />
     <SUITE FILE_PATH="coverage/Python_workspace$word.coverage" NAME="word Coverage Results" MODIFIED="1570601871848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/7_selenium" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1__click.coverage" NAME="1_点击_click Coverage Results" MODIFIED="1589443599599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素" />
@@ -1200,13 +1191,15 @@
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_Selenium.coverage" NAME="2_Selenium获取商品价格 Coverage Results" MODIFIED="1574756176266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/12_苏宁数据写入数据库" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_NumPy.coverage" NAME="1_NumPy数组切片 Coverage Results" MODIFIED="1587520807573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/2_NumPy/3_NumPy数组操作" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$4__get_attribute.coverage" NAME="4_获取元素属性_get_attribute Coverage Results" MODIFIED="1589444477544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素" />
-    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_css.coverage" NAME="1_根据css选择器获取元素 Coverage Results" MODIFIED="1589445956413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1_css.coverage" NAME="1_根据css选择器获取元素 Coverage Results" MODIFIED="1589507306315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_bs4_.coverage" NAME="1_bs4_爬取安居客房源信息 Coverage Results" MODIFIED="1573698160361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/6_bs4" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_ip.coverage" NAME="2_快代理ip爬取 Coverage Results" MODIFIED="1571710836062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$6_css___.coverage" NAME="6_css选择器属性值获取元素 Coverage Results" MODIFIED="1589510498955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/4_Selenium_Css表达式选择元素" />
     <SUITE FILE_PATH="coverage/Python_workspace$01_.coverage" NAME="01-验证码 Coverage Results" MODIFIED="1571103982836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/11_验证码识别" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_x.coverage" NAME="2_x轴显示日期 Coverage Results" MODIFIED="1589252833056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/2_折线图_plot" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$3_Selenium.coverage" NAME="3_Selenium获取数据并且写入数据库 Coverage Results" MODIFIED="1574756117202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_京东" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$bian.coverage" NAME="bian Coverage Results" MODIFIED="1571898399241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/14_Scrapy/1_Scrapy_project_one/second/second/spiders" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$3__select.coverage" NAME="3_下拉单选_select Coverage Results" MODIFIED="1589771487171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$5_divouterHTML.coverage" NAME="5_获取指定div中的所有元素outerHTML Coverage Results" MODIFIED="1589444667316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/3_Selenium操作元素" />
     <SUITE FILE_PATH="coverage/Python_workspace$video.coverage" NAME="video Coverage Results" MODIFIED="1571725759899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
     <SUITE FILE_PATH="coverage/Python_workspace$2_requests_.coverage" NAME="2_requests_百度搜索 Coverage Results" MODIFIED="1570776340967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
@@ -1215,7 +1208,8 @@
     <SUITE FILE_PATH="coverage/Python_workspace$baidu__translate.coverage" NAME="baidu_ translate Coverage Results" MODIFIED="1570777772707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/9_requests" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_test.coverage" NAME="2_淘宝数据获取test Coverage Results" MODIFIED="1575522610825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/15_淘宝数据抓取" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$123.coverage" NAME="123 Coverage Results" MODIFIED="1575532548814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/16_爬虫展示到前端" />
-    <SUITE FILE_PATH="coverage/Python_WorkSpace$test.coverage" NAME="test Coverage Results" MODIFIED="1575358879853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_爬虫得到的数据保存在execel中" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$2_selenium_html.coverage" NAME="2_selenium_html切换回来 Coverage Results" MODIFIED="1589767277571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/6_Selenium_窗口切换" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$test.coverage" NAME="1_HHHTRQRL_Login Coverage Results" MODIFIED="1589507276540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_Xpath.coverage" NAME="2_Xpath匹配数据 Coverage Results" MODIFIED="1574734454995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/11_京东" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_fang_data.coverage" NAME="1_fang_data Coverage Results" MODIFIED="1586744345115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_Project/16_房天下租房数据写入excel" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1___1_.coverage" NAME="1_苏宁数据写入数据库 (1) Coverage Results" MODIFIED="1574411287188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/12_苏宁数据写入数据库" />
@@ -1226,6 +1220,7 @@
     <SUITE FILE_PATH="coverage/Python_workspace$2_QQ.coverage" NAME="2_模拟登陆QQ空间 Coverage Results" MODIFIED="1570593256094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/7_selenium" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_test.coverage" NAME="1_test Coverage Results" MODIFIED="1581072981969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_ndarray.coverage" NAME="2_创建ndarray Coverage Results" MODIFIED="1574819818751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/5_Demo_Numpy/1_Numpy_基础" />
+    <SUITE FILE_PATH="coverage/Python_WorkSpace$1__radio.coverage" NAME="1_点选_radio Coverage Results" MODIFIED="1589769936490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_Demo_Selenium/7_Selenium_选择框" />
     <SUITE FILE_PATH="coverage/Python_workspace$1_.coverage" NAME="1_爬取西瓜视频 Coverage Results" MODIFIED="1571216408359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/3_爬虫/13_多线程爬虫" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$2_.coverage" NAME="2_双坐标轴面向对象的画法 Coverage Results" MODIFIED="1589253420167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/12_一张图上双坐标轴" />
     <SUITE FILE_PATH="coverage/Python_WorkSpace$1_spider_.coverage" NAME="1_spider_美团 Coverage Results" MODIFIED="1574827641142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_美团数据" />
