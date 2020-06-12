@@ -10,9 +10,9 @@
 #####包含include：指的是将一个网页加载到另一个网页当中
 '''
     1、在App的文件夹中，找到views.py文件，写入：
-        from django.shortcuts import render_to_response
+        from django.shortcuts import render
         def framework_page(request):
-            return render_to_response('framework.html')
+            return render(request,'framework.html')
     2、在templates文件夹中创建一个include.html,写入：
         <div style="background-color: green">绿色</div>
     3、在项目的根目录中找到urls.py文件，写入：
@@ -33,9 +33,9 @@
         block标签包围，便利的内容为默认内容
         
     1、首先在App文件中找到views.py文件，写入：
-        from django.shortcuts import render_to_response
+        from django.shortcuts import render
         def extends_base(request):
-            return render_to_response('extends_base.html')
+            return render(request,'extends_base.html')
     2、在templates的文件夹中，创建extends_base.html并且，写入：
         <!DOCTYPE html>
         <html lang="en">

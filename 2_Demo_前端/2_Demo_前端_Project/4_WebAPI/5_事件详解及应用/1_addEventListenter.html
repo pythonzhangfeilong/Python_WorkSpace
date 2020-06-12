@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+    
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <input type="button" id="btn" value="提交">
+<!--JavaScript_Code-->
+    <script>
+        //onclick无法给同一个对象的同一个事件注册多个事件处理函数
+        //addEventListener可以给同一个对象的同一个事件注册多个事件处理函数,ie9以后的浏览器支持
+        //attachEvent
+        var btn=document.getElementById('btn');
+        btn.addEventListener('click',function () {
+            alert('Hello word');
+        })
+
+        btn.addEventListener('click',function () {
+            alert('Hello xiongdi');
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+    
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <a href="https://www.baidu.com" id="link">百度</a>
+<!--JavaScript_Code-->
+    <script>
+        var link=document.getElementById('link');
+        link.onclick=function(e){
+            alert('hello');
+            //取消默认行为执行
+            // return false;
+            e.preventDefault()
+        }
+    </script>
+</body>
+</html>

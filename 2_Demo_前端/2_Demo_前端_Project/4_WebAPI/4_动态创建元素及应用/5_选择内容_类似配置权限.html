@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+        #all {
+            height: 150px;
+            width: 80px;
+            background-color: #00acc1;
+            font-size: 20px;
+        }
+        #select{
+            height: 150px;
+            width: 80px;
+            background-color: #00acc1;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+
+    <select id="all" multiple="multiple">   <!--multiple实现多选-->
+        <option>苹果</option>
+        <option>橘子</option>
+        <option>梨</option>
+        <option>西瓜</option>
+        <option>水蜜桃</option>
+    </select>
+
+    <input type="button" value=">>" id="btn1">
+    <input type="button" value="<<" id="btn2">
+    <input type="button" value=">" id="btn3">
+    <input type="button" value="<" id="btn4">
+
+    <select id="select" multiple="multiple"></select>
+<!--JavaScript_Code-->
+    <script>
+        function my(id) {
+            return document.getElementById(id)
+        }
+
+
+        var all=my('all');
+        var select=my('select');
+
+        //1、全部选择
+        my('btn1').onclick=function () {
+            var len=all.children.length;
+            for(var i=0;i<len;i++){
+                var option=all.children[0];
+                select.appendChild(option);
+                //去掉当前option选中的效果
+                option.selected=false;
+            }
+        }
+
+        //3、移动选中的
+        my('btn3').onclick=function () {
+            //找到所有选中的option
+            var array=[];
+            for(var i=0;i<all.children.length;i++){
+                var option=all.children[i];
+                if(option.selected){
+                    array.push(option);
+                }
+            }
+            //把数组中的option移动到第二个select中
+            for(var i=0;i<array.length;i++){
+                var option=array[i];
+                select.appendChild(option);
+                //去掉当前option选中的效果
+                option.selected=false;
+            }
+        }
+    </script>
+</body>
+</html>

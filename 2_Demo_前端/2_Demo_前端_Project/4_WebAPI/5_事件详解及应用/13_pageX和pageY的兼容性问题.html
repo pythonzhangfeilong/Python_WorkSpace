@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+        body{
+            margin: 1000px;
+        }
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+
+<!--JavaScript_Code-->
+    <script src="../JavaScript/common.js"></script>
+    <script>
+        document.onclick=function(e){
+            e = e || window.event;
+            console.log(getPage(e).pageX)
+            console.log(getPage(e).pageY)
+        }
+        //获取鼠标在页面的位置，处理浏览器兼容性问题
+        function getPage(e){
+            var pageX=e.pageX || clientX + getScroll().scrollLeft;
+            var pageY=e.pageY || clientY + getScroll().scrollTop;
+
+            return{
+                pageX:pageX,
+                pageY:pageY,
+            }
+        }
+    </script>
+</body>
+</html>

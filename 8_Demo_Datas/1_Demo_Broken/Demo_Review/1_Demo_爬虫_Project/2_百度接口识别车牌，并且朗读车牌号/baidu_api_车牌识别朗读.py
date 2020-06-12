@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
     '''由于默认的读速度太快，需要设置一下读取的速度'''
     say_sudu = engine.getProperty('rate')
-    engine.setProperty('rate', say_sudu - 120)
+    engine.setProperty('rate', say_sudu - 150)
 
     # 读取获取到的车牌号
     engine.say(du_data)

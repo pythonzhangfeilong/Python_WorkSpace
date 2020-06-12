@@ -115,27 +115,27 @@ join([timeout])：阻塞当前环境中的子线程，直到调用此方法的�
 # print('__主线程结束__')
 
 #####列表式的使用
-# import threading
-# import time
-# def say(name):
-#     print('%s is start'%name)
-#     time.sleep(3)
-#     print('----------------')
-# if __name__ == '__main__':
-#     # 获取主线程的名字
-#     print('主线程开始:',threading.current_thread().name)
-#     list_null=[]
-#     '''
-#     下面利用for循环的便利次数，得到了对应个数的线程，然后把创建好的一个个线程加入到空列表中
-#     '''
-#     for i in range(1,5):
-#         # 创建一个线程
-#         t=threading.Thread(target=say,args=('zhang',))
-#         list_null.append(t)
-#     # 所有的线程放在列表中统一的执行
-#     for t in list_null:
-#         t.start()
-#     print('主线程结束:',threading.current_thread().name)
+import threading
+import time
+def say(name):
+    print('%s is start'%name)
+    time.sleep(3)
+    print('----------------')
+if __name__ == '__main__':
+    # 获取主线程的名字
+    print('主线程开始:',threading.current_thread().name)
+    list_null=[]
+    '''
+    下面利用for循环的便利次数，得到了对应个数的线程，然后把创建好的一个个线程加入到空列表中
+    '''
+    for i in range(1,5):
+        # 创建一个线程
+        t=threading.Thread(target=say,args=('zhang',))
+        list_null.append(t)
+    # 所有的线程放在列表中统一的执行
+    for t in list_null:
+        t.start()
+    print('主线程结束:',threading.current_thread().name)
 
 #####join()方法的使用
 '''

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+    
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <input type="button" value="按钮" id="btn">
+    <ul id="ul">
+        <li>111</li>
+        <li>222</li>
+        <li>333</li>
+    </ul>
+
+<!--JavaScript_Code-->
+    <script>
+    //  createElement() 动态创建元素
+    //  appendChild()   把创建的元素添加到页面上
+    //  removeChild()   删除元素
+
+    //  insertBefore()  把元素插入到页面的指定位置
+    //  replaceChild()  把当前元素标签进行替换
+
+        var btn=document.getElementById('btn');
+        btn.onclick = function () {
+            var li=document.createElement('li');
+            li.innerText='abc';
+
+            //把li插入到ul的第一个位置
+            var ul=document.getElementById('ul');
+            ul.insertBefore(li,ul.children[0])
+
+            //replaceChild()
+            var div=document.createElement('div');
+            div.innerText='div';
+            var ul=document.getElementById('ul');
+            ul.replaceChild(div,ul.children[1])
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+        #box table{
+            border-collapse: collapse;  /*当表哥俩条变现存在间隙的时候，使用它保留一条边线*/
+        }
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <div id="box"></div>
+<!--JavaScript_Code-->
+    <script src="../JavaScript/common.js"></script>
+    <script>
+        var datas=[
+            {name:'zs',subject:'语文',score:'90'},
+            {name:'ls',subject:'数学',score:'80'},
+            {name:'ww',subject:'英语',score:'99'},
+            {name:'zl',subject:'英语',score:'100'},
+            {name:'xs',subject:'英语',score:'60'},
+            {name:'dc',subject:'英语',score:'70'},
+        ]
+
+        var headDatas=['姓名','科目','成绩','操作']
+
+        //1、创建table
+        var table=document.createElement('table');   //现在内存中创建一个table元素
+        var box=document.getElementById('box'); //把p元素放到DOM上
+        box.appendChild(table);
+        table.border='1px';
+        table.width='400px';
+
+        //2、创建表头
+        var thead=document.createElement('thead');
+        table.appendChild(thead);
+
+        var tr=document.createElement('tr');
+        thead.appendChild(tr);
+        tr.style.height='40px';
+        tr.style.backgroundColor='lightgray';
+
+        //遍历头部数据，创建th
+        for(var i=0;i<headDatas.length;i++){
+            var th=document.createElement('th');
+            tr.appendChild(th);
+            //给th中的第一列设置内容，由于使用innerText有兼容性问题，所以使用common.js里面写好的处理方法
+            setInnerText(th,headDatas[i])
+        }
+
+        //3、创建数据行
+        var tbody=document.createElement('tbody');
+        table.appendChild(tbody);
+        tbody.style.textAlign='center';
+        for (var i=0; i<datas.length;i++){
+            //一个学生的成绩
+            data=datas[i];
+
+            var tr=document.createElement('tr');
+            tbody.appendChild(tr);
+
+            for(var key in data){
+                var td=document.createElement('td');
+                tr.appendChild(td);
+                setInnerText(td,data[key]);
+            }
+        //生成删除的列
+        var td=document.createElement('td');
+        tr.appendChild(td);
+
+        var a=document.createElement('a');
+        td.appendChild(a);
+        a.href='javascript:void(0)'
+        setInnerText(a,'删除')
+
+        a.onclick = aDelete;    //不是函数调用，而是把函数赋值给onclick
+        }
+        function aDelete(){
+            var tr=this.parentNode.parentNode;
+            tbody.removeChild(tr);
+            return false;
+        }
+    </script>
+</body>
+</html>

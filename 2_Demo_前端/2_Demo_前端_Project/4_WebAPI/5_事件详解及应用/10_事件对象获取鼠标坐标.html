@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+        body{
+            margin: 0;
+            height: 1000px;
+        }
+        #box{
+            margin: 100px;
+            margin-top: 500px;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <div id="box"></div>
+<!--JavaScript_Code-->
+    <script>
+        var box=document.getElementById('box');
+        box.onclick=function(e){
+            e = e || window.event;
+            console.log(e.clientX);
+            console.log(e.clientY);
+        }
+    </script>
+</body>
+</html>

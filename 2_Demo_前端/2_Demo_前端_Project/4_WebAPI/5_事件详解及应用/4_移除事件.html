@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+    
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <input type="button" id="btn" value="按钮">
+<!--JavaScript_Code-->
+    <script>
+        //1、onclick移除事件
+        var btn=document.getElementById('btn');
+        btn.onclick=function () {
+            alert('hello word')
+        //移除事件
+        btn.onclick=null;
+        }
+
+        //2、addEventListenter移除事件
+        function btnClick() {
+            alert('hello word')
+            //移除事件
+            removeEventListener('click',btnClick)
+        }
+        addEventListener('click',btnClick)
+    </script>
+</body>
+</html>

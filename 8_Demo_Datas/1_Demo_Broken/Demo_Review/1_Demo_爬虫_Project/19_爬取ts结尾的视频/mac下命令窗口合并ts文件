@@ -1,0 +1,6 @@
+cat /Users/feilong/05_Code/Python_WorkSpace/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/19_爬取ts结尾的视频/video/*.ts
+>
+/Users/feilong/05_Code/Python_WorkSpace/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/19_爬取ts结尾的视频/video/he.ts
+
+
+cat 文件路径/*.ts > 要合并到的文件路径/合并.ts

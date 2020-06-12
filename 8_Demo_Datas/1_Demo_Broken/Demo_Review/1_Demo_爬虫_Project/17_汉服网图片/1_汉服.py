@@ -29,8 +29,6 @@ class Hanfu():
         while s<ye_data:
             for i in url_datas:
                 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36'}
-                name_list=[]
-                url_list=[]
                 try:
                     response=requests.get(url=i,headers=headers)
                     if response.status_code==200:
@@ -39,10 +37,9 @@ class Hanfu():
                         htmls=etree.HTML(res)
                         picture_name=htmls.xpath('//*[@id="primary-home"]/article/div/p/img/@title')
                         picture_url=htmls.xpath('//*[@id="primary-home"]/article/div/p/img/@src')
-                        datas=list(zip(picture_name,picture_url))
-                        print(datas)
-
-
+                    # request.urlretrieve(url=picture_url, filename='./image/%s.jpg' % picture_name)
+                        for i in picture_name:
+                            print(i)
                 except:
                     return 'None'
             s+=1

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+        #box{
+            width: 300px;
+            height: 300px;
+            border: solid 1px red;
+            margin: 100px 10px 10px 100px;
+        }
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <div id="box"></div>
+<!--JavaScript_Code-->
+    <script src="../JavaScript/common.js"></script>
+    <script>
+        //先获取到盒子
+        var box=document.getElementById('box');
+        box.onclick=function(e){
+            //获取盒子在页面上的位置
+            e = e || window.event;
+            var x = getPage(e).pageX-this.offsetLeft;
+            var y = getPage(e).pageY-this.offsetTop;
+            console.log(x,y)
+        }
+    </script>
+</body>
+</html>

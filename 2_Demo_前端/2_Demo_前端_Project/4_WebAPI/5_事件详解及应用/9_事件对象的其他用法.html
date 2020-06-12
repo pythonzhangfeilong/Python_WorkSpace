@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+        body{
+            margin: 0;
+        }
+        #box{
+            margin: 100px;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <div id="box"></div>
+<!--JavaScript_Code-->
+    <script>
+        var box=document.getElementById('box');
+        // box.onclick=function(e){
+        //     e= e || window.event;
+        //     //获取事件名称
+        //     console.log(e.type);
+        // }
+        box.onclick=fn;
+        box.onmouseover=fn;
+        box.onmouseout=fn;
+
+        function fn(e){
+            e = e || window.event;
+            switch (e.type) {
+                case 'click':
+                    console.log('点击box')
+                        break;
+                case 'mouseover':
+                    console.log('鼠标经过box')
+                        break;
+                case 'mouseout':
+                    console.log('鼠标离开box')
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>

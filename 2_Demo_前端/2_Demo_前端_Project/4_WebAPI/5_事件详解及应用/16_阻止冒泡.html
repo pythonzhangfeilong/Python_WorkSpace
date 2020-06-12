@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+        #box1 {
+            height: 150px;
+            width: 150px;
+            background-color: red;
+        }
+
+        #box2 {
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+        }
+
+        #box3 {
+            height: 50px;
+            width: 50px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <div id="box1">
+        <div id="box2">
+            <div id="box3">
+
+            </div>
+        </div>
+    </div>
+<!--JavaScript_Code-->
+    <script>
+        var array=[box1,box2,box3];
+
+        for(var i=0;i<array.length;i++){
+            array[i].addEventListener('click',function () {
+            console.log(this.id);
+
+            //停止事件传递也就是阻止冒泡
+            e.stopPropagation();
+            });
+        }
+    </script>
+</body>
+</html>

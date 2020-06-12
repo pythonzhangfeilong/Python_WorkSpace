@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+    
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+
+<!--JavaScript_Code-->
+    <script>
+        function removeEventListener(element,aventName,fn) {
+            if(element.removeEventListener){
+                element.removeEventListener(aventName,fn)
+            }else if(element.detachEvent){
+                element.detachEvent('on'+aventName,fn)
+            }else{
+                element['on'+aventName]=null;
+            }
+        }
+    </script>
+</body>
+</html>

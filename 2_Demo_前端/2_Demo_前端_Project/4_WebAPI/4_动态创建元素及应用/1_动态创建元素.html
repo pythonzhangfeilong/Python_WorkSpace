@@ -20,16 +20,16 @@
         //element.innerHTML
         //document.createElement()  在内存中创建标签，但是不会直接显示
 
-        //演示document.write()
-        var btn=document.getElementById('btn');
-        btn.onclick=function(){
-            document.write('hello <p>Word</p>');
-        };
+        //演示document.write()不常用，页面客服链接使用
+        // var btn=document.getElementById('btn');
+        // btn.onclick=function(){
+        //     document.write('hello <p>Word</p>');    //使用document.write()写内容会把页面重新加载
+        // };
 
         //演示document.createElement()
         var p=document.createElement('p');  //在内存中创建一个DOM对象
         //设置对象的属性
-        p.innerText='hello';
+        p.innerText='hello';    //创建文本使用innerText，使用innerHTML会消耗性能
         p.style.color='red';
         var box=document.getElementById('box'); //把p元素放到DOM上
         box.appendChild(p);

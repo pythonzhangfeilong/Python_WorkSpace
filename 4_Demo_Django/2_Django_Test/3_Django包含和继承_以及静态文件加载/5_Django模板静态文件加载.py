@@ -9,8 +9,8 @@
     2、Django的settings.py文件中的STATIC_URL是搭配给静态文件使用的，可以理解为STATIC_URLS是
         STATICFILES_DIRS的路由，在HTML当中用STATIC_URLS的配置项来指代STATICFILES_DIRS当中指定的路径。
     3、在项目的文件中找到settings.py写入
-        STATICFILES_URLS=[
-            os.path.join(BASE_DIR,'static')
+        STATICFILES_DIRS = [
+            os.path.join(BASE_DIR, "static"),
         ]
     
     4、在templates文件夹中创建news.html，并且拼接路径，写入link：

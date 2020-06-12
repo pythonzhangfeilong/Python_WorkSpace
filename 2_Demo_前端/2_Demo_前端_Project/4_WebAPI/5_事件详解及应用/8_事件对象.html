@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+    
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <input type="button" id="btn" value="按钮">
+    <div id="box1">
+        <div id="box2">
+            <div id="box3">
+
+            </div>
+        </div>
+    </div>
+
+<!--JavaScript_Code-->
+    <script>
+        //通过事件对象，可以获取到事件发生的时候和事件相关的一些数据
+        var btn=document.getElementById('btn');
+        btn.onclick=function(e){
+            //DOM标准中，是给事件处理函数一个参数
+            //e就是事件对象
+            //在老版本的ie中获取事件对象的方式window.event
+
+            //处理事件对象的浏览器兼容性问题
+            e = e || window.event;
+
+            //事件的阶段，1捕获阶段 2目标阶段 3冒泡阶段
+            console.log(e.eventPhase);
+        }
+
+    </script>
+</body>
+</html>
