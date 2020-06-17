@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+    
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <input type="button" value="跳转" id="btn">
+<!--JavaScript_Code-->
+    <script>
+        //location可以获取或设置浏览器地址栏中的url
+        var btn=document.getElementById('btn');
+        btn.onclick=function(){
+            // location.href='http://www.baidu.com';
+
+            //assign委派
+            //assign的作用和href的作用一样，可以让页面跳转到指定地址
+            // location.assign('http://www.baidu.com');
+
+            //replace()替换
+            //replace替换地址栏中的地址，但是不记录历史不能后退
+            location.replace('http://www.baidu.com')
+
+            //reload()重新加载也就是refresh,刷新
+            //参数，true强制从服务器获取页面，false如果浏览器有缓存的话，直接从缓存获取页面
+            location.reload()
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+    
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <input type="button" value="alert" id="btn1">
+    <input type="button" value="prompt" id="btn2">
+    <input type="button" value="confirm" id="btn3">
+<!--JavaScript_Code-->
+    <script>
+        var btn1=document.getElementById('btn1')
+        var btn2=document.getElementById('btn2')
+        var btn3=document.getElementById('btn3')
+
+        btn1.onclick=function(){
+            alert('hello word')
+        }
+
+        btn2.onclick=function(){
+            //弹出提示等待用户输入
+            var username=prompt('请输入姓名','张三')    //第一个参数是提示用户输入的内容，第二个参数是输入框的默认值
+            console.log(username)
+        }
+
+        btn3.onclick=function(){
+            var isSure=confirm('是否要删除数据')
+            console.log(isSure)
+        }
+    </script>
+</body>
+</html>

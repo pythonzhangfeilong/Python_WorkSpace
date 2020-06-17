@@ -2,163 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/4_动态创建元素及应用/2_动态创建列表1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/4_动态创建元素及应用/3_动态创建列表2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/4_动态创建元素及应用/4_常用的操作元素方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/4_动态创建元素及应用/5_选择内容_类似配置权限.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/10_事件对象获取鼠标坐标.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/11_跟着鼠标走的图片.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/12_获取页面滚动的距离.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/13_pageX和pageY的兼容性问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/14_获取鼠标在盒子中的位置.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/15_取消默认行为的执行.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/16_阻止冒泡.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/1_addEventListenter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/2_attachEvent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/3_处理注册事件浏览器兼容问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/4_移除事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/5_处理移除事件兼容性问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/6_事件的三个阶段.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/7_事件委托.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/8_事件对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/5_事件详解及应用/9_事件对象的其他用法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/JavaScript/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/image/dong.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_Test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_Test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_includeANDextends/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_includeANDextends/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_static/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_static/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/.idea/Mx_Shop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/App/App_User/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/App/App_User/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/App/App_User/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/App/App_User/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/App/App_User/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/App/App_User/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/App/App_User/url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/App/App_User/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/App/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/Mx_Shop/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/Mx_Shop/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/Mx_Shop/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/Mx_Shop/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/Mx_Shop/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/1_Request_Project/templates/HTML/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/.idea/Templates_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Project_App/App/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Project_App/App/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Project_App/App/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Project_App/App/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Project_App/App/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Project_App/App/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Project_App/App/url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Project_App/App/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Project_App/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Templates_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Templates_test/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Templates_test/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Templates_test/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/Templates_test/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/static/min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/templates/extends_base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/templates/framework.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/templates/include.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/2_Templates_Project/templates/news.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/.idea/Project_Web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Apps/Login/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Apps/Login/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Apps/Login/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Apps/Login/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Apps/Login/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Apps/Login/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Apps/Login/url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Apps/Login/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Apps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Project_Web/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Project_Web/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Project_Web/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Project_Web/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/Project_Web/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/static/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/static/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/static/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/static/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/static/images/b4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/static/images/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/3_Static_Project/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo3_实用小工具/3_把迅雷链接转化为url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/19_爬取ts结尾的视频/1_download_video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/19_爬取ts结尾的视频/2_download_ts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/19_爬取ts结尾的视频/3_download_ts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/19_爬取ts结尾的视频/4_download_ts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/19_爬取ts结尾的视频/mac下命令窗口合并ts文件" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/10_url的组成.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/1_BOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/2_对话框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/3_Js中的加载.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/4_setTimeout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/5_setTimeout_删除提示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/6_setInterval.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/7_setInterval_倒计时.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/8_location.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/9_简单动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/7_offset、client、scroll/1_offset系列属性.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Demo_Python_1903/17_Python多线程/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_Demo_Python_1903/17_Python多线程/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Demo_Python_1903/17_Python多线程/2_Threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Demo_Python_1903/17_Python多线程/2_Threading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/4_动态创建元素及应用/1_动态创建元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/4_动态创建元素及应用/1_动态创建元素.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_includeANDextends/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_includeANDextends/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_includeANDextends/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_static/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django_include_extends_static/Django_static/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django包含和继承_以及静态文件加载/4_Django模板的包含和继承.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django包含和继承_以及静态文件加载/4_Django模板的包含和继承.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django包含和继承_以及静态文件加载/5_Django模板静态文件加载.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_Demo_Django/2_Django_Test/3_Django包含和继承_以及静态文件加载/5_Django模板静态文件加载.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/.idea/Mx_Shop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/App/App_User/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/App/App_User/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/App/App_User/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/App/App_User/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/App/App_User/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/App/App_User/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/App/App_User/url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/App/App_User/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/App/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/Mx_Shop/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/Mx_Shop/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/Mx_Shop/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/Mx_Shop/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/Mx_Shop/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Demo_Django/3_Django_Project/Mx_Shop/templates/HTML/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/17_汉服网图片/1_汉服.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/17_汉服网图片/1_汉服.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/2_百度接口识别车牌，并且朗读车牌号/baidu_api_车牌识别朗读.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/2_百度接口识别车牌，并且朗读车牌号/baidu_api_车牌识别朗读.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/重要的图片/Django项目配置.docx" beforeDir="false" afterPath="$PROJECT_DIR$/重要的图片/Django项目配置.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,6 +108,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_苏宁数据写入数据库/1_苏宁数据写入数据库.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_多个画布也就是多个画布对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/7_创建多张画布" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/7_创建多张画布/1_多个画布也就是多个画布对象.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_纵向和横向画图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/3_条形图_bar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/3_条形图_bar/1_纵向和横向画图.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -495,50 +394,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/6_子图_subplot/1_一张画布上画多个子图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_多个画布也就是多个画布对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/7_创建多张画布" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/7_创建多张画布/1_多个画布也就是多个画布对象.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_纵向和横向画图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/3_条形图_bar" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/3_条形图_bar/1_纵向和横向画图.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -873,14 +728,10 @@
       <workItem from="1591756809286" duration="1084000" />
       <workItem from="1591758774895" duration="6817000" />
       <workItem from="1591838284528" duration="8501000" />
-      <workItem from="1591929774653" duration="1279000" />
-    </task>
-    <task id="LOCAL-00006" summary="提交">
-      <created>1571025253906</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1571025253906</updated>
+      <workItem from="1591929774653" duration="1915000" />
+      <workItem from="1592188955512" duration="1374000" />
+      <workItem from="1592269784875" duration="9622000" />
+      <workItem from="1592356040716" duration="1543000" />
     </task>
     <task id="LOCAL-00007" summary="提交">
       <created>1571041138260</created>
@@ -1218,7 +1069,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590713794778</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="前端">
+      <created>1591932320180</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1591932320180</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1246,7 +1104,8 @@
     <MESSAGE value="Matplotlib" />
     <MESSAGE value="selenium" />
     <MESSAGE value="目录修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="目录修改" />
+    <MESSAGE value="前端" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589256529922">
@@ -1258,11 +1117,11 @@
     </state>
     <state x="435" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.798@0.23.1440.798" timestamp="1587000571943" />
     <state x="435" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.804@0.23.1440.804" timestamp="1591079494495" />
-    <state x="0" y="23" width="1440" height="798" key="CommitChangelistDialog2" timestamp="1590713789476">
+    <state x="0" y="23" width="1440" height="798" key="CommitChangelistDialog2" timestamp="1591932318494">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="0" y="23" width="1440" height="798" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1589790565466" />
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1590713789476" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1591932318494" />
     <state x="10" y="23" key="CommitChangelistDialog2/0.23.1440.804@0.23.1440.804" timestamp="1587517066503" />
     <state x="507" y="185" key="FileChooserDialogImpl" timestamp="1590632696267">
       <screen x="0" y="23" width="1440" height="804" />
@@ -1336,20 +1195,20 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="229" y="61" key="SettingsEditor/0.23.1440.798@0.23.1440.798" timestamp="1590713998421" />
-    <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1590713804243">
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1591932327796">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.798@0.23.1440.798" timestamp="1589790586542" />
-    <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1590713804243" />
-    <state x="320" y="163" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1587517082858" />
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1591932327796" />
+    <state x="320" y="163" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1591932272771" />
     <state x="420" y="139" width="600" height="566" key="find.popup" timestamp="1591758799413">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="420" y="139" width="600" height="566" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1591758799413" />
-    <state x="385" y="148" width="670" height="679" key="search.everywhere.popup" timestamp="1591931761977">
-      <screen x="0" y="23" width="1440" height="804" />
+    <state x="385" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1592273775149">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state x="385" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1440.801@0.23.1440.801" timestamp="1591066643910" />
+    <state x="385" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1440.801@0.23.1440.801" timestamp="1592273775149" />
     <state x="385" y="148" width="670" height="679" key="search.everywhere.popup/0.23.1440.804@0.23.1440.804" timestamp="1591931761977" />
   </component>
   <component name="XDebuggerManager">

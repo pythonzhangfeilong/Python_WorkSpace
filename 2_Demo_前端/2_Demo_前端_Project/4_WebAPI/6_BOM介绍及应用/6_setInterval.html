@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+    
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <input type="button" value="开始" id="btn1">
+    <input type="button" value="取消" id="btn2">
+<!--JavaScript_Code-->
+    <script>
+        var btn1=document.getElementById('btn1');
+        btn1.onclick=function(){
+            //第一个参数是执行的函数，第二个参数是间隔的时间，单位ms
+            setInterval(function(){
+                console.log('早上八点了');
+            },3000);
+        }
+    </script>
+</body>
+</html>

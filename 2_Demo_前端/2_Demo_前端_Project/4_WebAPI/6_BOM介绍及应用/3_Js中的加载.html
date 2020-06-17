@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+
+    </style>
+
+    <script>
+        //BOM   onload  页面加载完成后执行
+        //页面加载完成，页面上所有的元素创建完成，并且引用的外部资源下载完毕（js,css,img）
+        onload=function(){
+            var box=document.getElementById('box')
+            console.dir(box)
+        }
+
+        //页面卸载之后执行
+        onunload=function(){
+            //在onunload中所有的对话框都不可以使用，window对象被冻结
+            // alert('欢迎下载再来')
+
+            console.log('拜拜')
+        }
+    </script>
+</head>
+<body>
+<!--HTML_Code-->
+    <div id="box"></div>
+
+<!--JavaScript_Code-->
+    <script>
+    
+    </script>
+</body>
+</html>

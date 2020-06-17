@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+    
+    </style>
+
+    <script>
+        onload=function(){
+            //等页面所有元素创建完成，等待外部文件下载完毕后才会执行
+            var btn=document.getElementById('btn');
+            btn.onclick=function(){
+                //删除操作
+
+                //显示删除成功
+                var tip=document.getElementById('tip');
+                tip.style.display='block';
+                //隔3秒钟让tip隐藏
+                setTimeout(function(){
+                    tip.style.display='none';
+                },3000)
+            }
+        };
+    </script>
+</head>
+<body>
+<!--HTML_Code-->
+    <input type="button" value="删除" id="btn">
+    <div id="tip">删除成功</div>
+<!--JavaScript_Code-->
+    <script>
+    
+    </script>
+</body>
+</html>
