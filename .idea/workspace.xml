@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f52b58-d0ae-41e5-b415-4094d6175b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/10_url的组成.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/1_BOM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/2_对话框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/3_Js中的加载.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/4_setTimeout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/5_setTimeout_删除提示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/6_setInterval.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/7_setInterval_倒计时.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/8_location.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/6_BOM介绍及应用/9_简单动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/7_offset、client、scroll/1_offset系列属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/7_offset、client、scroll/2_client系列属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/7_offset、client、scroll/3_scroll系列属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/7_offset、client、scroll/4_鼠标拖拽盒子的案例.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/7_offset、client、scroll/1_offset系列属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Demo_前端/2_Demo_前端_Project/4_WebAPI/7_offset、client、scroll/1_offset系列属性.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +101,116 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/Demo_Project/13_苏宁数据写入数据库/1_苏宁数据写入数据库.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_汉服" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/17_汉服网图片" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/17_汉服网图片/1_汉服.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_全屏幕截图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo3_实用小工具" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo3_实用小工具/1_全屏幕截图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_更改坐标轴刻度" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/11_更改坐标轴刻度" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/11_更改坐标轴刻度/1_更改坐标轴刻度.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_饼状图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/5_饼状图_pie/1_饼状图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_一张画布上画多个子图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/6_子图_subplot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/6_子图_subplot/1_一张画布上画多个子图.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,116 +387,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/14_图上展示文字信息/1_图上展示文字信息.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_汉服" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/17_汉服网图片" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo_Review/1_Demo_爬虫_Project/17_汉服网图片/1_汉服.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_全屏幕截图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo3_实用小工具" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_Demo_Datas/1_Demo_Broken/Demo3_实用小工具/1_全屏幕截图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_更改坐标轴刻度" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/11_更改坐标轴刻度" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/11_更改坐标轴刻度/1_更改坐标轴刻度.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_饼状图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/5_饼状图_pie/1_饼状图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_一张画布上画多个子图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/6_子图_subplot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Demo_数据分析常用模块/1_Matplotlib/3_Matplotlib绘图/6_子图_subplot/1_一张画布上画多个子图.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -731,14 +724,8 @@
       <workItem from="1591929774653" duration="1915000" />
       <workItem from="1592188955512" duration="1374000" />
       <workItem from="1592269784875" duration="9622000" />
-      <workItem from="1592356040716" duration="1543000" />
-    </task>
-    <task id="LOCAL-00007" summary="提交">
-      <created>1571041138260</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1571041138260</updated>
+      <workItem from="1592356040716" duration="1623000" />
+      <workItem from="1592447784376" duration="3937000" />
     </task>
     <task id="LOCAL-00008" summary="提交">
       <created>1571129349910</created>
@@ -1076,7 +1063,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591932320180</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="前端">
+      <created>1592381289136</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1592381289136</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1117,10 +1111,10 @@
     </state>
     <state x="435" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.798@0.23.1440.798" timestamp="1587000571943" />
     <state x="435" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.804@0.23.1440.804" timestamp="1591079494495" />
-    <state x="0" y="23" width="1440" height="798" key="CommitChangelistDialog2" timestamp="1591932318494">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state x="0" y="23" width="1440" height="798" key="CommitChangelistDialog2" timestamp="1592381287727">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="0" y="23" width="1440" height="798" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1589790565466" />
+    <state x="0" y="23" width="1440" height="798" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1592381287727" />
     <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1591932318494" />
     <state x="10" y="23" key="CommitChangelistDialog2/0.23.1440.804@0.23.1440.804" timestamp="1587517066503" />
     <state x="507" y="185" key="FileChooserDialogImpl" timestamp="1590632696267">
@@ -1195,10 +1189,10 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="229" y="61" key="SettingsEditor/0.23.1440.798@0.23.1440.798" timestamp="1590713998421" />
-    <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1591932327796">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1592381295203">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.798@0.23.1440.798" timestamp="1589790586542" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.798@0.23.1440.798" timestamp="1592381295203" />
     <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1591932327796" />
     <state x="320" y="163" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1591932272771" />
     <state x="420" y="139" width="600" height="566" key="find.popup" timestamp="1591758799413">

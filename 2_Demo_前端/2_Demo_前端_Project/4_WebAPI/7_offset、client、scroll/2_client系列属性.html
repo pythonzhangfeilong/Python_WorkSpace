@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please write Title</title>
+<!--Css_Code-->
+    <style>
+        body{
+            margin: 0;
+        }
+        #box{
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+            border: 10px solid red;
+            padding: 10px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<!--HTML_Code-->
+    <div id="box"></div>
+<!--JavaScript_Code-->
+    <script>
+        var box=document.getElementById('box');
+        //获取边框的宽度
+        console.log(box.clientLeft)     //对应的是border-left
+        console.log(box.clientTop)      //对应的是border-top
+
+        //获取大小，包括padding不包括边框
+        console.log(box.clientWidth);
+        console.log(box.clientHeight);
+    </script>
+</body>
+</html>
